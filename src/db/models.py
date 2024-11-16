@@ -6,6 +6,28 @@ from datetime import datetime
 
 Base = declarative_base()
 
+class ScanTarget(Base):
+    """Pre-approved scan targets."""
+    __tablename__ = 'scan_targets'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(255), unique=True)  # Friendly name
+    path = Column(String(255), unique=True)  # Actual file system path
+    description = Column(String(500), nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    created_by = Column(String(255))  # User who added the target
+    status = Column(String(50), default='active')  # active, disabled, etc.
+    metadata = Column(JSON, nullable=True)  # Additional metadata
+    
+    # Optional fields for organization
+    department = Column(String(255), nullable=True)
+    owner = Column(String(255), nullable=True)
+    sensitivity_level = Column(String(50), nullable=True)  # public, confidential, etc.
+    scan_frequency = Column(String(50), nullable=True)  # daily, weekly, monthly
+    
+    # Relationships
+    scan_jobs = relationship("ScanJob", back_populates="target")
+
 class ScanJob(Base):
     """Record of each scanning job."""
     __tablename__ = 'scan_jobs'
@@ -15,10 +37,12 @@ class ScanJob(Base):
     start_time = Column(DateTime, default=datetime.utcnow)
     end_time = Column(DateTime, nullable=True)
     status = Column(String(20))  # 'running', 'completed', 'failed'
-    target = Column(String(255))  # path or username being scanned
+    target_id = Column(Integer, ForeignKey('scan_targets.id'))
     parameters = Column(JSON)  # scan parameters
     error_message = Column(String(500), nullable=True)
     
+    # Relationships
+    target = relationship("ScanTarget", back_populates="scan_jobs")
     results = relationship("ScanResult", back_populates="job")
 
 class ScanResult(Base):
@@ -34,6 +58,7 @@ class ScanResult(Base):
     success = Column(Boolean, default=True)
     error_message = Column(String(500), nullable=True)
 
+    # Relationships
     job = relationship("ScanJob", back_populates="results")
     access_entries = relationship("AccessEntry", back_populates="scan_result")
 

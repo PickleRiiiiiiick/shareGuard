@@ -31,7 +31,7 @@ DB_CONFIG = {
     "server": os.getenv('DB_SERVER', 'localhost'),
     "database": os.getenv('DB_NAME', 'ShareGuard'),
     "username": os.getenv('DB_USER', 'shareguard_user'),
-    "password": os.getenv('DB_PASSWORD', 'your_password'),
+    "password": os.getenv('DB_PASSWORD', 'YourStrongPassword123!'),
     "trusted_connection": os.getenv('DB_USE_WINDOWS_AUTH', 'true').lower() == 'true',
     
     # Pool settings (keeping existing values)

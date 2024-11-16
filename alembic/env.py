@@ -2,6 +2,7 @@ from logging.config import fileConfig
 import os
 import sys
 
+# Add root path to sys.path for imports
 root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if root_path not in sys.path:
     sys.path.insert(0, root_path)
@@ -10,8 +11,13 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from alembic import context
 
-# Import models
-from src.db.models import Base
+# Import ALL your models here
+from src.db.models.base import Base
+from src.db.models.scan import ScanTarget, ScanJob, ScanResult, AccessEntry
+from src.db.models.alerts import AlertConfiguration, Alert
+from src.db.models.changes import PermissionChange
+from src.db.models.cache import UserGroupMapping
+from src.db.models.enums import ScanScheduleType, AlertType, AlertSeverity
 
 # this is the Alembic Config object
 config = context.config
@@ -20,7 +26,7 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# add your model's MetaData object here
+# Add your model's MetaData object here
 target_metadata = Base.metadata
 
 def run_migrations_offline() -> None:
@@ -46,7 +52,10 @@ def run_migrations_online() -> None:
 
     with connectable.connect() as connection:
         context.configure(
-            connection=connection, target_metadata=target_metadata
+            connection=connection,
+            target_metadata=target_metadata,
+            compare_type=True,
+            compare_server_default=True,
         )
 
         with context.begin_transaction():
