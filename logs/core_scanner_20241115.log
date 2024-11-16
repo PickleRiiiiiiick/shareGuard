@@ -1,0 +1,16 @@
+2024-11-15 09:30:05,867 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 09:30:05,868 - core_scanner - INFO - Analyzing access for user: SHAREGUARD\john.smith
+2024-11-15 09:30:13,154 - core_scanner - INFO - Analyzing access for user: SHAREGUARD\jane.doe
+2024-11-15 09:30:13,219 - core_scanner - INFO - Analyzing access for user: SHAREGUARD\bob.wilson
+2024-11-15 12:52:23,831 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 12:52:23,836 - core_scanner - INFO - Analyzing access for user: SHAREGUARD\john.smith
+2024-11-15 12:52:30,354 - core_scanner - INFO - Analyzing access for user: SHAREGUARD\jane.doe
+2024-11-15 12:52:30,431 - core_scanner - INFO - Analyzing access for user: SHAREGUARD\bob.wilson
+2024-11-15 13:17:15,901 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 13:18:07,479 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 13:23:29,663 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 13:53:55,779 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 13:54:34,072 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 13:56:16,388 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 13:56:43,486 - core_scanner - INFO - ShareGuard Core Scanner initialized
+2024-11-15 14:09:15,368 - core_scanner - INFO - ShareGuard Core Scanner initialized

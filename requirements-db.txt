@@ -1,0 +1,19 @@
+# Database ORM and migrations
+sqlalchemy>=1.4.0
+alembic>=1.8.0
+
+# Choose your database driver (uncomment the one you'll use):
+# PostgreSQL
+# psycopg2-binary>=2.9.0
+
+# MySQL
+# pymysql>=1.0.0
+
+# SQL Server (recommended for Windows environment)
+pyodbc>=4.0.0
+
+# Data validation and serialization
+pydantic>=1.10.0
+
+# Windows specific
+pywin32>=228

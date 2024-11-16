@@ -1,0 +1,76 @@
+2024-11-15 09:30:05,866 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 09:30:13,060 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-15 09:30:13,063 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-15 09:30:13,071 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-15 09:30:13,073 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-15 09:30:13,075 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-15 09:30:13,077 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-15 09:30:13,078 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-15 09:30:13,079 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-15 09:30:13,080 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-15 09:30:13,081 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-15 09:30:13,081 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-15 09:30:13,158 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-15 09:30:13,159 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-15 09:30:13,160 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-15 09:30:13,160 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-15 09:30:13,161 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-15 09:30:13,162 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-15 09:30:13,165 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-15 09:30:13,166 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-15 09:30:13,167 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-15 09:30:13,168 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-15 09:30:13,169 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-15 09:30:13,223 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-15 09:30:13,224 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-15 09:30:13,225 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-15 09:30:13,226 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-15 09:30:13,229 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-15 09:30:13,230 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-15 09:30:13,230 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-15 09:30:13,231 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-15 09:30:13,232 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-15 09:30:13,233 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-15 09:30:13,234 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-15 12:52:23,831 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 12:52:30,250 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-15 12:52:30,252 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-15 12:52:30,259 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-15 12:52:30,262 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-15 12:52:30,265 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-15 12:52:30,266 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-15 12:52:30,267 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-15 12:52:30,268 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-15 12:52:30,269 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-15 12:52:30,270 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-15 12:52:30,271 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-15 12:52:30,364 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-15 12:52:30,365 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-15 12:52:30,366 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-15 12:52:30,367 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-15 12:52:30,368 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-15 12:52:30,369 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-15 12:52:30,372 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-15 12:52:30,374 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-15 12:52:30,374 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-15 12:52:30,375 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-15 12:52:30,377 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-15 12:52:30,435 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-15 12:52:30,437 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-15 12:52:30,438 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-15 12:52:30,439 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-15 12:52:30,440 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-15 12:52:30,440 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-15 12:52:30,441 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-15 12:52:30,443 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-15 12:52:30,443 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-15 12:52:30,444 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-15 12:52:30,445 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-15 13:17:15,899 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 13:18:07,479 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 13:23:29,662 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 13:53:55,778 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 13:54:34,071 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 13:56:16,388 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 13:56:43,485 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-15 14:09:15,367 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
