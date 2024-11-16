@@ -1,4 +1,4 @@
-#src/api/schemas.py
+# src/api/schemas.py
 from pydantic import BaseModel
 from typing import Optional, Dict, List
 from datetime import datetime
@@ -7,6 +7,8 @@ class ScanRequest(BaseModel):
     path: str
     include_subfolders: bool = False
     max_depth: Optional[int] = None
+    simplified_system: bool = True  # New field
+    include_inherited: bool = True  # New field
 
 class ScanResult(BaseModel):
     id: int

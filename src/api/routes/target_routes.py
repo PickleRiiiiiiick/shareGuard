@@ -2,13 +2,17 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
 from src.db.database import get_db
-from src.db.models import ScanTarget
+from src.db.models import ScanTarget, ScanJob
 from pydantic import BaseModel
-from typing import Optional, Dict
+from typing import Optional, Dict, List
 from datetime import datetime
 from pathlib import Path
 
-router = APIRouter(prefix="/api/v1/targets", tags=["targets"])
+router = APIRouter(
+    prefix="/api/v1/targets",
+    tags=["targets"],
+    responses={404: {"description": "Not found"}}
+)
 
 class ScanTargetCreate(BaseModel):
     name: str
@@ -23,12 +27,34 @@ class ScanTargetCreate(BaseModel):
     max_depth: Optional[int] = 5
     exclude_patterns: Optional[Dict] = None
 
-@router.post("/", status_code=201)
-def create_target(
+class ScanTargetUpdate(ScanTargetCreate):
+    pass
+
+class ScanTargetResponse(BaseModel):
+    id: int
+    name: str
+    path: str
+    description: Optional[str]
+    department: Optional[str]
+    owner: Optional[str]
+    sensitivity_level: Optional[str]
+    scan_frequency: str
+    is_sensitive: bool
+    created_at: datetime
+    last_scan_time: Optional[datetime]
+
+@router.post("/", response_model=ScanTargetResponse, status_code=201, summary="Create Scan Target")
+async def create_target(
     target: ScanTargetCreate,
     db: Session = Depends(get_db)
 ):
-    """Create a new scan target."""
+    """
+    Create a new scan target with the following fields:
+    - name: Friendly name for the target
+    - path: Full filesystem path to scan
+    - description: Optional description
+    - scan_frequency: Frequency of automatic scans
+    """
     try:
         # Validate path exists
         if not Path(target.path).exists():
@@ -70,16 +96,7 @@ def create_target(
         db.commit()
         db.refresh(db_target)
         
-        return {
-            "message": "Scan target created successfully",
-            "target": {
-                "id": db_target.id,
-                "name": db_target.name,
-                "path": db_target.path,
-                "scan_frequency": db_target.scan_frequency,
-                "created_at": db_target.created_at
-            }
-        }
+        return db_target
         
     except Exception as e:
         db.rollback()
@@ -88,26 +105,166 @@ def create_target(
             detail=str(e)
         )
 
-@router.get("/")
-def list_targets(db: Session = Depends(get_db)):
-    """List all scan targets."""
-    return db.query(ScanTarget).all()
+@router.get("/", response_model=List[ScanTargetResponse], summary="List Scan Targets")
+async def list_targets(
+    skip: int = 0,
+    limit: int = 100,
+    db: Session = Depends(get_db)
+):
+    """
+    List all configured scan targets.
+    
+    - Supports pagination with skip/limit
+    - Returns basic target information
+    - Ordered by creation date
+    """
+    targets = db.query(ScanTarget).offset(skip).limit(limit).all()
+    return targets
 
-@router.get("/{target_id}")
-def get_target(target_id: int, db: Session = Depends(get_db)):
-    """Get a specific scan target."""
+@router.get("/{target_id}", response_model=ScanTargetResponse, summary="Get Scan Target")
+async def get_target(target_id: int, db: Session = Depends(get_db)):
+    """
+    Get detailed information about a specific scan target.
+    
+    - Includes all target configuration
+    - Shows last scan time
+    - Includes sensitivity and metadata
+    """
     target = db.query(ScanTarget).filter(ScanTarget.id == target_id).first()
     if not target:
         raise HTTPException(status_code=404, detail="Target not found")
     return target
 
-@router.delete("/{target_id}")
-def delete_target(target_id: int, db: Session = Depends(get_db)):
-    """Delete a scan target."""
+@router.put("/{target_id}", response_model=ScanTargetResponse, summary="Update Scan Target")
+async def update_target(
+    target_id: int,
+    target: ScanTargetUpdate,
+    db: Session = Depends(get_db)
+):
+    """
+    Update an existing scan target's configuration.
+    
+    - Can update any target attributes
+    - Validates path existence
+    - Maintains scan history
+    """
+    db_target = db.query(ScanTarget).filter(ScanTarget.id == target_id).first()
+    if not db_target:
+        raise HTTPException(status_code=404, detail="Target not found")
+    
+    # Validate new path if it's being changed
+    if target.path != db_target.path and not Path(target.path).exists():
+        raise HTTPException(
+            status_code=400,
+            detail="New path does not exist"
+        )
+    
+    # Update fields
+    for key, value in target.dict(exclude_unset=True).items():
+        setattr(db_target, key, value)
+    
+    try:
+        db.commit()
+        db.refresh(db_target)
+        return db_target
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
+
+@router.delete("/{target_id}", summary="Delete Scan Target")
+async def delete_target(target_id: int, db: Session = Depends(get_db)):
+    """
+    Delete a scan target from the system.
+    
+    - Removes target configuration
+    - Maintains historical scan results
+    - Cannot be undone
+    """
     target = db.query(ScanTarget).filter(ScanTarget.id == target_id).first()
     if not target:
         raise HTTPException(status_code=404, detail="Target not found")
     
-    db.delete(target)
+    try:
+        db.delete(target)
+        db.commit()
+        return {"message": "Target deleted successfully"}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
+
+@router.post("/{target_id}/disable", summary="Disable Scan Target")
+async def disable_target(target_id: int, db: Session = Depends(get_db)):
+    """
+    Disable a scan target temporarily.
+    
+    - Prevents new scans
+    - Maintains configuration
+    - Can be re-enabled later
+    """
+    target = db.query(ScanTarget).filter(ScanTarget.id == target_id).first()
+    if not target:
+        raise HTTPException(status_code=404, detail="Target not found")
+    
+    target.scan_frequency = "disabled"
     db.commit()
-    return {"message": "Target deleted successfully"}
+    return {"message": "Target disabled successfully"}
+
+@router.post("/{target_id}/enable", summary="Enable Scan Target")
+async def enable_target(
+    target_id: int,
+    scan_frequency: str = "daily",
+    db: Session = Depends(get_db)
+):
+    """
+    Re-enable a disabled scan target.
+    
+    - Allows new scans to be performed
+    - Can set new scan frequency
+    - Resets disabled status
+    """
+    target = db.query(ScanTarget).filter(ScanTarget.id == target_id).first()
+    if not target:
+        raise HTTPException(status_code=404, detail="Target not found")
+    
+    target.scan_frequency = scan_frequency
+    db.commit()
+    return {"message": "Target enabled successfully"}
+
+@router.get("/{target_id}/history", summary="Get Target Scan History")
+async def get_target_history(target_id: int, db: Session = Depends(get_db)):
+    """
+    Get scan history for a specific target.
+    
+    - Lists all past scans
+    - Includes success/failure status
+    - Shows scan timing information
+    """
+    target = db.query(ScanTarget).filter(ScanTarget.id == target_id).first()
+    if not target:
+        raise HTTPException(status_code=404, detail="Target not found")
+    
+    scan_jobs = db.query(ScanJob).filter(ScanJob.target_id == target_id).all()
+    
+    return {
+        "target": {
+            "id": target.id,
+            "name": target.name,
+            "path": target.path
+        },
+        "scan_history": [
+            {
+                "job_id": job.id,
+                "status": job.status,
+                "start_time": job.start_time,
+                "end_time": job.end_time,
+                "error_message": job.error_message
+            }
+            for job in scan_jobs
+        ]
+    }

@@ -64,3 +64,83 @@
 2024-11-16 08:58:31,301 - group_resolver - INFO - GroupResolver initialized
 2024-11-16 09:01:14,442 - group_resolver - INFO - GroupResolver initialized
 2024-11-16 09:01:14,442 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 09:26:07,147 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 09:26:07,148 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 09:30:36,178 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 09:30:36,178 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 09:30:41,925 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 09:30:41,926 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 10:03:16,725 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 10:03:16,725 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 10:17:46,185 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 10:17:46,186 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:26:43,102 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:26:43,103 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:26:49,462 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:26:49,463 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:27:35,007 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:27:35,067 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:27:39,320 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:27:39,321 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:44:08,604 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:44:08,605 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:51:48,642 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:51:48,642 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:57:31,658 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:57:31,659 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:57:31,669 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 11:57:31,669 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:04:25,375 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:04:25,375 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:05:07,344 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:05:07,345 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:05:56,303 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:05:56,304 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:08:15,559 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:08:15,560 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:08:15,581 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:08:15,581 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:08:58,103 - group_resolver - INFO - GroupResolver cache cleared
+2024-11-16 12:58:53,822 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:58:53,824 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:58:53,841 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 12:58:53,841 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:04:16,148 - group_resolver - INFO - GroupResolver cache cleared
+2024-11-16 13:10:33,386 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:10:33,386 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:10:33,404 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:10:33,405 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:11:06,463 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-16 13:11:06,464 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-16 13:11:06,465 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-16 13:11:06,466 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-16 13:41:29,626 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:29,626 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:29,644 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:29,644 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:35,859 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:35,860 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:35,876 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:41:35,876 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:43:32,683 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:43:32,684 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:43:32,701 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:43:32,702 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:43:43,652 - group_resolver - INFO - GroupResolver cache cleared
+2024-11-16 13:45:34,668 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:45:34,669 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:45:34,686 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:45:34,686 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:19,125 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:19,126 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:19,142 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:19,143 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:23,194 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:23,195 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:23,212 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:47:23,212 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:48:01,827 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:48:01,831 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:48:01,849 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:48:01,849 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 13:48:04,822 - group_resolver - INFO - GroupResolver cache cleared

@@ -43,19 +43,38 @@ class PermissionScanner:
                 ntsecuritycon.FILE_WRITE_ATTRIBUTES: "Write Attributes"
             }
         }
+        
+        # System accounts configuration
+        self.system_accounts = {
+            'NT AUTHORITY\\SYSTEM',
+            'NT AUTHORITY\\Authenticated Users',
+            'BUILTIN\\Administrators',
+            'BUILTIN\\Users',
+            'BUILTIN\\Power Users',
+            'NT SERVICE\\',
+            'CREATOR OWNER'
+        }
+        
         self.group_resolver = GroupResolver()
         logger.info("PermissionScanner initialized with categorized Windows permissions")
+
+    def _is_system_account(self, account_name: str) -> bool:
+        """Check if the account is a system account."""
+        return (account_name in self.system_accounts or 
+                any(account_name.startswith(prefix) for prefix in ['NT ', 'BUILTIN\\', 'NT SERVICE\\']))
 
     def _get_trustee_name(self, sid: bytes) -> Dict[str, str]:
         """Convert a security identifier (SID) to a readable name."""
         try:
             name, domain, _ = win32security.LookupAccountSid(None, sid)
-            return {
+            trustee_info = {
                 "name": name,
                 "domain": domain,
                 "sid": win32security.ConvertSidToStringSid(sid),
                 "full_name": f"{domain}\\{name}"
             }
+            trustee_info["is_system"] = self._is_system_account(trustee_info["full_name"])
+            return trustee_info
         except Exception as e:
             logger.warning(f"Could not resolve SID: {str(e)}")
             sid_string = win32security.ConvertSidToStringSid(sid)
@@ -63,11 +82,15 @@ class PermissionScanner:
                 "name": "Unknown",
                 "domain": "Unknown",
                 "sid": sid_string,
-                "full_name": f"Unknown SID: {sid_string}"
+                "full_name": f"Unknown SID: {sid_string}",
+                "is_system": False
             }
 
-    def _get_categorized_permissions(self, access_mask: int) -> Dict[str, List[str]]:
+    def _get_categorized_permissions(self, access_mask: int, simplified: bool = False) -> Dict[str, List[str]]:
         """Convert access mask to categorized list of permission names."""
+        if simplified:
+            return {"type": "Full Access" if access_mask & ntsecuritycon.GENERIC_ALL else "Limited Access"}
+            
         permissions = {category: [] for category in self.permission_categories.keys()}
         
         # Check for full control first
@@ -83,35 +106,20 @@ class PermissionScanner:
         
         return {k: sorted(v) for k, v in permissions.items() if v}
 
-    def _consolidate_aces(self, aces: List[Dict]) -> List[Dict]:
-        """Consolidate multiple ACEs for the same trustee, preserving access paths."""
-        consolidated = {}
+    def get_folder_permissions(
+        self, 
+        folder_path: str, 
+        simplified_system: bool = True,
+        include_inherited: bool = True
+    ) -> Dict:
+        """
+        Get detailed permission information for a specific folder.
         
-        for ace in aces:
-            trustee_key = ace['trustee']['full_name']
-            if trustee_key not in consolidated:
-                consolidated[trustee_key] = {
-                    'trustee': ace['trustee'],
-                    'type': ace['type'],
-                    'inherited': ace['inherited'],
-                    'permissions': {'Basic': set(), 'Advanced': set(), 'Directory': set()},
-                    'access_paths': ace['access_paths']
-                }
-            
-            # Merge permissions by category
-            for category, perms in ace['permissions'].items():
-                consolidated[trustee_key]['permissions'][category].update(perms)
-        
-        # Convert sets back to sorted lists
-        result = []
-        for entry in consolidated.values():
-            entry['permissions'] = {k: sorted(v) for k, v in entry['permissions'].items() if v}
-            result.append(entry)
-            
-        return result
-
-    def get_folder_permissions(self, folder_path: str) -> Dict:
-        """Get detailed permission information for a specific folder."""
+        Args:
+            folder_path: Path to scan
+            simplified_system: If True, provides simplified information for system accounts
+            include_inherited: Include inherited permissions
+        """
         logger.info(f"Analyzing permissions for: {folder_path}")
         
         try:
@@ -142,32 +150,57 @@ class PermissionScanner:
             if dacl:
                 for ace_index in range(dacl.GetAceCount()):
                     ace = dacl.GetAce(ace_index)
+                    is_inherited = bool(ace[0][1] & win32security.INHERITED_ACE)
+                    
+                    # Skip inherited permissions if not requested
+                    if is_inherited and not include_inherited:
+                        continue
+                        
                     trustee_info = self._get_trustee_name(ace[2])
+                    is_system = trustee_info.get("is_system", False)
                     
-                    # Get access paths for this trustee
-                    access_paths = self.group_resolver.get_access_paths(trustee_info)
-                    
-                    ace_type = "Allow" if ace[0][0] == win32security.ACCESS_ALLOWED_ACE_TYPE else "Deny"
-                    
+                    # Create basic ACE info
                     ace_info = {
                         "trustee": trustee_info,
-                        "type": ace_type,
-                        "inherited": bool(ace[0][0] & win32security.INHERITED_ACE),
-                        "permissions": self._get_categorized_permissions(ace[1]),
-                        "access_paths": access_paths
+                        "type": "Allow" if ace[0][0] == win32security.ACCESS_ALLOWED_ACE_TYPE else "Deny",
+                        "inherited": is_inherited,
+                        "is_system": is_system
                     }
+                    
+                    # Add permissions based on account type
+                    if is_system and simplified_system:
+                        ace_info["permissions"] = self._get_categorized_permissions(ace[1], simplified=True)
+                    else:
+                        ace_info["permissions"] = self._get_categorized_permissions(ace[1])
+                        ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+
                     aces.append(ace_info)
 
-            # Consolidate ACEs
-            consolidated_aces = self._consolidate_aces(aces)
+            scan_time = datetime.now().isoformat()
+            
+            # Build folder info
+            folder = Path(folder_path)
+            folder_info = {
+                "name": folder.name,
+                "path": str(folder),
+                "parent": str(folder.parent),
+                "is_root": folder.parent == folder
+            }
 
             return {
                 "path": folder_path,
+                "folder_info": folder_info,
                 "owner": owner_info,
                 "primary_group": group_info,
-                "aces": consolidated_aces,
-                "scan_time": datetime.now().isoformat(),
-                "success": True
+                "aces": aces,
+                "scan_time": scan_time,
+                "success": True,
+                "metadata": {
+                    "has_system_accounts": any(ace["is_system"] for ace in aces),
+                    "total_aces": len(aces),
+                    "system_aces": sum(1 for ace in aces if ace["is_system"]),
+                    "non_system_aces": sum(1 for ace in aces if not ace["is_system"]),
+                }
             }
 
         except Exception as e:
@@ -179,38 +212,73 @@ class PermissionScanner:
                 "success": False
             }
 
-    def scan_directory(self, root_path: str, recursive: bool = True) -> List[Dict]:
-        """Scan a directory and optionally its subdirectories for permissions."""
-        logger.info(f"Starting directory scan at: {root_path}")
-        results = []
+    def scan_directory(
+        self,
+        root_path: str,
+        recursive: bool = True,
+        max_depth: Optional[int] = None,
+        simplified_system: bool = True
+    ) -> Dict:
+        """
+        Scan a directory and optionally its subdirectories for permissions.
         
-        try:
-            # Scan root directory
-            root_permissions = self.get_folder_permissions(root_path)
-            results.append(root_permissions)
-            
-            if recursive:
-                for item in os.listdir(root_path):
-                    item_path = os.path.join(root_path, item)
-                    if os.path.isdir(item_path):
-                        try:
-                            results.extend(self.scan_directory(item_path, recursive))
-                        except Exception as e:
-                            logger.error(f"Error scanning subdirectory {item_path}: {str(e)}")
-                            results.append({
-                                "path": item_path,
-                                "error": str(e),
-                                "scan_time": datetime.now().isoformat(),
-                                "success": False
-                            })
-                            
-        except Exception as e:
-            logger.error(f"Error in directory scan: {str(e)}", exc_info=True)
-            results.append({
-                "path": root_path,
-                "error": str(e),
-                "scan_time": datetime.now().isoformat(),
-                "success": False
-            })
-            
-        return results
+        Args:
+            root_path: Root directory to scan
+            recursive: Whether to scan subdirectories
+            max_depth: Maximum depth for recursive scanning
+            simplified_system: Whether to use simplified system account information
+        """
+        logger.info(f"Starting directory scan at: {root_path}")
+        
+        def _scan_recursive(path: str, current_depth: int) -> Dict:
+            try:
+                # Scan current directory
+                results = self.get_folder_permissions(path, simplified_system)
+                results["subfolders"] = []
+                results["statistics"] = {
+                    "total_folders": 1,
+                    "processed_folders": 1,
+                    "error_count": 0,
+                    "system_aces_count": results["metadata"]["system_aces"],
+                    "non_system_aces_count": results["metadata"]["non_system_aces"]
+                }
+                
+                # Process subdirectories if needed
+                if recursive and (max_depth is None or current_depth < max_depth):
+                    try:
+                        for item in os.scandir(path):
+                            if item.is_dir():
+                                subfolder_results = _scan_recursive(item.path, current_depth + 1)
+                                if subfolder_results["success"]:
+                                    results["subfolders"].append(subfolder_results)
+                                    # Update statistics
+                                    results["statistics"]["total_folders"] += subfolder_results["statistics"]["total_folders"]
+                                    results["statistics"]["processed_folders"] += subfolder_results["statistics"]["processed_folders"]
+                                    results["statistics"]["error_count"] += subfolder_results["statistics"]["error_count"]
+                                    results["statistics"]["system_aces_count"] += subfolder_results["statistics"]["system_aces_count"]
+                                    results["statistics"]["non_system_aces_count"] += subfolder_results["statistics"]["non_system_aces_count"]
+                                else:
+                                    results["statistics"]["error_count"] += 1
+                    except PermissionError:
+                        results["access_error"] = "Permission denied for some subfolders"
+                        results["statistics"]["error_count"] += 1
+                
+                return results
+                
+            except Exception as e:
+                logger.error(f"Error in recursive scan: {str(e)}", exc_info=True)
+                return {
+                    "path": path,
+                    "error": str(e),
+                    "scan_time": datetime.now().isoformat(),
+                    "success": False,
+                    "statistics": {
+                        "total_folders": 1,
+                        "processed_folders": 0,
+                        "error_count": 1,
+                        "system_aces_count": 0,
+                        "non_system_aces_count": 0
+                    }
+                }
+
+        return _scan_recursive(root_path, 0)

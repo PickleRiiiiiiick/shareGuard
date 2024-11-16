@@ -25,7 +25,14 @@ class ShareGuardScanner:
         """Check if path should be excluded from scanning."""
         return any(path.startswith(excluded) for excluded in self.excluded_paths)
 
-    def scan_path(self, path: str, include_subfolders: bool = False, max_depth: Optional[int] = None) -> Dict:
+    def scan_path(
+        self, 
+        path: str, 
+        include_subfolders: bool = False, 
+        max_depth: Optional[int] = None,
+        simplified_system: bool = True,
+        include_inherited: bool = True
+    ) -> Dict:
         """
         Scan a specific path for permissions.
         
@@ -33,6 +40,8 @@ class ShareGuardScanner:
             path: Path to scan
             include_subfolders: Whether to include subfolders
             max_depth: Maximum depth for subfolder scanning (overrides config)
+            simplified_system: Whether to use simplified system account information
+            include_inherited: Whether to include inherited permissions
         """
         try:
             # Input validation
@@ -54,7 +63,11 @@ class ShareGuardScanner:
                 }
 
             # Get base folder permissions
-            base_results = self.permission_scanner.get_folder_permissions(str(folder_path))
+            base_results = self.permission_scanner.get_folder_permissions(
+                str(folder_path),
+                simplified_system=simplified_system,
+                include_inherited=include_inherited
+            )
             
             # Add metadata
             results = {
@@ -71,7 +84,9 @@ class ShareGuardScanner:
                 "statistics": {
                     "total_folders": 1,
                     "processed_folders": 1,
-                    "error_count": 0
+                    "error_count": 0,
+                    "system_accounts": base_results.get("metadata", {}).get("system_aces", 0),
+                    "non_system_accounts": base_results.get("metadata", {}).get("non_system_aces", 0)
                 }
             }
 
@@ -85,15 +100,21 @@ class ShareGuardScanner:
                                 subfolder_results = self.scan_path(
                                     str(subfolder),
                                     include_subfolders=True,
-                                    max_depth=depth_limit - 1
+                                    max_depth=depth_limit - 1,
+                                    simplified_system=simplified_system,
+                                    include_inherited=include_inherited
                                 )
                                 results["subfolders"].append(subfolder_results)
                                 
                                 # Update statistics
                                 if subfolder_results["success"]:
-                                    results["statistics"]["total_folders"] += subfolder_results["statistics"]["total_folders"]
-                                    results["statistics"]["processed_folders"] += subfolder_results["statistics"]["processed_folders"]
-                                    results["statistics"]["error_count"] += subfolder_results["statistics"]["error_count"]
+                                    stats = results["statistics"]
+                                    subfolder_stats = subfolder_results["statistics"]
+                                    stats["total_folders"] += subfolder_stats["total_folders"]
+                                    stats["processed_folders"] += subfolder_stats["processed_folders"]
+                                    stats["error_count"] += subfolder_stats["error_count"]
+                                    stats["system_accounts"] += subfolder_stats.get("system_accounts", 0)
+                                    stats["non_system_accounts"] += subfolder_stats.get("non_system_accounts", 0)
                                 else:
                                     results["statistics"]["error_count"] += 1
                     except PermissionError:
@@ -112,7 +133,9 @@ class ShareGuardScanner:
                 "statistics": {
                     "total_folders": 1,
                     "processed_folders": 0,
-                    "error_count": 1
+                    "error_count": 1,
+                    "system_accounts": 0,
+                    "non_system_accounts": 0
                 }
             }
 
@@ -130,14 +153,6 @@ class ShareGuardScanner:
             
             groups = self.group_resolver._get_user_groups(username, domain)
             access_paths = self.group_resolver.get_access_paths(user_info)
-            
-            # Create a name normalization function
-            def normalize_name(name: str) -> str:
-                return name.split('\\')[-1].lower()
-
-            # Create a set of normalized group names for comparison
-            normalized_group_names = set(normalize_name(group['full_name']) for group in groups)
-            normalized_user_name = normalize_name(user_info['full_name'])
             
             results = {
                 "success": True,
@@ -188,11 +203,11 @@ class ShareGuardScanner:
                             }
                             matching_aces = []
                             
-                            for ace in folder_perms["aces"]:
-                                trustee_name = normalize_name(ace["trustee"]["full_name"])
-                                # Compare normalized trustee names with user's normalized name and group names
-                                if (trustee_name == normalized_user_name or
-                                    trustee_name in normalized_group_names):
+                            for ace in folder_perms.get("aces", []):
+                                trustee = ace["trustee"]
+                                # Check direct user match or group membership
+                                if (trustee["full_name"] == user_info["full_name"] or
+                                    any(group["full_name"] == trustee["full_name"] for group in groups)):
                                     has_access = True
                                     # Accumulate permissions
                                     for category, perms in ace["permissions"].items():
@@ -210,7 +225,7 @@ class ShareGuardScanner:
                                     "effective_permissions": {
                                         k: sorted(v) for k, v in effective_permissions.items() if v
                                     },
-                                    "aces": matching_aces  # Include matching ACEs
+                                    "aces": matching_aces
                                 })
                     
                     except Exception as e:
@@ -228,8 +243,20 @@ class ShareGuardScanner:
                 "user_info": user_info if 'user_info' in locals() else None
             }
 
-    def get_folder_structure(self, root_path: str, max_depth: Optional[int] = None) -> Dict:
-        """Get folder structure with basic permission information."""
+    def get_folder_structure(
+        self, 
+        root_path: str, 
+        max_depth: Optional[int] = None,
+        simplified_system: bool = True
+    ) -> Dict:
+        """
+        Get folder structure with permission information.
+        
+        Args:
+            root_path: Starting path for structure analysis
+            max_depth: Maximum folder depth to traverse
+            simplified_system: Whether to use simplified system account information
+        """
         try:
             folder_path = Path(root_path)
             if not folder_path.exists():
@@ -256,12 +283,17 @@ class ShareGuardScanner:
                 "name": folder_path.name,
                 "path": str(folder_path),
                 "type": "directory",
-                "permissions": self.permission_scanner.get_folder_permissions(str(folder_path)),
+                "permissions": self.permission_scanner.get_folder_permissions(
+                    str(folder_path),
+                    simplified_system=simplified_system
+                ),
                 "children": [],
                 "statistics": {
                     "total_folders": 1,
                     "processed_folders": 1,
-                    "error_count": 0
+                    "error_count": 0,
+                    "system_accounts": 0,
+                    "non_system_accounts": 0
                 }
             }
 
@@ -271,15 +303,20 @@ class ShareGuardScanner:
                         if item.is_dir() and not self._should_exclude_path(str(item)):
                             child_structure = self.get_folder_structure(
                                 str(item),
-                                max_depth=depth_limit - 1
+                                max_depth=depth_limit - 1,
+                                simplified_system=simplified_system
                             )
                             structure["children"].append(child_structure)
                             
                             # Update statistics
                             if child_structure["success"]:
-                                structure["statistics"]["total_folders"] += child_structure["statistics"]["total_folders"]
-                                structure["statistics"]["processed_folders"] += child_structure["statistics"]["processed_folders"]
-                                structure["statistics"]["error_count"] += child_structure["statistics"]["error_count"]
+                                stats = structure["statistics"]
+                                child_stats = child_structure["statistics"]
+                                stats["total_folders"] += child_stats["total_folders"]
+                                stats["processed_folders"] += child_stats["processed_folders"]
+                                stats["error_count"] += child_stats["error_count"]
+                                stats["system_accounts"] += child_stats["system_accounts"]
+                                stats["non_system_accounts"] += child_stats["non_system_accounts"]
                             else:
                                 structure["statistics"]["error_count"] += 1
                                 
@@ -299,6 +336,8 @@ class ShareGuardScanner:
                 "statistics": {
                     "total_folders": 1,
                     "processed_folders": 0,
-                    "error_count": 1
+                    "error_count": 1,
+                    "system_accounts": 0,
+                    "non_system_accounts": 0
                 }
             }
