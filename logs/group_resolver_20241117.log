@@ -1,0 +1,751 @@
+2024-11-17 00:00:22,679 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:00:22,679 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:00:25,024 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,024 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,025 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,026 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,057 - group_resolver - WARNING - NetLocalGroupGetMembers error: (1722, 'NetLocalGroupGetMembers', 'The RPC server is unavailable.')
+2024-11-17 00:00:25,058 - group_resolver - WARNING - NetLocalGroupGetMembers error: (1722, 'NetLocalGroupGetMembers', 'The RPC server is unavailable.')
+2024-11-17 00:00:25,058 - group_resolver - WARNING - NetLocalGroupGetMembers error: (1722, 'NetLocalGroupGetMembers', 'The RPC server is unavailable.')
+2024-11-17 00:00:25,059 - group_resolver - WARNING - NetLocalGroupGetMembers error: (1722, 'NetLocalGroupGetMembers', 'The RPC server is unavailable.')
+2024-11-17 00:00:25,059 - group_resolver - WARNING - NetLocalGroupGetMembers error: (1722, 'NetLocalGroupGetMembers', 'The RPC server is unavailable.')
+2024-11-17 00:00:25,060 - group_resolver - WARNING - NetLocalGroupGetMembers error: (1722, 'NetLocalGroupGetMembers', 'The RPC server is unavailable.')
+2024-11-17 00:00:25,061 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,061 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,062 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,062 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,097 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,098 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,137 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:00:25,137 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:28,904 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:06:28,904 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:06:35,385 - group_resolver - WARNING - Error getting local groups for user IT_Staff: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,388 - group_resolver - WARNING - Error getting domain groups for user IT_Staff: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,392 - group_resolver - WARNING - Error getting local groups for user Folder_Admins: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,395 - group_resolver - WARNING - Error getting domain groups for user Folder_Admins: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,454 - group_resolver - WARNING - Error getting local groups for user Finance_Staff: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,455 - group_resolver - WARNING - Error getting domain groups for user Finance_Staff: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,456 - group_resolver - WARNING - Error getting local groups for user Report_Viewers: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,458 - group_resolver - WARNING - Error getting domain groups for user Report_Viewers: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,502 - group_resolver - WARNING - Error getting local groups for user HR_Staff: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,503 - group_resolver - WARNING - Error getting domain groups for user HR_Staff: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,558 - group_resolver - WARNING - Error getting local groups for user Domain Users: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:06:35,558 - group_resolver - WARNING - Error getting domain groups for user Domain Users: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:12:57,024 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:12:57,025 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:12:57,043 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:12:57,043 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:13:06,204 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:13:06,206 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:13:06,208 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:13:06,209 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:18:37,588 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:18:37,589 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:18:37,606 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:18:37,607 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:35:32,361 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:35:32,362 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:35:32,380 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:35:32,382 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:36:00,001 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:36:00,002 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:36:00,003 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:36:00,003 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:59:45,585 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:59:45,587 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:59:45,604 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:59:45,604 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 00:59:57,871 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:59:57,871 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 00:59:57,872 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 00:59:57,873 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 01:05:26,574 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:05:26,575 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:05:26,593 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:05:26,593 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:38:58,987 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:38:58,988 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:38:59,005 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:38:59,006 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:39:05,357 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:39:05,358 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:39:05,377 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:39:05,377 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:39:22,602 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 01:39:22,603 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 01:39:22,604 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 01:39:22,605 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 01:46:57,537 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:46:57,539 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:46:57,556 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:46:57,556 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:47:33,945 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:47:33,946 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:47:33,962 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:47:33,962 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:47:53,352 - group_resolver - INFO - GroupResolver cache cleared
+2024-11-17 01:48:12,163 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 01:48:12,837 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 01:48:12,838 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 01:48:12,839 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 01:48:13,428 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 01:48:13,429 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 01:54:18,469 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:54:18,470 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:54:18,487 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:54:18,487 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 01:54:53,011 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 01:54:53,012 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 01:54:53,013 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 01:54:53,013 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 01:54:53,014 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 01:54:53,014 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:38,342 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:09:38,342 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:09:43,855 - group_resolver - DEBUG - Processing trustee SHAREGUARD\john.smith of type Unknown
+2024-11-17 02:09:43,855 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:43,856 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,857 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:43,857 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:43,857 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,858 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:43,858 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Folder_Admins
+2024-11-17 02:09:43,859 - group_resolver - WARNING - Error getting members for group Folder_Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,860 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Folder_Admins
+2024-11-17 02:09:43,860 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Folder_Admins
+2024-11-17 02:09:43,860 - group_resolver - WARNING - Error getting members for group Folder_Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,861 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Folder_Admins
+2024-11-17 02:09:43,861 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\IT_Staff
+2024-11-17 02:09:43,861 - group_resolver - WARNING - Error getting members for group IT_Staff: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,862 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\IT_Staff
+2024-11-17 02:09:43,862 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\IT_Staff
+2024-11-17 02:09:43,862 - group_resolver - WARNING - Error getting members for group IT_Staff: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,863 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\IT_Staff
+2024-11-17 02:09:43,863 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:43,864 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,864 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:43,865 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:43,865 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,866 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:43,875 - group_resolver - DEBUG - Processing trustee \CREATOR OWNER of type WellKnownGroup
+2024-11-17 02:09:43,875 - group_resolver - DEBUG - Getting members for group: \CREATOR OWNER
+2024-11-17 02:09:43,875 - group_resolver - WARNING - Error getting members for group CREATOR OWNER: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,875 - group_resolver - DEBUG - Found 0 members for group \CREATOR OWNER
+2024-11-17 02:09:43,875 - group_resolver - DEBUG - Found 0 members for group \CREATOR OWNER
+2024-11-17 02:09:43,876 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Administrator of type Unknown
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:43,878 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:43,878 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Schema Admins
+2024-11-17 02:09:43,878 - group_resolver - WARNING - Error getting members for group Schema Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Schema Admins
+2024-11-17 02:09:43,878 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Schema Admins
+2024-11-17 02:09:43,878 - group_resolver - WARNING - Error getting members for group Schema Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Schema Admins
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:09:43,879 - group_resolver - WARNING - Error getting members for group Group Policy Creator Owners: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:09:43,879 - group_resolver - WARNING - Error getting members for group Group Policy Creator Owners: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Enterprise Admins
+2024-11-17 02:09:43,879 - group_resolver - WARNING - Error getting members for group Enterprise Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Enterprise Admins
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Enterprise Admins
+2024-11-17 02:09:43,879 - group_resolver - WARNING - Error getting members for group Enterprise Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,879 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Enterprise Admins
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Admins
+2024-11-17 02:09:43,880 - group_resolver - WARNING - Error getting members for group Domain Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Admins
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Admins
+2024-11-17 02:09:43,880 - group_resolver - WARNING - Error getting members for group Domain Admins: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Admins
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:09:43,880 - group_resolver - WARNING - Error getting members for group Denied RODC Password Replication Group: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:09:43,880 - group_resolver - WARNING - Error getting members for group Denied RODC Password Replication Group: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,880 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Administrators
+2024-11-17 02:09:43,881 - group_resolver - WARNING - Error getting members for group Administrators: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Administrators
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Administrators
+2024-11-17 02:09:43,881 - group_resolver - WARNING - Error getting members for group Administrators: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Administrators
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:43,881 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:43,881 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,881 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:43,882 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Domain Users of type Unknown
+2024-11-17 02:09:43,882 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,883 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,885 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Finance_Staff of type Unknown
+2024-11-17 02:09:43,885 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,886 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,886 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Report_Viewers of type Unknown
+2024-11-17 02:09:43,887 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,887 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,888 - group_resolver - DEBUG - Processing trustee SHAREGUARD\HR_Staff of type Unknown
+2024-11-17 02:09:43,889 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,889 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,890 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 02:09:43,890 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,890 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,891 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 02:09:43,892 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,892 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:09:43,958 - group_resolver - DEBUG - Processing trustee SHAREGUARD\jane.doe of type Unknown
+2024-11-17 02:09:43,958 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:43,958 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:43,959 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Report_Viewers
+2024-11-17 02:09:43,959 - group_resolver - WARNING - Error getting members for group Report_Viewers: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Report_Viewers
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Report_Viewers
+2024-11-17 02:09:43,959 - group_resolver - WARNING - Error getting members for group Report_Viewers: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Report_Viewers
+2024-11-17 02:09:43,959 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Finance_Staff
+2024-11-17 02:09:43,959 - group_resolver - WARNING - Error getting members for group Finance_Staff: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Finance_Staff
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Finance_Staff
+2024-11-17 02:09:43,960 - group_resolver - WARNING - Error getting members for group Finance_Staff: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Finance_Staff
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:43,960 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:43,960 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:43,960 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:44,015 - group_resolver - DEBUG - Processing trustee SHAREGUARD\bob.wilson of type Unknown
+2024-11-17 02:09:44,015 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:44,015 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:44,015 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:44,015 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:09:44,015 - group_resolver - WARNING - Error getting members for group Domain Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:44,015 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Domain Users
+2024-11-17 02:09:44,015 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\HR_Staff
+2024-11-17 02:09:44,015 - group_resolver - WARNING - Error getting members for group HR_Staff: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\HR_Staff
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\HR_Staff
+2024-11-17 02:09:44,016 - group_resolver - WARNING - Error getting members for group HR_Staff: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\HR_Staff
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:44,016 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:09:44,016 - group_resolver - WARNING - Error getting members for group Users: module 'win32net' has no attribute 'NetGroupGetMembers'
+2024-11-17 02:09:44,016 - group_resolver - DEBUG - Found 0 members for group SHAREGUARD\Users
+2024-11-17 02:13:41,522 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:13:41,522 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:13:41,538 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:13:41,539 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:14:04,626 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 02:14:04,627 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:14:04,628 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:14:04,628 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 02:14:04,628 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:14:04,629 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:15:51,556 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:15:51,557 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:15:51,575 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:15:51,575 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:16:00,045 - group_resolver - INFO - GroupResolver cache cleared
+2024-11-17 02:16:22,676 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 02:16:22,680 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:22,683 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:22,684 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 02:16:22,684 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:22,685 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,261 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:16:45,262 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:16:45,265 - group_resolver - DEBUG - Processing trustee SHAREGUARD\john.smith of type Unknown
+2024-11-17 02:16:45,266 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,267 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,270 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,270 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,271 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,271 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,271 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,271 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,271 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,272 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,272 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,273 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,273 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,273 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,273 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,273 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,273 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Folder_Admins
+2024-11-17 02:16:45,274 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,274 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,274 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Folder_Admins
+2024-11-17 02:16:45,274 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Folder_Admins
+2024-11-17 02:16:45,275 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,275 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,275 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Folder_Admins
+2024-11-17 02:16:45,275 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\IT_Staff
+2024-11-17 02:16:45,276 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,276 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,276 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\IT_Staff
+2024-11-17 02:16:45,277 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\IT_Staff
+2024-11-17 02:16:45,277 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,277 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,278 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\IT_Staff
+2024-11-17 02:16:45,278 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,278 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,278 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,279 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,279 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,280 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,280 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,280 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,280 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,280 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,281 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,282 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,282 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,282 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,285 - group_resolver - DEBUG - Processing trustee \CREATOR OWNER of type WellKnownGroup
+2024-11-17 02:16:45,285 - group_resolver - DEBUG - Getting members for group: \CREATOR OWNER
+2024-11-17 02:16:45,285 - group_resolver - DEBUG - NetLocalGroupGetMembers failed: (2220, 'NetLocalGroupGetMembers', 'The group name could not be found.')
+2024-11-17 02:16:45,285 - group_resolver - DEBUG - Found 0 members for group \CREATOR OWNER
+2024-11-17 02:16:45,285 - group_resolver - DEBUG - Found 0 members for group \CREATOR OWNER
+2024-11-17 02:16:45,286 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Administrator of type Unknown
+2024-11-17 02:16:45,288 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,288 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,289 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,289 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,289 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,289 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,289 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,290 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,290 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,290 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,291 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,291 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,291 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,291 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,292 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,292 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,292 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Schema Admins
+2024-11-17 02:16:45,292 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,293 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,293 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Schema Admins
+2024-11-17 02:16:45,293 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Schema Admins
+2024-11-17 02:16:45,293 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,294 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,294 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Schema Admins
+2024-11-17 02:16:45,294 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:16:45,294 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,295 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,295 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:16:45,295 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:16:45,295 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,296 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,296 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:16:45,296 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,296 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,297 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,297 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,297 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,297 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,298 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,298 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,298 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,298 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,299 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,299 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,299 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,299 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,300 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,300 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,300 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:16:45,300 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,301 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,301 - group_resolver - DEBUG - Found local member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,302 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Controllers
+2024-11-17 02:16:45,302 - group_resolver - DEBUG - Found local member: SHAREGUARD\Schema Admins
+2024-11-17 02:16:45,302 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,302 - group_resolver - DEBUG - Found local member: SHAREGUARD\Cert Publishers
+2024-11-17 02:16:45,303 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,303 - group_resolver - DEBUG - Found local member: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:16:45,303 - group_resolver - DEBUG - Found local member: SHAREGUARD\Read-only Domain Controllers
+2024-11-17 02:16:45,303 - group_resolver - DEBUG - Found 8 members for group SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:16:45,303 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:16:45,304 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,304 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,305 - group_resolver - DEBUG - Found local member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,305 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Controllers
+2024-11-17 02:16:45,305 - group_resolver - DEBUG - Found local member: SHAREGUARD\Schema Admins
+2024-11-17 02:16:45,305 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,306 - group_resolver - DEBUG - Found local member: SHAREGUARD\Cert Publishers
+2024-11-17 02:16:45,306 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,306 - group_resolver - DEBUG - Found local member: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:16:45,306 - group_resolver - DEBUG - Found local member: SHAREGUARD\Read-only Domain Controllers
+2024-11-17 02:16:45,306 - group_resolver - DEBUG - Found 8 members for group SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:16:45,306 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Administrators
+2024-11-17 02:16:45,307 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,307 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,308 - group_resolver - DEBUG - Found local member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,308 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,308 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,308 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Administrators
+2024-11-17 02:16:45,308 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Administrators
+2024-11-17 02:16:45,309 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,309 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,310 - group_resolver - DEBUG - Found local member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,310 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:16:45,310 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:16:45,310 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Administrators
+2024-11-17 02:16:45,310 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,311 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,311 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,312 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,312 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,312 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,312 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,312 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,313 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,313 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,314 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,314 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,314 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,314 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,315 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Domain Users of type Unknown
+2024-11-17 02:16:45,315 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,315 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,317 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Finance_Staff of type Unknown
+2024-11-17 02:16:45,317 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,317 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,318 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Report_Viewers of type Unknown
+2024-11-17 02:16:45,318 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,319 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,320 - group_resolver - DEBUG - Processing trustee SHAREGUARD\HR_Staff of type Unknown
+2024-11-17 02:16:45,320 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,321 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,321 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 02:16:45,321 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,322 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,323 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 02:16:45,323 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,324 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:16:45,398 - group_resolver - DEBUG - Processing trustee SHAREGUARD\jane.doe of type Unknown
+2024-11-17 02:16:45,398 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,398 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,399 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,399 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,399 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,400 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,400 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,400 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,400 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,400 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,401 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,401 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,402 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,402 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,402 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,402 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,402 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Report_Viewers
+2024-11-17 02:16:45,402 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,403 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,403 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Report_Viewers
+2024-11-17 02:16:45,403 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Report_Viewers
+2024-11-17 02:16:45,403 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,404 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,404 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Report_Viewers
+2024-11-17 02:16:45,404 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Finance_Staff
+2024-11-17 02:16:45,405 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,405 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,406 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Finance_Staff
+2024-11-17 02:16:45,406 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Finance_Staff
+2024-11-17 02:16:45,406 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,407 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,407 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Finance_Staff
+2024-11-17 02:16:45,407 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,408 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,408 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,409 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,409 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,409 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,409 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,409 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,410 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,410 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,411 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,411 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,411 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,411 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,479 - group_resolver - DEBUG - Processing trustee SHAREGUARD\bob.wilson of type Unknown
+2024-11-17 02:16:45,479 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,480 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,480 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,480 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,481 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,481 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,481 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,481 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,481 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,482 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,482 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:16:45,483 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:16:45,483 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:16:45,483 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:16:45,483 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,484 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:16:45,484 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\HR_Staff
+2024-11-17 02:16:45,484 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,485 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,485 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\HR_Staff
+2024-11-17 02:16:45,485 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\HR_Staff
+2024-11-17 02:16:45,486 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,486 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:16:45,486 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\HR_Staff
+2024-11-17 02:16:45,486 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,487 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,487 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,488 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,488 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,488 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,488 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:16:45,489 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:16:45,489 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:16:45,489 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:16:45,490 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:16:45,490 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:16:45,490 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:16:45,490 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:17:15,514 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:17:15,514 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 02:17:17,945 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 02:17:17,949 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:17:17,952 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:17:17,954 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 02:17:17,956 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:17:17,960 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,011 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Administrator of type Unknown
+2024-11-17 02:17:18,013 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:17:18,013 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,014 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,014 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:17:18,015 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:17:18,015 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:17:18,015 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:17:18,015 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:17:18,015 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Users
+2024-11-17 02:17:18,016 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,016 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,017 - group_resolver - DEBUG - Found domain member: SHAREGUARD\krbtgt
+2024-11-17 02:17:18,017 - group_resolver - DEBUG - Found domain member: SHAREGUARD\john.smith
+2024-11-17 02:17:18,017 - group_resolver - DEBUG - Found domain member: SHAREGUARD\jane.doe
+2024-11-17 02:17:18,017 - group_resolver - DEBUG - Found domain member: SHAREGUARD\bob.wilson
+2024-11-17 02:17:18,018 - group_resolver - DEBUG - Found 5 members for group SHAREGUARD\Domain Users
+2024-11-17 02:17:18,018 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Schema Admins
+2024-11-17 02:17:18,018 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,019 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,019 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Schema Admins
+2024-11-17 02:17:18,019 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Schema Admins
+2024-11-17 02:17:18,019 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,020 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,020 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Schema Admins
+2024-11-17 02:17:18,020 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:17:18,020 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,022 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,022 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:17:18,022 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:17:18,023 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,023 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,023 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:17:18,023 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,024 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,024 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,025 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,025 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,025 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,026 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,026 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,026 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,026 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,027 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,027 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,027 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,027 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,028 - group_resolver - DEBUG - Found domain member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,028 - group_resolver - DEBUG - Found 1 members for group SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,028 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:17:18,028 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,028 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:17:18,029 - group_resolver - DEBUG - Found local member: SHAREGUARD\krbtgt
+2024-11-17 02:17:18,030 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Controllers
+2024-11-17 02:17:18,030 - group_resolver - DEBUG - Found local member: SHAREGUARD\Schema Admins
+2024-11-17 02:17:18,030 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,030 - group_resolver - DEBUG - Found local member: SHAREGUARD\Cert Publishers
+2024-11-17 02:17:18,031 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,031 - group_resolver - DEBUG - Found local member: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:17:18,031 - group_resolver - DEBUG - Found local member: SHAREGUARD\Read-only Domain Controllers
+2024-11-17 02:17:18,031 - group_resolver - DEBUG - Found 8 members for group SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:17:18,031 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:17:18,032 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,032 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:17:18,033 - group_resolver - DEBUG - Found local member: SHAREGUARD\krbtgt
+2024-11-17 02:17:18,033 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Controllers
+2024-11-17 02:17:18,033 - group_resolver - DEBUG - Found local member: SHAREGUARD\Schema Admins
+2024-11-17 02:17:18,034 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,034 - group_resolver - DEBUG - Found local member: SHAREGUARD\Cert Publishers
+2024-11-17 02:17:18,034 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,034 - group_resolver - DEBUG - Found local member: SHAREGUARD\Group Policy Creator Owners
+2024-11-17 02:17:18,035 - group_resolver - DEBUG - Found local member: SHAREGUARD\Read-only Domain Controllers
+2024-11-17 02:17:18,035 - group_resolver - DEBUG - Found 8 members for group SHAREGUARD\Denied RODC Password Replication Group
+2024-11-17 02:17:18,035 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Administrators
+2024-11-17 02:17:18,035 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,035 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:17:18,036 - group_resolver - DEBUG - Found local member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,036 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,037 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,037 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Administrators
+2024-11-17 02:17:18,037 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Administrators
+2024-11-17 02:17:18,037 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,037 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:17:18,038 - group_resolver - DEBUG - Found local member: SHAREGUARD\Administrator
+2024-11-17 02:17:18,038 - group_resolver - DEBUG - Found local member: SHAREGUARD\Enterprise Admins
+2024-11-17 02:17:18,038 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Admins
+2024-11-17 02:17:18,038 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Administrators
+2024-11-17 02:17:18,039 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:17:18,039 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,039 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:17:18,040 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:17:18,040 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:17:18,040 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:17:18,040 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:17:18,041 - group_resolver - DEBUG - Getting members for group: SHAREGUARD\Users
+2024-11-17 02:17:18,041 - group_resolver - DEBUG - Using domain controller: \\WIN-I2VDDDLDOUA
+2024-11-17 02:17:18,041 - group_resolver - DEBUG - NetGroupGetUsers failed: (2220, 'NetGroupGetUsers', 'The group name could not be found.'), trying local group
+2024-11-17 02:17:18,042 - group_resolver - DEBUG - Found local member: SHAREGUARD\INTERACTIVE
+2024-11-17 02:17:18,042 - group_resolver - DEBUG - Found local member: SHAREGUARD\Authenticated Users
+2024-11-17 02:17:18,042 - group_resolver - DEBUG - Found local member: SHAREGUARD\Domain Users
+2024-11-17 02:17:18,042 - group_resolver - DEBUG - Found 3 members for group SHAREGUARD\Users
+2024-11-17 02:17:18,043 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Finance_Staff of type Unknown
+2024-11-17 02:17:18,043 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,044 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,044 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Report_Viewers of type Unknown
+2024-11-17 02:17:18,044 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,045 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,094 - group_resolver - DEBUG - Processing trustee SHAREGUARD\HR_Staff of type Unknown
+2024-11-17 02:17:18,094 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,095 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,146 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Domain Users of type Unknown
+2024-11-17 02:17:18,146 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 02:17:18,147 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 04:32:01,484 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 04:32:01,485 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 04:32:01,501 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 04:32:01,502 - group_resolver - INFO - GroupResolver initialized
+2024-11-17 04:32:23,355 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 04:32:23,355 - group_resolver - DEBUG - Getting groups for user via ADSI: WinNT://SHAREGUARD/IT_Staff,user
+2024-11-17 04:32:23,362 - group_resolver - WARNING - Error getting groups for user IT_Staff: (-2147022675, 'The user name could not be found.', None, None)
+2024-11-17 04:32:23,362 - group_resolver - DEBUG - Fallback NetUserGetGroups failed: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 04:32:23,363 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 04:32:23,363 - group_resolver - DEBUG - Getting groups for user via ADSI: WinNT://SHAREGUARD/Folder_Admins,user
+2024-11-17 04:32:23,363 - group_resolver - WARNING - Error getting groups for user Folder_Admins: (-2147022675, 'The user name could not be found.', None, None)
+2024-11-17 04:32:23,364 - group_resolver - DEBUG - Fallback NetUserGetGroups failed: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 04:48:55,397 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 04:48:55,398 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 04:48:55,415 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 04:48:55,415 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 04:49:19,205 - group_resolver - INFO - Building access paths for: SHAREGUARD\IT_Staff
+2024-11-17 04:49:19,205 - group_resolver - DEBUG - Account SHAREGUARD\IT_Staff is system: False
+2024-11-17 04:49:24,880 - group_resolver - WARNING - Failed to resolve account type for SHAREGUARD\IT_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2024-11-17 04:49:24,880 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 04:49:24,880 - group_resolver - DEBUG - Account SHAREGUARD\IT_Staff is system: False
+2024-11-17 04:49:24,880 - group_resolver - INFO - Getting groups for user: SHAREGUARD\IT_Staff
+2024-11-17 04:49:24,882 - group_resolver - DEBUG - Attempting ADSI connection to: WinNT://SHAREGUARD/IT_Staff,user
+2024-11-17 04:49:24,885 - group_resolver - WARNING - ADSI lookup failed for IT_Staff: (-2147022675, 'The user name could not be found.', None, None)
+2024-11-17 04:49:24,886 - group_resolver - WARNING - NetUserGetGroups failed: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 04:49:24,886 - group_resolver - DEBUG - Cached users: SHAREGUARD\IT_Staff
+2024-11-17 04:49:24,886 - group_resolver - INFO - Found 0 groups for user SHAREGUARD\IT_Staff
+2024-11-17 04:49:24,886 - group_resolver - DEBUG - Found 0 groups for user
+2024-11-17 04:49:24,887 - group_resolver - DEBUG - Cached paths: SHAREGUARD\IT_Staff
+2024-11-17 04:49:24,887 - group_resolver - INFO - Building access paths for: SHAREGUARD\Folder_Admins
+2024-11-17 04:49:24,887 - group_resolver - DEBUG - Account SHAREGUARD\Folder_Admins is system: False
+2024-11-17 04:49:24,887 - group_resolver - WARNING - Failed to resolve account type for SHAREGUARD\Folder_Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2024-11-17 04:49:24,887 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 04:49:24,888 - group_resolver - DEBUG - Account SHAREGUARD\Folder_Admins is system: False
+2024-11-17 04:49:24,888 - group_resolver - INFO - Getting groups for user: SHAREGUARD\Folder_Admins
+2024-11-17 04:49:24,888 - group_resolver - DEBUG - Attempting ADSI connection to: WinNT://SHAREGUARD/Folder_Admins,user
+2024-11-17 04:49:24,888 - group_resolver - WARNING - ADSI lookup failed for Folder_Admins: (-2147022675, 'The user name could not be found.', None, None)
+2024-11-17 04:49:24,889 - group_resolver - WARNING - NetUserGetGroups failed: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-17 04:49:24,889 - group_resolver - DEBUG - Cached users: SHAREGUARD\Folder_Admins
+2024-11-17 04:49:24,889 - group_resolver - INFO - Found 0 groups for user SHAREGUARD\Folder_Admins
+2024-11-17 04:49:24,889 - group_resolver - DEBUG - Found 0 groups for user
+2024-11-17 04:49:24,889 - group_resolver - DEBUG - Cached paths: SHAREGUARD\Folder_Admins
+2024-11-17 04:49:24,891 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\IT_Staff
+2024-11-17 04:49:24,891 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\Folder_Admins
+2024-11-17 04:49:24,892 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\IT_Staff
+2024-11-17 04:49:24,892 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\Folder_Admins
+2024-11-17 05:12:22,497 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 05:12:22,498 - group_resolver - WARNING - Could not get detailed domain info: 'NoneType' object has no attribute 'other'
+2024-11-17 05:12:22,498 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 05:12:22,499 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 05:12:22,499 - group_resolver - WARNING - Could not get detailed domain info: 'NoneType' object has no attribute 'other'
+2024-11-17 05:12:22,499 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 05:12:22,517 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 05:12:22,517 - group_resolver - WARNING - Could not get detailed domain info: 'NoneType' object has no attribute 'other'
+2024-11-17 05:12:22,517 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 05:12:22,518 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 05:12:22,518 - group_resolver - WARNING - Could not get detailed domain info: 'NoneType' object has no attribute 'other'
+2024-11-17 05:12:22,518 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 13:12:32,096 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 13:12:32,098 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-17 13:12:32,098 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 13:12:32,099 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 13:12:32,099 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-17 13:12:32,099 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 13:12:32,116 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 13:12:32,117 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-17 13:12:32,117 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 13:12:32,118 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-17 13:12:32,118 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-17 13:12:32,118 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-17 13:12:49,684 - group_resolver - INFO - Building access paths for: SHAREGUARD\IT_Staff
+2024-11-17 13:12:49,684 - group_resolver - DEBUG - Account SHAREGUARD\IT_Staff is system: False
+2024-11-17 13:12:55,064 - group_resolver - WARNING - Failed to get account details for SHAREGUARD\IT_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2024-11-17 13:12:55,064 - group_resolver - DEBUG - Account SHAREGUARD\IT_Staff is system: False
+2024-11-17 13:12:55,064 - group_resolver - DEBUG - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2024-11-17 13:12:55,064 - group_resolver - DEBUG - Account SHAREGUARD\IT_Staff is system: False
+2024-11-17 13:12:55,064 - group_resolver - INFO - Getting groups for user: SHAREGUARD\IT_Staff
+2024-11-17 13:12:55,065 - group_resolver - DEBUG - Attempting ADSI connection to: WinNT://SHAREGUARD/IT_Staff,user
+2024-11-17 13:12:55,068 - group_resolver - WARNING - ADSI lookup failed for IT_Staff: (-2147022675, 'The user name could not be found.', None, None)
+2024-11-17 13:12:55,069 - group_resolver - DEBUG - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2024-11-17 13:12:55,070 - group_resolver - DEBUG - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 13:12:55,070 - group_resolver - DEBUG - Cached users: SHAREGUARD\IT_Staff
+2024-11-17 13:12:55,070 - group_resolver - INFO - Found 0 groups for user SHAREGUARD\IT_Staff
+2024-11-17 13:12:55,070 - group_resolver - DEBUG - Found 0 groups for user
+2024-11-17 13:12:55,070 - group_resolver - DEBUG - Cached paths: SHAREGUARD\IT_Staff
+2024-11-17 13:12:55,071 - group_resolver - INFO - Building access paths for: SHAREGUARD\Folder_Admins
+2024-11-17 13:12:55,071 - group_resolver - DEBUG - Account SHAREGUARD\Folder_Admins is system: False
+2024-11-17 13:12:55,071 - group_resolver - WARNING - Failed to get account details for SHAREGUARD\Folder_Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2024-11-17 13:12:55,071 - group_resolver - DEBUG - Account SHAREGUARD\Folder_Admins is system: False
+2024-11-17 13:12:55,071 - group_resolver - DEBUG - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2024-11-17 13:12:55,071 - group_resolver - DEBUG - Account SHAREGUARD\Folder_Admins is system: False
+2024-11-17 13:12:55,071 - group_resolver - INFO - Getting groups for user: SHAREGUARD\Folder_Admins
+2024-11-17 13:12:55,072 - group_resolver - DEBUG - Attempting ADSI connection to: WinNT://SHAREGUARD/Folder_Admins,user
+2024-11-17 13:12:55,072 - group_resolver - WARNING - ADSI lookup failed for Folder_Admins: (-2147022675, 'The user name could not be found.', None, None)
+2024-11-17 13:12:55,072 - group_resolver - DEBUG - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2024-11-17 13:12:55,073 - group_resolver - DEBUG - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-17 13:12:55,073 - group_resolver - DEBUG - Cached users: SHAREGUARD\Folder_Admins
+2024-11-17 13:12:55,073 - group_resolver - INFO - Found 0 groups for user SHAREGUARD\Folder_Admins
+2024-11-17 13:12:55,073 - group_resolver - DEBUG - Found 0 groups for user
+2024-11-17 13:12:55,073 - group_resolver - DEBUG - Cached paths: SHAREGUARD\Folder_Admins
+2024-11-17 13:12:55,075 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\IT_Staff
+2024-11-17 13:12:55,075 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\Folder_Admins
+2024-11-17 13:12:55,076 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\IT_Staff
+2024-11-17 13:12:55,076 - group_resolver - DEBUG - Cache hit for paths: SHAREGUARD\Folder_Admins

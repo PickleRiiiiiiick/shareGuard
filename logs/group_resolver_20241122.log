@@ -1,0 +1,312 @@
+2024-11-22 12:19:00,827 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:19:00,827 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:19:00,827 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:19:00,828 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:19:00,829 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:19:00,829 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:21:52,801 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:21:52,802 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:21:52,802 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:21:52,803 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:21:52,804 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:21:52,804 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:21:52,826 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:21:52,827 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:21:52,827 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:21:52,827 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:21:52,828 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:21:52,828 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:22:45,763 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:22:45,764 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:22:45,764 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:22:45,765 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:22:45,766 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:22:45,766 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:22:45,787 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:22:45,788 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:22:45,788 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:22:45,789 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:22:45,790 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:22:45,790 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:46:54,668 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:46:54,669 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:46:54,669 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:46:54,670 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:46:54,671 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:46:54,671 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:46:54,692 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:46:54,692 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:46:54,692 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:46:54,693 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:46:54,694 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:46:54,694 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:53:47,187 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:53:47,188 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:53:47,188 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:53:47,189 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:53:47,189 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:53:47,189 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:53:47,221 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:53:47,222 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:53:47,222 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:53:47,223 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:53:47,223 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:53:47,223 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:58:23,976 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:58:23,977 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:58:23,977 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:58:23,978 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:58:23,979 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:58:23,979 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:58:24,001 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:58:24,001 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:58:24,001 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 12:58:24,002 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 12:58:24,003 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 12:58:24,003 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:02,740 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:02,741 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:02,741 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:02,743 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:02,744 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:02,744 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:02,769 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:02,770 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:02,770 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:02,771 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:02,771 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:02,771 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:13,228 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:13,229 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:13,229 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:13,230 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:13,230 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:13,230 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:13,253 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:13,254 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:13,254 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:06:13,254 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:06:13,255 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:06:13,255 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:07:22,773 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:07:22,774 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:07:22,774 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:07:22,775 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:07:22,775 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:07:22,775 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:07:22,797 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:07:22,798 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:07:22,798 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:07:22,799 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:07:22,800 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:07:22,800 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:14:52,667 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:14:52,668 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:14:52,668 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:14:52,669 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:14:52,670 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:14:52,670 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:14:52,693 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:14:52,694 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:14:52,694 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:14:52,695 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:14:52,696 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:14:52,696 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:15:34,661 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:15:34,662 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:15:34,662 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:15:34,664 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:15:34,664 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:15:34,664 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:15:34,687 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:15:34,688 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:15:34,688 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:15:34,689 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:15:34,690 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:15:34,690 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:16:01,037 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:16:01,038 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:16:01,038 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:16:01,041 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:16:01,042 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:16:01,042 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:16:01,066 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:16:01,067 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:16:01,067 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:16:01,068 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:16:01,068 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:16:01,068 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:20:56,035 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:20:56,036 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:20:56,036 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:20:56,038 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:20:56,038 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:20:56,038 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:20:56,061 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:20:56,061 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:20:56,062 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:20:56,063 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:20:56,063 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:20:56,063 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:25:16,125 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:25:16,126 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:25:16,126 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:25:16,128 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:25:16,128 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:25:16,128 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:25:16,152 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:25:16,152 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:25:16,153 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:25:16,154 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:25:16,155 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:25:16,155 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:26:50,684 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:26:50,685 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:26:50,685 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:26:50,686 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:26:50,686 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:26:50,686 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:26:50,708 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:26:50,709 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:26:50,709 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:26:50,710 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:26:50,710 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:26:50,711 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:22,356 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:22,357 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:22,357 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:22,358 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:22,358 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:22,358 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:22,381 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:22,382 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:22,382 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:22,383 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:22,383 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:22,383 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:50,851 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:50,852 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:50,852 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:50,853 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:50,854 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:50,854 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:50,876 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:50,876 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:50,876 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:35:50,877 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:35:50,878 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:35:50,878 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:51:38,892 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:51:38,893 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:51:38,893 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:51:38,894 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:51:38,895 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:51:38,895 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:51:38,917 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:51:38,917 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:51:38,917 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:51:38,918 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:51:38,919 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:51:38,919 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:48,510 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:48,511 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:48,511 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:48,512 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:48,513 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:48,513 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:48,536 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:48,537 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:48,537 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:48,538 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:48,539 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:48,539 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:55,360 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:55,360 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:55,360 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:55,361 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:55,362 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:55,362 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:55,384 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:55,385 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:55,385 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:53:55,385 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:53:55,386 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:53:55,386 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:54:53,297 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:54:53,298 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:54:53,298 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:54:53,299 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:54:53,299 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:54:53,299 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:54:53,322 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:54:53,322 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:54:53,323 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:54:53,323 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:54:53,324 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:54:53,324 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:58:42,335 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:58:42,336 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:58:42,336 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:58:42,337 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:58:42,337 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:58:42,337 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:58:42,363 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:58:42,364 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:58:42,364 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:58:42,365 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:58:42,366 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:58:42,366 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:59:51,673 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:59:51,674 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:59:51,674 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 13:59:51,677 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 13:59:51,679 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 13:59:51,679 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:00:04,409 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:00:04,410 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:00:04,410 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:00:04,410 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:00:04,411 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:00:04,411 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:04:04,280 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:04:04,281 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:04:04,281 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:04:04,283 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:04:04,283 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:04:04,284 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:01,541 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:01,542 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:01,542 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:01,543 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:01,544 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:01,544 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:01,568 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:01,569 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:01,569 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:01,570 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:01,570 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:01,570 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:18,217 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:18,217 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:18,217 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:18,218 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:18,219 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:18,219 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:18,241 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:18,242 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:18,242 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:06:18,243 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:06:18,243 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:06:18,243 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:08:31,238 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:08:31,238 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:08:31,239 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:08:31,240 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:08:31,240 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:08:31,240 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:08:31,262 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:08:31,263 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:08:31,263 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds
+2024-11-22 14:08:31,264 - group_resolver - INFO - Using domain controller: WIN-I2VDDDLDOUA
+2024-11-22 14:08:31,264 - group_resolver - DEBUG - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2024-11-22 14:08:31,264 - group_resolver - INFO - GroupResolver initialized with TTL: 3600 seconds

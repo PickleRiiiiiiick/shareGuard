@@ -14,6 +14,8 @@ __all__ = [
     'Alert',
     'PermissionChange',
     'UserGroupMapping',
+    'ServiceAccount', 
+    'AuthSession',    
     'ScanScheduleType',
     'AlertType',
     'AlertSeverity'

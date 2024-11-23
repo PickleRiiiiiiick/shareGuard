@@ -144,3 +144,11 @@
 2024-11-16 13:48:01,849 - group_resolver - INFO - GroupResolver initialized
 2024-11-16 13:48:01,849 - group_resolver - INFO - GroupResolver initialized
 2024-11-16 13:48:04,822 - group_resolver - INFO - GroupResolver cache cleared
+2024-11-16 23:56:35,446 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 23:56:35,447 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 23:56:35,464 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 23:56:35,465 - group_resolver - INFO - GroupResolver initialized
+2024-11-16 23:57:28,289 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-16 23:57:28,290 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2024-11-16 23:57:28,291 - group_resolver - DEBUG - NetUserGetGroups error: (2221, 'NetUserGetGroups', 'The user name could not be found.')
+2024-11-16 23:57:28,291 - group_resolver - DEBUG - NetUserGetLocalGroups error: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')

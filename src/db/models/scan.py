@@ -12,11 +12,18 @@ class ScanTarget(Base, TimestampMixin):
     id = Column(Integer, primary_key=True)
     name = Column(String(100), nullable=False)
     path = Column(String(255), nullable=False)
+    description = Column(String(500), nullable=True)
+    department = Column(String(100), nullable=True)
+    owner = Column(String(100), nullable=True)
+    sensitivity_level = Column(String(50), nullable=True)
     is_sensitive = Column(Boolean, default=False)
     scan_frequency = Column(String, nullable=False)
     max_depth = Column(Integer, nullable=True)
     exclude_patterns = Column(JSON, nullable=True)
+    target_metadata = Column(JSON, nullable=True)  # Changed from metadata to target_metadata
     last_scan_time = Column(DateTime, nullable=True)
+    created_by = Column(String(100), nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
 
     scan_jobs = relationship("ScanJob", back_populates="target")
     alerts = relationship("AlertConfiguration", back_populates="target")
@@ -24,6 +31,8 @@ class ScanTarget(Base, TimestampMixin):
     __table_args__ = (
         Index('idx_scan_target_path', path),
     )
+
+# Rest of your models remain the same...
 
 class ScanJob(Base, TimestampMixin):
     """Record of each scanning job."""

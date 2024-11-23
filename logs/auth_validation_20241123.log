@@ -1,0 +1,33 @@
+2024-11-23 11:41:54,030 - auth_validation - INFO - [auth_validation_test.py:133] - Starting authentication validation suite...
+2024-11-23 11:41:54,030 - auth_validation - INFO - [auth_validation_test.py:138] - 
+=== Testing Login Flow ===
+2024-11-23 11:41:54,030 - auth_validation - INFO - [auth_validation_test.py:37] - Testing login flow...
+2024-11-23 11:42:48,188 - auth_validation - INFO - [auth_validation_test.py:133] - Starting authentication validation suite...
+2024-11-23 11:42:48,188 - auth_validation - INFO - [auth_validation_test.py:138] - 
+=== Testing Login Flow ===
+2024-11-23 11:42:48,189 - auth_validation - INFO - [auth_validation_test.py:37] - Testing login flow...
+2024-11-23 11:42:49,274 - auth_validation - INFO - [auth_validation_test.py:60] - Token payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477369, 'iat': 1732390969}
+2024-11-23 11:42:49,274 - auth_validation - INFO - [auth_validation_test.py:68] - Token format validation passed
+2024-11-23 11:42:49,274 - auth_validation - INFO - [auth_validation_test.py:144] - 
+=== Testing Protected Endpoints ===
+2024-11-23 11:42:49,314 - auth_validation - INFO - [auth_validation_test.py:93] - Testing /api/v1/targets: 500
+2024-11-23 11:42:49,314 - auth_validation - ERROR - [auth_validation_test.py:95] - Endpoint /api/v1/targets failed: {"detail":"Authorization error: MSSQL requires an order_by when using an OFFSET or a non-simple LIMIT clause"}
+2024-11-23 11:42:49,314 - auth_validation - ERROR - [auth_validation_test.py:146] - Protected endpoints test failed
+2024-11-23 11:47:08,916 - auth_validation - INFO - [auth_validation_test.py:151] - Starting authentication validation suite...
+2024-11-23 11:47:08,917 - auth_validation - INFO - [auth_validation_test.py:156] - 
+=== Testing Login Flow ===
+2024-11-23 11:47:08,917 - auth_validation - INFO - [auth_validation_test.py:37] - Testing login flow...
+2024-11-23 11:47:10,013 - auth_validation - INFO - [auth_validation_test.py:60] - Token payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477630, 'iat': 1732391230}
+2024-11-23 11:47:10,013 - auth_validation - INFO - [auth_validation_test.py:68] - Token format validation passed
+2024-11-23 11:47:10,013 - auth_validation - INFO - [auth_validation_test.py:162] - 
+=== Testing Auth Verification ===
+2024-11-23 11:47:10,021 - auth_validation - INFO - [auth_validation_test.py:88] - Verify endpoint status: 200
+2024-11-23 11:47:10,026 - auth_validation - INFO - [auth_validation_test.py:99] - Auth test endpoint status: 404
+2024-11-23 11:47:10,026 - auth_validation - WARNING - [auth_validation_test.py:101] - Auth test endpoint not found - this is optional but recommended
+2024-11-23 11:47:10,026 - auth_validation - INFO - [auth_validation_test.py:168] - 
+=== Testing Session Management ===
+2024-11-23 11:47:10,073 - auth_validation - INFO - [auth_validation_test.py:128] - Found active session: 21
+2024-11-23 11:47:10,073 - auth_validation - INFO - [auth_validation_test.py:129] - Session expires at: 2024-11-24 19:47:10.007000
+2024-11-23 11:47:10,077 - auth_validation - INFO - [auth_validation_test.py:142] - Verified service account: ShareGuardService
+2024-11-23 11:47:10,077 - auth_validation - INFO - [auth_validation_test.py:173] - 
+All authentication validation tests passed successfully!

@@ -1,0 +1,211 @@
+2024-11-17 00:00:22,679 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:00:22,680 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:00:25,052 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 00:00:25,096 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 00:00:25,135 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 00:06:28,904 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:06:28,905 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:06:35,440 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 00:06:35,501 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 00:06:35,556 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 00:12:57,024 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:12:57,043 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:12:59,413 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:13:06,210 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 00:13:06,212 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 00:18:37,588 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:18:37,606 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:19:08,907 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:19:08,908 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 00:19:08,909 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 00:19:08,910 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT\Documentation: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 00:19:08,912 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 00:19:08,913 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT\Projects: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 00:22:59,488 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:22:59,489 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 00:22:59,491 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 00:22:59,492 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT\Documentation: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 00:22:59,494 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 00:22:59,495 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT\Projects: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 00:35:32,361 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:35:32,381 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:35:54,486 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:36:00,004 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 00:36:00,006 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 00:59:45,586 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:59:45,604 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 00:59:52,515 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 00:59:57,873 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 00:59:57,875 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 01:05:26,574 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:05:26,593 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:05:42,321 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 01:05:42,322 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 01:05:42,324 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 01:05:42,325 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT\Documentation: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 01:05:42,327 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 01:05:42,328 - scanner - ERROR - Error scanning C:\ShareGuardTest\IT\Projects: 'GroupResolver' object has no attribute 'get_access_paths'
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\scanner\file_scanner.py", line 175, in get_folder_permissions
+    ace_info["access_paths"] = self.group_resolver.get_access_paths(trustee_info)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GroupResolver' object has no attribute 'get_access_paths'
+2024-11-17 01:38:58,987 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:38:59,005 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:39:05,357 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:39:05,377 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:39:20,295 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 01:39:22,605 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 01:39:22,606 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 01:46:57,538 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:46:57,556 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:47:33,945 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:47:33,962 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:48:06,155 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 01:48:13,430 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 01:48:13,431 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 01:54:18,470 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:54:18,487 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 01:54:47,375 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 01:54:53,015 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 01:54:53,016 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:09:38,342 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:09:43,873 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-17 02:09:43,875 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 02:09:43,883 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:09:43,887 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:09:43,890 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:09:43,892 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-17 02:09:43,893 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-17 02:09:43,894 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-17 02:09:43,895 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-17 02:09:43,896 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:09:43,897 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:09:43,962 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-17 02:09:43,965 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 02:09:43,966 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:09:43,967 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:09:43,968 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:09:43,969 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-17 02:09:43,969 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-17 02:09:43,971 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-17 02:09:43,971 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-17 02:09:43,972 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:09:43,973 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:09:44,018 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-17 02:09:44,019 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 02:09:44,020 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:09:44,020 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:09:44,021 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:09:44,022 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-17 02:09:44,023 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-17 02:09:44,024 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-17 02:09:44,026 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-17 02:09:44,028 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:09:44,029 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:13:41,522 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:13:41,539 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:14:02,322 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:14:04,630 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:14:04,631 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:15:51,557 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:15:51,575 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:16:17,533 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:16:22,685 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:16:22,686 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:16:45,261 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:16:45,283 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-17 02:16:45,285 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 02:16:45,316 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:16:45,319 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:16:45,322 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:16:45,324 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-17 02:16:45,325 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-17 02:16:45,326 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-17 02:16:45,326 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-17 02:16:45,328 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:16:45,329 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:16:45,413 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-17 02:16:45,414 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 02:16:45,415 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:16:45,416 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:16:45,417 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:16:45,418 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-17 02:16:45,418 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-17 02:16:45,419 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-17 02:16:45,420 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-17 02:16:45,423 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:16:45,424 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:16:45,492 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest
+2024-11-17 02:16:45,493 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 02:16:45,494 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:16:45,495 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:16:45,496 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:16:45,496 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2024-11-17 02:16:45,497 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2024-11-17 02:16:45,498 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2024-11-17 02:16:45,504 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2024-11-17 02:16:45,505 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 02:16:45,506 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 02:17:15,514 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 02:17:15,515 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 02:17:18,010 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Finance
+2024-11-17 02:17:18,093 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\HR
+2024-11-17 02:17:18,144 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\Common
+2024-11-17 04:32:01,485 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 04:32:01,502 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 04:32:16,892 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 04:32:23,364 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 04:32:23,365 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 04:48:55,398 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 04:48:55,415 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 04:49:19,203 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 04:49:24,890 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 04:49:24,891 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2024-11-17 05:12:22,498 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 05:12:22,517 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 13:12:32,098 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 13:12:32,117 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-17 13:12:49,683 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-17 13:12:55,074 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-17 13:12:55,075 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects

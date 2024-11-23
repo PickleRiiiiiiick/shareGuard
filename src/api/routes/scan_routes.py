@@ -1,5 +1,5 @@
 # src/api/routes/scan_routes.py
-from fastapi import APIRouter, HTTPException, BackgroundTasks, Depends
+from fastapi import APIRouter, HTTPException, BackgroundTasks, Depends, Security, Request
 from typing import Optional, Dict
 from sqlalchemy.orm import Session
 from datetime import datetime
@@ -7,27 +7,24 @@ from src.core.scanner import ShareGuardScanner
 from src.db.database import get_db, SessionLocal
 from src.db.models import ScanTarget, ScanJob, ScanResult, AccessEntry
 from src.api.schemas import ScanRequest
+from src.api.middleware.auth import security, require_permissions
 from pathlib import Path
 from config.settings import SCANNER_CONFIG
 
 router = APIRouter(
     prefix="/api/v1/scan",
     tags=["scanning"],
-    responses={404: {"description": "Not found"}}
+    dependencies=[Depends(security)]
 )
 
 scanner = ShareGuardScanner()
 
 def get_scan_target(path: str, db: Session) -> Optional[ScanTarget]:
-    """Get existing scan target by path."""
     return db.query(ScanTarget).filter(ScanTarget.path == path).first()
 
-def create_scan_job(path: str, parameters: Dict, db: Session) -> ScanJob:
-    """Create a new scan job."""
-    # Check if we require pre-approved targets
+def create_scan_job(path: str, parameters: Dict, db: Session, service_account_id: int) -> ScanJob:
     require_approved_targets = SCANNER_CONFIG.get('require_approved_targets', True)
     
-    # Try to find existing target
     target = get_scan_target(path, db)
     
     if not target and require_approved_targets:
@@ -36,27 +33,26 @@ def create_scan_job(path: str, parameters: Dict, db: Session) -> ScanJob:
             detail="Path is not in the list of approved scan targets. Please contact your administrator."
         )
     elif not target and not require_approved_targets:
-        # Create temporary target for ad-hoc scan
         target = ScanTarget(
             name=f"Temporary-{Path(path).name}",
             path=path,
             scan_frequency="once",
             max_depth=parameters.get('max_depth'),
             last_scan_time=datetime.utcnow(),
-            is_sensitive=False,  # Default for ad-hoc scans
-            exclude_patterns=None  # No exclusions for ad-hoc scans
+            is_sensitive=False,
+            exclude_patterns=None
         )
         db.add(target)
         db.commit()
         db.refresh(target)
 
-    # Create the scan job
     job = ScanJob(
         target_id=target.id,
         scan_type='path',
         parameters=parameters,
         status='running',
-        start_time=datetime.utcnow()
+        start_time=datetime.utcnow(),
+        created_by=service_account_id
     )
     db.add(job)
     db.commit()
@@ -71,15 +67,12 @@ async def run_scan_job(
     simplified_system: bool = True,
     include_inherited: bool = True
 ):
-    """Background task to run the scan job."""
     db = SessionLocal()
     try:
-        # Get the job
         job = db.query(ScanJob).filter(ScanJob.id == job_id).first()
         if not job:
             return
         
-        # Run the scan with new parameters
         scan_results = scanner.scan_path(
             path=path, 
             include_subfolders=include_subfolders, 
@@ -88,7 +81,6 @@ async def run_scan_job(
             include_inherited=include_inherited
         )
         
-        # Store results
         result = ScanResult(
             job_id=job_id,
             path=path,
@@ -99,8 +91,9 @@ async def run_scan_job(
             error_message=scan_results.get('error')
         )
         db.add(result)
+        db.commit()
+        db.refresh(result)
         
-        # Store individual access entries
         if scan_results.get('success', True):
             for ace in scan_results.get('permissions', {}).get('aces', []):
                 entry = AccessEntry(
@@ -114,14 +107,12 @@ async def run_scan_job(
                 )
                 db.add(entry)
         
-        # Update job status
         job.status = 'completed' if scan_results.get('success', True) else 'failed'
         job.end_time = datetime.utcnow()
         job.error_message = scan_results.get('error')
         
         db.commit()
     except Exception as e:
-        # Update job status on error
         if job:
             job.status = 'failed'
             job.end_time = datetime.utcnow()
@@ -131,27 +122,20 @@ async def run_scan_job(
         db.close()
 
 @router.post("/path", summary="Start Path Scan")
+@require_permissions(["scan:execute"])
 async def scan_path(
     request: ScanRequest,
+    current_request: Request,
     background_tasks: BackgroundTasks,
     db: Session = Depends(get_db)
 ):
-    """
-    Start a new path scan job.
-    
-    - Scans the specified path for permissions
-    - Can include subfolders recursively
-    - Configurable scan depth
-    - Options for system account handling and inherited permissions
-    - Returns job ID for tracking
-    """
     try:
-        # Validate path exists
         path = Path(request.path)
         if not path.exists():
             raise HTTPException(status_code=404, detail="Path does not exist")
         
-        # Create job with target
+        service_account = current_request.state.service_account
+        
         job = create_scan_job(
             path=str(path),
             parameters={
@@ -160,10 +144,10 @@ async def scan_path(
                 'simplified_system': request.simplified_system,
                 'include_inherited': request.include_inherited
             },
-            db=db
+            db=db,
+            service_account_id=service_account.id
         )
 
-        # Start background scan with all parameters
         background_tasks.add_task(
             run_scan_job,
             job.id,
@@ -190,22 +174,18 @@ async def scan_path(
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/jobs/{job_id}", summary="Get Scan Job Status")
-async def get_scan_job(job_id: int, db: Session = Depends(get_db)):
-    """
-    Get the status and results of a specific scan job.
-    
-    - Returns job details
-    - Includes scan results if completed
-    - Shows error information if failed
-    - Includes detailed access entries
-    """
+@require_permissions(["scan:read"])
+async def get_scan_job(
+    job_id: int, 
+    current_request: Request,
+    db: Session = Depends(get_db)
+):
     job = db.query(ScanJob).filter(ScanJob.id == job_id).first()
     if not job:
         raise HTTPException(status_code=404, detail="Scan job not found")
         
     results = db.query(ScanResult).filter(ScanResult.job_id == job_id).all()
     
-    # Get access entries for each result
     detailed_results = []
     for result in results:
         access_entries = db.query(AccessEntry).filter(
@@ -239,33 +219,24 @@ async def get_scan_job(job_id: int, db: Session = Depends(get_db)):
             "start_time": job.start_time,
             "end_time": job.end_time,
             "error_message": job.error_message,
-            "parameters": job.parameters
+            "parameters": job.parameters,
+            "created_by": job.created_by
         },
         "results": detailed_results
     }
 
 @router.post("/clear-cache", summary="Clear Scanner Cache")
+@require_permissions(["scan:admin"])
 async def clear_scanner_cache():
-    """
-    Clear the scanner's group resolver cache.
-    
-    - Resets all cached group memberships
-    - Forces fresh data collection on next scan
-    - Useful after group membership changes
-    """
     scanner.group_resolver.clear_cache()
     return {"message": "Scanner cache cleared successfully"}
 
 @router.get("/stats", summary="Get Scanner Statistics")
-async def get_scanner_stats(db: Session = Depends(get_db)):
-    """
-    Get scanner statistics and cache information.
-    
-    - Total jobs run
-    - Success/failure rates
-    - Cache statistics
-    - Recent scan information
-    """
+@require_permissions(["scan:read"])
+async def get_scanner_stats(
+    current_request: Request,
+    db: Session = Depends(get_db)
+):
     total_jobs = db.query(ScanJob).count()
     successful_jobs = db.query(ScanJob).filter(ScanJob.status == 'completed').count()
     failed_jobs = db.query(ScanJob).filter(ScanJob.status == 'failed').count()
@@ -299,7 +270,8 @@ async def get_scanner_stats(db: Session = Depends(get_db)):
                 "path": job.parameters.get('path'),
                 "status": job.status,
                 "start_time": job.start_time,
-                "duration": (job.end_time - job.start_time).total_seconds() if job.end_time else None
+                "duration": (job.end_time - job.start_time).total_seconds() if job.end_time else None,
+                "created_by": job.created_by
             }
             for job in recent_scans
         ]

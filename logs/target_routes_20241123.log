@@ -1,0 +1,15 @@
+2024-11-23 12:05:02,323 - target_routes - DEBUG - [target_routes.py:145] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=True
+2024-11-23 12:05:02,326 - target_routes - DEBUG - [target_routes.py:159] - Retrieved 3 targets
+2024-11-23 12:35:21,295 - target_routes - DEBUG - [target_routes.py:136] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=True
+2024-11-23 12:35:21,297 - target_routes - ERROR - [target_routes.py:163] - Error retrieving targets
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\api\routes\target_routes.py", line 151, in list_targets
+    response_targets = [ScanTargetResponse.from_orm(target) for target in targets]
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\pydantic\main.py", line 1261, in from_orm
+    raise PydanticUserError(
+        'You must set the config attribute `from_attributes=True` to use from_orm', code=None
+    )
+pydantic.errors.PydanticUserError: You must set the config attribute `from_attributes=True` to use from_orm
+2024-11-23 13:11:33,275 - target_routes - DEBUG - [target_routes.py:138] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=True
+2024-11-23 13:11:33,278 - target_routes - DEBUG - [target_routes.py:162] - Retrieved 3 targets

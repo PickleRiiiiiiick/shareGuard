@@ -1,0 +1,639 @@
+2024-11-23 05:31:38,456 - auth_middleware - DEBUG - [auth.py:194] - Processing request to /api/v1/auth/verify
+2024-11-23 05:31:38,456 - auth_middleware - DEBUG - [auth.py:195] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:31:38,456 - auth_middleware - DEBUG - [auth.py:79] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:31:38,459 - auth_middleware - ERROR - [auth.py:113] - Invalid token format: Subject must be a string
+2024-11-23 05:31:38,459 - auth_middleware - ERROR - [auth.py:216] - HTTP error in middleware: 401 - Invalid token
+2024-11-23 05:39:58,323 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/auth/verify
+2024-11-23 05:39:58,323 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:39:58,323 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:39:58,323 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:39:58,325 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 17
+2024-11-23 05:39:58,325 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 13:39:56.947000
+2024-11-23 05:39:58,325 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 05:39:58,325 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732455596, 'iat': 1732369196}
+2024-11-23 05:39:58,325 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 05:39:58,326 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 05:52:06,316 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets
+2024-11-23 05:52:06,316 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:52:06,316 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:52:06,316 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:52:06,317 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 18
+2024-11-23 05:52:06,318 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 13:52:05.293000
+2024-11-23 05:52:06,318 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 05:52:06,319 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732456325, 'iat': 1732369925}
+2024-11-23 05:52:06,319 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 05:52:06,320 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 05:52:06,323 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 05:52:06,323 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:52:06,323 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:52:06,323 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:52:06,324 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 18
+2024-11-23 05:52:06,324 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 13:52:05.293000
+2024-11-23 05:52:06,324 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 05:52:06,324 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732456325, 'iat': 1732369925}
+2024-11-23 05:52:06,324 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 05:52:06,325 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 05:52:06,328 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:52:06,328 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:52:06,328 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:52:06,329 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 18
+2024-11-23 05:52:06,329 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 13:52:05.293000
+2024-11-23 05:52:06,329 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 05:52:06,329 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732456325, 'iat': 1732369925}
+2024-11-23 05:52:06,329 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 05:52:06,330 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 05:52:06,330 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 05:52:06,330 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 05:52:06,331 - auth_middleware - ERROR - [auth.py:147] - Error in permission check
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\api\middleware\auth.py", line 142, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\src\api\routes\target_routes.py", line 113, in list_targets
+    targets = db.query(ScanTarget).offset(skip).limit(limit).all()
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1632, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 703, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 316, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\dialects\mssql\base.py", line 1988, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 1429, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 870, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 915, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\visitors.py", line 141, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 4824, in visit_select
+    text = self._compose_select_body(
+        text,
+    ...<6 lines>...
+        kwargs,
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 5010, in _compose_select_body
+    text += self._row_limit_clause(select, **kwargs)
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\dialects\mssql\base.py", line 2122, in _row_limit_clause
+    self._check_can_use_fetch_limit(select)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\dialects\mssql\base.py", line 2100, in _check_can_use_fetch_limit
+    raise exc.CompileError(
+    ...<3 lines>...
+    )
+sqlalchemy.exc.CompileError: MSSQL requires an order_by when using an OFFSET or a non-simple LIMIT clause
+2024-11-23 05:52:07,647 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/auth/verify
+2024-11-23 05:52:07,647 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:52:07,647 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:52:07,647 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:52:07,650 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 18
+2024-11-23 05:52:07,650 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 13:52:05.293000
+2024-11-23 05:52:07,650 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 05:52:07,650 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732456325, 'iat': 1732369925}
+2024-11-23 05:52:07,650 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 05:52:07,651 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 05:52:08,675 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/auth/logout
+2024-11-23 05:52:08,675 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:52:08,675 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:52:08,676 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:52:08,677 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 18
+2024-11-23 05:52:08,677 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 13:52:05.293000
+2024-11-23 05:52:08,677 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 05:52:08,677 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732456325, 'iat': 1732369925}
+2024-11-23 05:52:08,677 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 05:52:08,678 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 05:52:09,707 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/auth/verify
+2024-11-23 05:52:09,707 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 05:52:09,707 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 05:52:09,707 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 05:52:09,708 - auth_middleware - WARNING - [auth.py:33] - No active session found
+2024-11-23 05:52:09,708 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Invalid token
+2024-11-23 11:42:49,275 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets
+2024-11-23 11:42:49,276 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 11:42:49,276 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 11:42:49,276 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 11:42:49,277 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 20
+2024-11-23 11:42:49,278 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 19:42:49.267000
+2024-11-23 11:42:49,278 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 11:42:49,278 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477369, 'iat': 1732390969}
+2024-11-23 11:42:49,278 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 11:42:49,279 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 11:42:49,281 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 11:42:49,281 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 11:42:49,281 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 11:42:49,281 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 11:42:49,282 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 20
+2024-11-23 11:42:49,282 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 19:42:49.267000
+2024-11-23 11:42:49,282 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 11:42:49,282 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477369, 'iat': 1732390969}
+2024-11-23 11:42:49,282 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 11:42:49,283 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 11:42:49,284 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 11:42:49,284 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 11:42:49,284 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 11:42:49,285 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 20
+2024-11-23 11:42:49,285 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 19:42:49.267000
+2024-11-23 11:42:49,285 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 11:42:49,285 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477369, 'iat': 1732390969}
+2024-11-23 11:42:49,285 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 11:42:49,286 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 11:42:49,286 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 11:42:49,286 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 11:42:49,287 - auth_middleware - ERROR - [auth.py:147] - Error in permission check
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\api\middleware\auth.py", line 142, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\src\api\routes\target_routes.py", line 113, in list_targets
+    targets = db.query(ScanTarget).offset(skip).limit(limit).all()
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1632, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 703, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 316, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\dialects\mssql\base.py", line 1988, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 1429, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 870, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 915, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\visitors.py", line 141, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 4824, in visit_select
+    text = self._compose_select_body(
+        text,
+    ...<6 lines>...
+        kwargs,
+    )
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\sql\compiler.py", line 5010, in _compose_select_body
+    text += self._row_limit_clause(select, **kwargs)
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\dialects\mssql\base.py", line 2122, in _row_limit_clause
+    self._check_can_use_fetch_limit(select)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\sqlalchemy\dialects\mssql\base.py", line 2100, in _check_can_use_fetch_limit
+    raise exc.CompileError(
+    ...<3 lines>...
+    )
+sqlalchemy.exc.CompileError: MSSQL requires an order_by when using an OFFSET or a non-simple LIMIT clause
+2024-11-23 11:47:10,014 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/auth/verify
+2024-11-23 11:47:10,014 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 11:47:10,014 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 11:47:10,014 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 11:47:10,016 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 21
+2024-11-23 11:47:10,016 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 19:47:10.007000
+2024-11-23 11:47:10,016 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 11:47:10,016 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477630, 'iat': 1732391230}
+2024-11-23 11:47:10,016 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 11:47:10,017 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 11:47:10,022 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/auth/test
+2024-11-23 11:47:10,022 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 11:47:10,022 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 11:47:10,022 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 11:47:10,023 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 21
+2024-11-23 11:47:10,023 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 19:47:10.007000
+2024-11-23 11:47:10,023 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 11:47:10,023 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732477630, 'iat': 1732391230}
+2024-11-23 11:47:10,023 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 11:47:10,024 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:05:01,279 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/count
+2024-11-23 12:05:01,280 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:05:01,280 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:05:01,280 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:05:01,282 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 22
+2024-11-23 12:05:01,282 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:05:00.260000
+2024-11-23 12:05:01,282 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:05:01,282 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478700, 'iat': 1732392300}
+2024-11-23 12:05:01,282 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:05:01,284 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:05:01,285 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:05:01,285 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:05:01,285 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:05:01,286 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 22
+2024-11-23 12:05:01,286 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:05:00.260000
+2024-11-23 12:05:01,286 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:05:01,286 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478700, 'iat': 1732392300}
+2024-11-23 12:05:01,286 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:05:01,287 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:05:01,287 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 12:05:01,287 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 12:05:02,310 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets
+2024-11-23 12:05:02,310 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:05:02,311 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:05:02,311 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:05:02,312 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 22
+2024-11-23 12:05:02,312 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:05:00.260000
+2024-11-23 12:05:02,312 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:05:02,312 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478700, 'iat': 1732392300}
+2024-11-23 12:05:02,312 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:05:02,313 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:05:02,315 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 12:05:02,315 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:05:02,315 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:05:02,315 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:05:02,316 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 22
+2024-11-23 12:05:02,316 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:05:00.260000
+2024-11-23 12:05:02,316 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:05:02,316 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478700, 'iat': 1732392300}
+2024-11-23 12:05:02,316 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:05:02,317 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:05:02,320 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:05:02,320 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:05:02,320 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:05:02,321 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 22
+2024-11-23 12:05:02,321 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:05:00.260000
+2024-11-23 12:05:02,321 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:05:02,321 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478700, 'iat': 1732392300}
+2024-11-23 12:05:02,322 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:05:02,323 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:05:02,323 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 12:05:02,323 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 12:05:02,330 - auth_middleware - ERROR - [auth.py:194] - Unexpected error in middleware
+Traceback (most recent call last):
+  File "C:\ShareGuard\venv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\ShareGuard\venv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ShareGuard\venv\Lib\site-packages\anyio\streams\memory.py", line 124, in receive
+    return receiver.item
+           ^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\middleware\base.py", line 157, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\api\middleware\auth.py", line 184, in __call__
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\ShareGuard\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\ShareGuard\venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\ShareGuard\venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 15 validation errors:
+  {'type': 'missing', 'loc': ('response', 0, 'description'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D328381A0>}
+  {'type': 'missing', 'loc': ('response', 0, 'department'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D328381A0>}
+  {'type': 'missing', 'loc': ('response', 0, 'owner'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D328381A0>}
+  {'type': 'missing', 'loc': ('response', 0, 'sensitivity_level'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D328381A0>}
+  {'type': 'missing', 'loc': ('response', 0, 'created_by'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D328381A0>}
+  {'type': 'missing', 'loc': ('response', 1, 'description'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED2AD0>}
+  {'type': 'missing', 'loc': ('response', 1, 'department'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED2AD0>}
+  {'type': 'missing', 'loc': ('response', 1, 'owner'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED2AD0>}
+  {'type': 'missing', 'loc': ('response', 1, 'sensitivity_level'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED2AD0>}
+  {'type': 'missing', 'loc': ('response', 1, 'created_by'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED2AD0>}
+  {'type': 'missing', 'loc': ('response', 2, 'description'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED25D0>}
+  {'type': 'missing', 'loc': ('response', 2, 'department'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED25D0>}
+  {'type': 'missing', 'loc': ('response', 2, 'owner'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED25D0>}
+  {'type': 'missing', 'loc': ('response', 2, 'sensitivity_level'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED25D0>}
+  {'type': 'missing', 'loc': ('response', 2, 'created_by'), 'msg': 'Field required', 'input': <src.db.models.scan.ScanTarget object at 0x0000025D32ED25D0>}
+
+2024-11-23 12:06:25,546 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/count
+2024-11-23 12:06:25,547 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:06:25,547 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:06:25,547 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:06:25,548 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 23
+2024-11-23 12:06:25,548 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:06:25.257000
+2024-11-23 12:06:25,548 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:06:25,548 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478785, 'iat': 1732392385}
+2024-11-23 12:06:25,548 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:06:25,549 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:06:25,550 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:06:25,550 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:06:25,550 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:06:25,551 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 23
+2024-11-23 12:06:25,551 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:06:25.257000
+2024-11-23 12:06:25,551 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:06:25,551 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478785, 'iat': 1732392385}
+2024-11-23 12:06:25,551 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:06:25,552 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:06:25,552 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 12:06:25,552 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 12:06:25,560 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets
+2024-11-23 12:06:25,560 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:06:25,560 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:06:25,560 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:06:25,561 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 23
+2024-11-23 12:06:25,562 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:06:25.257000
+2024-11-23 12:06:25,562 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:06:25,562 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732478785, 'iat': 1732392385}
+2024-11-23 12:06:25,562 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:06:25,563 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:06:25,564 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 12:06:25,564 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-11-23 12:06:25,564 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-11-23 12:06:25,564 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-11-23 12:35:20,254 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/count
+2024-11-23 12:35:20,256 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:35:20,256 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:35:20,257 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:35:20,262 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 24
+2024-11-23 12:35:20,262 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:35:19.240000
+2024-11-23 12:35:20,262 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:35:20,262 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732480519, 'iat': 1732394119}
+2024-11-23 12:35:20,262 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:35:20,263 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:35:20,264 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:35:20,264 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:35:20,264 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:35:20,268 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 24
+2024-11-23 12:35:20,268 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:35:19.240000
+2024-11-23 12:35:20,268 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:35:20,268 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732480519, 'iat': 1732394119}
+2024-11-23 12:35:20,268 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:35:20,269 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:35:20,269 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 12:35:20,270 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 12:35:21,283 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets
+2024-11-23 12:35:21,283 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:35:21,283 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:35:21,283 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:35:21,284 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 24
+2024-11-23 12:35:21,284 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:35:19.240000
+2024-11-23 12:35:21,284 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:35:21,284 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732480519, 'iat': 1732394119}
+2024-11-23 12:35:21,284 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:35:21,285 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:35:21,287 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 12:35:21,287 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:35:21,287 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:35:21,287 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:35:21,288 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 24
+2024-11-23 12:35:21,288 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:35:19.240000
+2024-11-23 12:35:21,288 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:35:21,288 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732480519, 'iat': 1732394119}
+2024-11-23 12:35:21,288 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:35:21,289 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:35:21,292 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 12:35:21,292 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 12:35:21,292 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 12:35:21,293 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 24
+2024-11-23 12:35:21,293 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 20:35:19.240000
+2024-11-23 12:35:21,293 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 12:35:21,294 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732480519, 'iat': 1732394119}
+2024-11-23 12:35:21,294 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 12:35:21,294 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 12:35:21,295 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 12:35:21,295 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 13:11:32,217 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/count
+2024-11-23 13:11:32,217 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:11:32,217 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:11:32,218 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:11:32,219 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 26
+2024-11-23 13:11:32,219 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:11:31.177000
+2024-11-23 13:11:32,219 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:11:32,220 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482691, 'iat': 1732396291}
+2024-11-23 13:11:32,220 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:11:32,221 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:11:32,222 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:11:32,222 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:11:32,222 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:11:32,223 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 26
+2024-11-23 13:11:32,223 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:11:31.177000
+2024-11-23 13:11:32,223 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:11:32,223 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482691, 'iat': 1732396291}
+2024-11-23 13:11:32,223 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:11:32,224 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:11:32,224 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 13:11:32,224 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 13:11:33,264 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets
+2024-11-23 13:11:33,264 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:11:33,264 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:11:33,264 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:11:33,265 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 26
+2024-11-23 13:11:33,265 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:11:31.177000
+2024-11-23 13:11:33,265 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:11:33,265 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482691, 'iat': 1732396291}
+2024-11-23 13:11:33,265 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:11:33,266 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:11:33,268 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 13:11:33,268 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:11:33,268 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:11:33,268 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:11:33,269 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 26
+2024-11-23 13:11:33,269 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:11:31.177000
+2024-11-23 13:11:33,269 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:11:33,269 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482691, 'iat': 1732396291}
+2024-11-23 13:11:33,269 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:11:33,270 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:11:33,273 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:11:33,273 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:11:33,273 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:11:33,274 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 26
+2024-11-23 13:11:33,274 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:11:31.177000
+2024-11-23 13:11:33,274 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:11:33,274 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482691, 'iat': 1732396291}
+2024-11-23 13:11:33,274 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:11:33,275 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:11:33,275 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 13:11:33,275 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:read']
+2024-11-23 13:14:34,167 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/targets/
+2024-11-23 13:14:34,167 - auth_middleware - DEBUG - [auth.py:164] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:14:34,167 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:14:34,167 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:14:34,169 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 27
+2024-11-23 13:14:34,169 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:14:34.157000
+2024-11-23 13:14:34,169 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:14:34,169 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482874, 'iat': 1732396474}
+2024-11-23 13:14:34,169 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:14:34,171 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:14:34,176 - auth_middleware - DEBUG - [auth.py:106] - Auth header: Bearer eyJhbGciOiJIU
+2024-11-23 13:14:34,176 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-11-23 13:14:34,176 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-11-23 13:14:34,177 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 27
+2024-11-23 13:14:34,177 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-11-24 21:14:34.157000
+2024-11-23 13:14:34,177 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-11-23 13:14:34,177 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732482874, 'iat': 1732396474}
+2024-11-23 13:14:34,178 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-11-23 13:14:34,178 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-11-23 13:14:34,179 - auth_middleware - DEBUG - [auth.py:134] - Account permissions: ['scan:execute', 'scan:read', 'targets:read']
+2024-11-23 13:14:34,179 - auth_middleware - DEBUG - [auth.py:135] - Required permissions: ['targets:create']
+2024-11-23 13:14:34,179 - auth_middleware - WARNING - [auth.py:138] - Insufficient permissions for ShareGuardService

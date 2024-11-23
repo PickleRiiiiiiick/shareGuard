@@ -181,3 +181,8 @@
 2024-11-16 13:47:23,212 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
 2024-11-16 13:48:01,828 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
 2024-11-16 13:48:01,849 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-16 23:56:35,447 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-16 23:56:35,464 - scanner - INFO - PermissionScanner initialized with categorized Windows permissions
+2024-11-16 23:57:21,461 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT
+2024-11-16 23:57:28,291 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2024-11-16 23:57:28,293 - scanner - INFO - Analyzing permissions for: C:\ShareGuardTest\IT\Projects

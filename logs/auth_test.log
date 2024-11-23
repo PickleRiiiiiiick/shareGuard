@@ -1,0 +1,53 @@
+2024-11-23 04:44:25,684 - INFO - Attempting login...
+2024-11-23 04:44:25,685 - DEBUG - Auth data: {'username': 'ShareGuardService', 'domain': 'shareguard.com', 'password': 'P(5$\\#SX07sj'}
+2024-11-23 04:44:26,762 - DEBUG - Login response status: 200
+2024-11-23 04:44:26,762 - DEBUG - Login response headers: {'date': 'Sat, 23 Nov 2024 12:44:25 GMT', 'server': 'uvicorn', 'content-length': '406', 'content-type': 'application/json'}
+2024-11-23 04:44:26,762 - DEBUG - Login response body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsIm5hbWUiOiJzaGFyZWd1YXJkLmNvbVxcU2hhcmVHdWFyZFNlcnZpY2UiLCJleHAiOjE3MzI0NTIyNjYsImlhdCI6MTczMjM2NTg2Nn0.ia7KxC35zLi4vf0ta3lK9qTVrKdfRetutUaBT_NONso","token_type":"bearer","expires_at":"2024-11-24T12:44:26.754745","account":{"username":"ShareGuardService","domain":"shareguard.com","permissions":["scan:execute","scan:read","targets:read"]}}
+2024-11-23 04:44:26,763 - INFO - Login successful!
+2024-11-23 04:44:26,763 - DEBUG - Full token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsIm5hbWUiOiJzaGFyZWd1YXJkLmNvbVxcU2hhcmVHdWFyZFNlcnZpY2UiLCJleHAiOjE3MzI0NTIyNjYsImlhdCI6MTczMjM2NTg2Nn0.ia7KxC35zLi4vf0ta3lK9qTVrKdfRetutUaBT_NONso
+2024-11-23 04:44:26,763 - INFO - Testing protected endpoint access...
+2024-11-23 04:44:26,763 - DEBUG - Request headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsIm5hbWUiOiJzaGFyZWd1YXJkLmNvbVxcU2hhcmVHdWFyZFNlcnZpY2UiLCJleHAiOjE3MzI0NTIyNjYsImlhdCI6MTczMjM2NTg2Nn0.ia7KxC35zLi4vf0ta3lK9qTVrKdfRetutUaBT_NONso', 'Content-Type': 'application/json'}
+2024-11-23 04:44:26,763 - DEBUG - Request params: {'skip': 0, 'limit': 10}
+2024-11-23 04:44:27,780 - DEBUG - Protected endpoint response status: 401
+2024-11-23 04:44:27,780 - DEBUG - Protected endpoint response headers: {'date': 'Sat, 23 Nov 2024 12:44:26 GMT', 'server': 'uvicorn', 'content-length': '26', 'content-type': 'application/json'}
+2024-11-23 04:44:27,780 - DEBUG - Protected endpoint response body: {"detail":"Invalid token"}
+2024-11-23 04:44:27,780 - ERROR - Protected endpoint error: {"detail":"Invalid token"}
+2024-11-23 04:44:27,780 - INFO - Testing token verification...
+2024-11-23 04:44:27,781 - DEBUG - Verification request headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsIm5hbWUiOiJzaGFyZWd1YXJkLmNvbVxcU2hhcmVHdWFyZFNlcnZpY2UiLCJleHAiOjE3MzI0NTIyNjYsImlhdCI6MTczMjM2NTg2Nn0.ia7KxC35zLi4vf0ta3lK9qTVrKdfRetutUaBT_NONso'}
+2024-11-23 04:44:28,802 - DEBUG - Verification response status: 401
+2024-11-23 04:44:28,802 - DEBUG - Verification response headers: {'date': 'Sat, 23 Nov 2024 12:44:27 GMT', 'server': 'uvicorn', 'content-length': '26', 'content-type': 'application/json'}
+2024-11-23 04:44:28,802 - DEBUG - Verification response body: {"detail":"Invalid token"}
+2024-11-23 04:44:28,803 - ERROR - Token verification failed: {"detail":"Invalid token"}
+2024-11-23 04:44:28,804 - INFO - Testing logout...
+2024-11-23 04:44:28,804 - DEBUG - Logout request headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsIm5hbWUiOiJzaGFyZWd1YXJkLmNvbVxcU2hhcmVHdWFyZFNlcnZpY2UiLCJleHAiOjE3MzI0NTIyNjYsImlhdCI6MTczMjM2NTg2Nn0.ia7KxC35zLi4vf0ta3lK9qTVrKdfRetutUaBT_NONso'}
+2024-11-23 04:44:29,827 - DEBUG - Logout response status: 401
+2024-11-23 04:44:29,827 - DEBUG - Logout response headers: {'date': 'Sat, 23 Nov 2024 12:44:29 GMT', 'server': 'uvicorn', 'content-length': '26', 'content-type': 'application/json'}
+2024-11-23 04:44:29,827 - DEBUG - Logout response body: {"detail":"Invalid token"}
+2024-11-23 04:44:29,828 - INFO - Verifying token is invalidated...
+2024-11-23 04:44:30,842 - DEBUG - Post-logout verification status: 401
+2024-11-23 05:52:04,163 - INFO - Attempting login...
+2024-11-23 05:52:04,163 - DEBUG - Auth data: {'username': 'ShareGuardService', 'domain': 'shareguard.com', 'password': 'P(5$\\#SX07sj'}
+2024-11-23 05:52:05,303 - DEBUG - Login response status: 200
+2024-11-23 05:52:05,303 - DEBUG - Login response headers: {'date': 'Sat, 23 Nov 2024 13:52:04 GMT', 'server': 'uvicorn', 'content-length': '409', 'content-type': 'application/json'}
+2024-11-23 05:52:05,303 - DEBUG - Login response body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6InNoYXJlZ3VhcmQuY29tXFxTaGFyZUd1YXJkU2VydmljZSIsImV4cCI6MTczMjQ1NjMyNSwiaWF0IjoxNzMyMzY5OTI1fQ.vBn8sdZcR6OHS8EROTdrRWZbXgHy68QGFTYMMewZxdo","token_type":"bearer","expires_at":"2024-11-24T13:52:05.293407","account":{"username":"ShareGuardService","domain":"shareguard.com","permissions":["scan:execute","scan:read","targets:read"]}}
+2024-11-23 05:52:05,304 - INFO - Login successful!
+2024-11-23 05:52:05,304 - DEBUG - Full token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6InNoYXJlZ3VhcmQuY29tXFxTaGFyZUd1YXJkU2VydmljZSIsImV4cCI6MTczMjQ1NjMyNSwiaWF0IjoxNzMyMzY5OTI1fQ.vBn8sdZcR6OHS8EROTdrRWZbXgHy68QGFTYMMewZxdo
+2024-11-23 05:52:05,305 - INFO - Testing protected endpoint access...
+2024-11-23 05:52:05,305 - DEBUG - Request headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6InNoYXJlZ3VhcmQuY29tXFxTaGFyZUd1YXJkU2VydmljZSIsImV4cCI6MTczMjQ1NjMyNSwiaWF0IjoxNzMyMzY5OTI1fQ.vBn8sdZcR6OHS8EROTdrRWZbXgHy68QGFTYMMewZxdo', 'Content-Type': 'application/json'}
+2024-11-23 05:52:05,305 - DEBUG - Request params: {'skip': 0, 'limit': 10}
+2024-11-23 05:52:06,624 - DEBUG - Protected endpoint response status: 500
+2024-11-23 05:52:06,624 - DEBUG - Protected endpoint response headers: {'date': 'Sat, 23 Nov 2024 13:52:05 GMT', 'server': 'uvicorn', 'content-length': '110', 'content-type': 'application/json'}
+2024-11-23 05:52:06,624 - DEBUG - Protected endpoint response body: {"detail":"Authorization error: MSSQL requires an order_by when using an OFFSET or a non-simple LIMIT clause"}
+2024-11-23 05:52:06,624 - ERROR - Protected endpoint error: {"detail":"Authorization error: MSSQL requires an order_by when using an OFFSET or a non-simple LIMIT clause"}
+2024-11-23 05:52:06,624 - INFO - Testing token verification...
+2024-11-23 05:52:06,624 - DEBUG - Verification request headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6InNoYXJlZ3VhcmQuY29tXFxTaGFyZUd1YXJkU2VydmljZSIsImV4cCI6MTczMjQ1NjMyNSwiaWF0IjoxNzMyMzY5OTI1fQ.vBn8sdZcR6OHS8EROTdrRWZbXgHy68QGFTYMMewZxdo'}
+2024-11-23 05:52:07,656 - DEBUG - Verification response status: 200
+2024-11-23 05:52:07,657 - DEBUG - Verification response headers: {'date': 'Sat, 23 Nov 2024 13:52:06 GMT', 'server': 'uvicorn', 'content-length': '183', 'content-type': 'application/json'}
+2024-11-23 05:52:07,657 - DEBUG - Verification response body: {"valid":true,"account":{"username":"ShareGuardService","domain":"shareguard.com","permissions":["scan:execute","scan:read","targets:read"]},"expires_at":"2024-11-24T13:52:05.293000"}
+2024-11-23 05:52:07,657 - INFO - Testing logout...
+2024-11-23 05:52:07,657 - DEBUG - Logout request headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6InNoYXJlZ3VhcmQuY29tXFxTaGFyZUd1YXJkU2VydmljZSIsImV4cCI6MTczMjQ1NjMyNSwiaWF0IjoxNzMyMzY5OTI1fQ.vBn8sdZcR6OHS8EROTdrRWZbXgHy68QGFTYMMewZxdo'}
+2024-11-23 05:52:08,682 - DEBUG - Logout response status: 200
+2024-11-23 05:52:08,682 - DEBUG - Logout response headers: {'date': 'Sat, 23 Nov 2024 13:52:07 GMT', 'server': 'uvicorn', 'content-length': '37', 'content-type': 'application/json'}
+2024-11-23 05:52:08,682 - DEBUG - Logout response body: {"message":"Logged out successfully"}
+2024-11-23 05:52:08,682 - INFO - Verifying token is invalidated...
+2024-11-23 05:52:09,711 - DEBUG - Post-logout verification status: 401

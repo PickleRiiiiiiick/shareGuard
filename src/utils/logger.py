@@ -8,7 +8,7 @@ def setup_logger(name: str) -> logging.Logger:
     """Set up and return a logger with file and console handlers."""
     # Create logger
     logger = logging.getLogger(name)
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.DEBUG)  # Set to DEBUG level for more details
     
     # Prevent duplicate handlers
     if logger.handlers:
@@ -18,12 +18,12 @@ def setup_logger(name: str) -> logging.Logger:
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
     
-    # Create formatters
+    # Create formatters with more detailed information
     file_formatter = logging.Formatter(
-        '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s'
     )
     console_formatter = logging.Formatter(
-        '%(levelname)s: %(message)s'
+        '%(levelname)s - %(message)s'
     )
     
     # File handler

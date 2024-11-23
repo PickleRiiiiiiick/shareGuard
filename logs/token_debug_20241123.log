@@ -1,0 +1,24 @@
+2024-11-23 05:31:36,019 - token_debug - INFO - [token_debug.py:84] - Starting token debugging...
+2024-11-23 05:31:37,083 - token_debug - INFO - [token_debug.py:29] - Testing manual token validation...
+2024-11-23 05:31:37,084 - token_debug - ERROR - [token_debug.py:37] - Manual token validation failed: Subject must be a string
+2024-11-23 05:31:37,380 - token_debug - INFO - [token_debug.py:45] - Checking database session...
+2024-11-23 05:31:37,425 - token_debug - INFO - [token_debug.py:52] - Found active session: 16
+2024-11-23 05:31:37,426 - token_debug - INFO - [token_debug.py:53] - Session expires at: 2024-11-24 13:31:37.077000
+2024-11-23 05:31:37,426 - token_debug - INFO - [token_debug.py:54] - Session is active: True
+2024-11-23 05:31:37,428 - token_debug - INFO - [token_debug.py:62] - Total sessions found for token: 1
+2024-11-23 05:31:37,428 - token_debug - INFO - [token_debug.py:64] - Session 16: active=True, expires=2024-11-24 13:31:37.077000
+2024-11-23 05:31:38,460 - token_debug - INFO - [token_debug.py:80] - Verification response: 401
+2024-11-23 05:31:38,460 - token_debug - INFO - [token_debug.py:81] - Verification body: {"detail":"Invalid token"}
+2024-11-23 05:31:38,461 - token_debug - INFO - [token_debug.py:86] - Token debugging complete
+2024-11-23 05:39:55,856 - token_debug - INFO - [token_debug.py:84] - Starting token debugging...
+2024-11-23 05:39:56,962 - token_debug - INFO - [token_debug.py:29] - Testing manual token validation...
+2024-11-23 05:39:56,963 - token_debug - INFO - [token_debug.py:35] - Manual token validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1732455596, 'iat': 1732369196}
+2024-11-23 05:39:57,271 - token_debug - INFO - [token_debug.py:45] - Checking database session...
+2024-11-23 05:39:57,316 - token_debug - INFO - [token_debug.py:52] - Found active session: 17
+2024-11-23 05:39:57,316 - token_debug - INFO - [token_debug.py:53] - Session expires at: 2024-11-24 13:39:56.947000
+2024-11-23 05:39:57,316 - token_debug - INFO - [token_debug.py:54] - Session is active: True
+2024-11-23 05:39:57,318 - token_debug - INFO - [token_debug.py:62] - Total sessions found for token: 1
+2024-11-23 05:39:57,318 - token_debug - INFO - [token_debug.py:64] - Session 17: active=True, expires=2024-11-24 13:39:56.947000
+2024-11-23 05:39:58,330 - token_debug - INFO - [token_debug.py:80] - Verification response: 200
+2024-11-23 05:39:58,330 - token_debug - INFO - [token_debug.py:81] - Verification body: {"valid":true,"account":{"username":"ShareGuardService","domain":"shareguard.com","permissions":["scan:execute","scan:read","targets:read"]},"expires_at":"2024-11-24T13:39:56.947000"}
+2024-11-23 05:39:58,331 - token_debug - INFO - [token_debug.py:86] - Token debugging complete

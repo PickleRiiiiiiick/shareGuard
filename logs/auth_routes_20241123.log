@@ -1,0 +1,62 @@
+2024-11-23 05:39:56,898 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 05:39:56,946 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 3
+2024-11-23 05:39:56,946 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 4
+2024-11-23 05:39:56,946 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 5
+2024-11-23 05:39:56,946 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 6
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 7
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 8
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 9
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 10
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 11
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 12
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 13
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 14
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 15
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 16
+2024-11-23 05:39:56,947 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 13, 39, 56, 947752), 'iat': datetime.datetime(2024, 11, 23, 13, 39, 56, 947767)}
+2024-11-23 05:39:56,961 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 05:39:58,327 - auth_routes - DEBUG - [auth_routes.py:152] - Processing token verification request
+2024-11-23 05:39:58,329 - auth_routes - INFO - [auth_routes.py:176] - Token verified successfully for ShareGuardService
+2024-11-23 05:52:05,269 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 05:52:05,291 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 17
+2024-11-23 05:52:05,291 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 13, 52, 5, 291305), 'iat': datetime.datetime(2024, 11, 23, 13, 52, 5, 291327)}
+2024-11-23 05:52:05,298 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 05:52:07,652 - auth_routes - DEBUG - [auth_routes.py:152] - Processing token verification request
+2024-11-23 05:52:07,654 - auth_routes - INFO - [auth_routes.py:176] - Token verified successfully for ShareGuardService
+2024-11-23 05:52:08,678 - auth_routes - INFO - [auth_routes.py:130] - Processing logout request
+2024-11-23 05:52:08,680 - auth_routes - DEBUG - [auth_routes.py:137] - Deactivating session 18
+2024-11-23 11:42:26,236 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 11:42:26,274 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 19, 42, 26, 273962), 'iat': datetime.datetime(2024, 11, 23, 19, 42, 26, 273983)}
+2024-11-23 11:42:26,280 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 11:42:49,228 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 11:42:49,265 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 19
+2024-11-23 11:42:49,265 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 19, 42, 49, 265331), 'iat': datetime.datetime(2024, 11, 23, 19, 42, 49, 265345)}
+2024-11-23 11:42:49,272 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 11:47:09,958 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 11:47:10,005 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 19, 47, 10, 5039), 'iat': datetime.datetime(2024, 11, 23, 19, 47, 10, 5056)}
+2024-11-23 11:47:10,011 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 11:47:10,018 - auth_routes - DEBUG - [auth_routes.py:152] - Processing token verification request
+2024-11-23 11:47:10,020 - auth_routes - INFO - [auth_routes.py:176] - Token verified successfully for ShareGuardService
+2024-11-23 12:05:00,212 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 12:05:00,260 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 20, 5, 0, 260201), 'iat': datetime.datetime(2024, 11, 23, 20, 5, 0, 260541)}
+2024-11-23 12:05:00,267 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 12:06:25,247 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 12:06:25,255 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 22
+2024-11-23 12:06:25,255 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 20, 6, 25, 255908), 'iat': datetime.datetime(2024, 11, 23, 20, 6, 25, 255921)}
+2024-11-23 12:06:25,279 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 12:35:19,195 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 12:35:19,238 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 23
+2024-11-23 12:35:19,239 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 20, 35, 19, 238954), 'iat': datetime.datetime(2024, 11, 23, 20, 35, 19, 239223)}
+2024-11-23 12:35:19,245 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 13:10:54,017 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 13:11:18,645 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 24
+2024-11-23 13:11:18,645 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 21, 11, 18, 645468), 'iat': datetime.datetime(2024, 11, 23, 21, 11, 18, 645803)}
+2024-11-23 13:11:18,652 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 13:11:31,130 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 13:11:31,177 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 25
+2024-11-23 13:11:31,177 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 21, 11, 31, 177650), 'iat': datetime.datetime(2024, 11, 23, 21, 11, 31, 177664)}
+2024-11-23 13:11:31,183 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService
+2024-11-23 13:14:34,120 - auth_routes - INFO - [auth_routes.py:63] - Login attempt for ShareGuardService@shareguard.com
+2024-11-23 13:14:34,156 - auth_routes - DEBUG - [auth_routes.py:88] - Deactivating existing session 26
+2024-11-23 13:14:34,156 - auth_routes - DEBUG - [auth_routes.py:54] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 11, 24, 21, 14, 34, 156921), 'iat': datetime.datetime(2024, 11, 23, 21, 14, 34, 156936)}
+2024-11-23 13:14:34,163 - auth_routes - INFO - [auth_routes.py:106] - Login successful for ShareGuardService

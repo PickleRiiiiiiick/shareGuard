@@ -1,0 +1,64 @@
+2024-11-23 05:17:03,096 - auth_diagnostic - INFO - [Auth_Diag.py:167] - Starting authentication test suite...
+2024-11-23 05:17:03,097 - auth_diagnostic - INFO - [Auth_Diag.py:168] - --------------------------------------------------
+2024-11-23 05:17:04,126 - auth_diagnostic - INFO - [Auth_Diag.py:50] - 
+=== Testing Login ===
+2024-11-23 05:17:04,127 - auth_diagnostic - DEBUG - [Auth_Diag.py:51] - Attempting login to http://localhost:8000/api/v1/auth/login
+2024-11-23 05:17:04,127 - auth_diagnostic - DEBUG - [Auth_Diag.py:52] - Using credentials for user: ShareGuardService@shareguard.com
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:27] - 
+-------------------- Request Details --------------------
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:28] - Method: POST
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:29] - URL: http://localhost:8000/api/v1/auth/login
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:30] - Headers:
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - User-Agent: python-requests/2.32.3
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Accept-Encoding: gzip, deflate
+2024-11-23 05:17:05,199 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Accept: */*
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Connection: keep-alive
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Content-Length: 90
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Content-Type: application/json
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:37] - Body:
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:40] - {
+  "username": "ShareGuardService",
+  "domain": "shareguard.com",
+  "password": "P(5$\\#SX07sj"
+}
+2024-11-23 05:17:05,200 - auth_diagnostic - INFO - [Auth_Diag.py:61] - Login Status: 200
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:62] - Login Response Headers: {'date': 'Sat, 23 Nov 2024 13:17:05 GMT', 'server': 'uvicorn', 'content-length': '406', 'content-type': 'application/json'}
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:63] - Login Response Body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsIm5hbWUiOiJzaGFyZWd1YXJkLmNvbVxcU2hhcmVHdWFyZFNlcnZpY2UiLCJleHAiOjE3MzI0NTQyMjUsImlhdCI6MTczMjM2NzgyNX0.N-gum_0EIWydJnRK4zlptnTvdSiu-weQ1GLv7gDIwnQ","token_type":"bearer","expires_at":"2024-11-24T13:17:05.192392","account":{"username":"ShareGuardService","domain":"shareguard.com","permissions":["scan:execute","scan:read","targets:read"]}}
+2024-11-23 05:17:05,200 - auth_diagnostic - INFO - [Auth_Diag.py:72] - Successfully obtained access token
+2024-11-23 05:17:05,200 - auth_diagnostic - INFO - [Auth_Diag.py:75] - 
+=== Token Analysis ===
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:17] - Attempting to decode token...
+2024-11-23 05:17:05,200 - auth_diagnostic - DEBUG - [Auth_Diag.py:19] - Token decoded successfully
+2024-11-23 05:17:05,200 - auth_diagnostic - INFO - [Auth_Diag.py:77] - Decoded token payload:
+2024-11-23 05:17:05,201 - auth_diagnostic - DEBUG - [Auth_Diag.py:78] - {
+  "sub": 1,
+  "name": "shareguard.com\\ShareGuardService",
+  "exp": 1732454225,
+  "iat": 1732367825
+}
+2024-11-23 05:17:05,201 - auth_diagnostic - INFO - [Auth_Diag.py:82] - Analyzing token expiration:
+2024-11-23 05:17:05,201 - auth_diagnostic - DEBUG - [Auth_Diag.py:83] - Current time (UTC): 1732396625.201658
+2024-11-23 05:17:05,201 - auth_diagnostic - DEBUG - [Auth_Diag.py:84] - Token exp time: 1732454225
+2024-11-23 05:17:05,201 - auth_diagnostic - INFO - [Auth_Diag.py:86] - Token expires in: 16.00 hours
+2024-11-23 05:17:06,202 - auth_diagnostic - INFO - [Auth_Diag.py:92] - 
+=== Testing Token Verification ===
+2024-11-23 05:17:06,202 - auth_diagnostic - DEBUG - [Auth_Diag.py:94] - Sending verification request...
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:27] - 
+-------------------- Request Details --------------------
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:28] - Method: GET
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:29] - URL: http://localhost:8000/api/v1/auth/verify
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:30] - Headers:
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - User-Agent: python-requests/2.32.3
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Accept-Encoding: gzip, deflate
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Accept: */*
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:35] - Connection: keep-alive
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:33] - Authorization: Bearer <token-truncated>
+2024-11-23 05:17:06,207 - auth_diagnostic - INFO - [Auth_Diag.py:103] - Verification Status: 401
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:104] - Verification Headers: {'date': 'Sat, 23 Nov 2024 13:17:06 GMT', 'server': 'uvicorn', 'content-length': '26', 'content-type': 'application/json'}
+2024-11-23 05:17:06,207 - auth_diagnostic - DEBUG - [Auth_Diag.py:105] - Verification Body: {"detail":"Invalid token"}
+2024-11-23 05:17:06,207 - auth_diagnostic - ERROR - [Auth_Diag.py:108] - Token verification failed
+2024-11-23 05:17:06,208 - auth_diagnostic - ERROR - [Auth_Diag.py:111] - Error details: {
+  "detail": "Invalid token"
+}
+2024-11-23 05:17:06,208 - auth_diagnostic - INFO - [Auth_Diag.py:180] - --------------------------------------------------
+2024-11-23 05:17:06,208 - auth_diagnostic - ERROR - [Auth_Diag.py:185] - Test suite failed!

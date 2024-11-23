@@ -1,10 +1,12 @@
-# src/app.py
+# src/app.p
+from fastapi.responses import JSONResponse
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api.routes import scan_routes, target_routes
+from api.routes import scan_routes, target_routes, auth_routes
 from db.database import init_db
 from core.scanner import ShareGuardScanner
 from config.settings import API_CONFIG
+from api.middleware.auth import AuthMiddleware
 
 # Create FastAPI app
 app = FastAPI(
@@ -13,7 +15,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Add CORS middleware
+# Add middlewares
 app.add_middleware(
     CORSMiddleware,
     allow_origins=API_CONFIG['cors_origins'],
@@ -21,11 +23,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.middleware("http")(AuthMiddleware())
 
 # Initialize scanner
 scanner = ShareGuardScanner()
 
-# Include all routers
+# Include routers
+app.include_router(auth_routes.router)
 app.include_router(scan_routes.router)
 app.include_router(target_routes.router)
 
@@ -38,13 +42,6 @@ def read_root():
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
-
-# Cache management endpoints
-@app.post("/api/v1/cache/clear", tags=["cache"])
-async def clear_cache():
-    """Clear the scanner's group resolver cache."""
-    scanner.group_resolver.clear_cache()
-    return {"message": "Cache cleared successfully"}
 
 # Initialize database on startup
 @app.on_event("startup")
