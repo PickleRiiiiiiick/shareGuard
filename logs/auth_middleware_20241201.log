@@ -1,0 +1,144 @@
+2024-12-01 02:49:16,708 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /docs
+2024-12-01 02:49:16,708 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 02:49:16,709 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 02:49:16,709 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 02:49:16,756 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 02:49:16,756 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 02:49:16,757 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 02:49:16,757 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 06:33:11,083 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 06:33:11,086 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 06:33:11,087 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 06:33:11,087 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 06:33:30,217 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 06:33:30,217 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 06:33:30,217 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 06:33:30,217 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 06:34:44,542 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 06:34:44,543 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 06:34:44,543 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 06:34:44,544 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:40:55,824 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /docs
+2024-12-01 09:40:55,825 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:40:55,825 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:40:55,825 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:40:55,916 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 09:40:55,917 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:40:55,917 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:40:55,917 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:41:03,277 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/api/v1/auth/login
+2024-12-01 09:41:03,277 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:41:03,278 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:41:03,278 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:41:29,502 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /docs
+2024-12-01 09:41:29,502 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:41:29,502 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:41:29,503 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:41:29,524 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 09:41:29,524 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:41:29,524 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:41:29,524 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:42:02,754 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /api/v1/api/v1/auth/login
+2024-12-01 09:42:02,755 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:42:02,755 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:42:02,755 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:42:44,630 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /docs
+2024-12-01 09:42:44,630 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:42:44,631 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:42:44,632 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:42:44,657 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 09:42:44,658 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:42:44,663 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:42:44,663 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:50:02,661 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /docs
+2024-12-01 09:50:02,661 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:50:02,661 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:50:02,662 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:50:02,698 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 09:50:02,698 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:50:02,698 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:50:02,698 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:50:08,467 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /docs
+2024-12-01 09:50:08,467 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:50:08,468 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:50:08,468 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 09:50:08,482 - auth_middleware - DEBUG - [auth.py:163] - Processing request to /favicon.ico
+2024-12-01 09:50:08,482 - auth_middleware - DEBUG - [auth.py:164] - Auth header: None
+2024-12-01 09:50:08,482 - auth_middleware - WARNING - [auth.py:167] - No Authorization header in request
+2024-12-01 09:50:08,483 - auth_middleware - ERROR - [auth.py:188] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 10:15:43,136 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /docs
+2024-12-01 10:15:43,136 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /docs
+2024-12-01 10:15:49,435 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /docs
+2024-12-01 10:15:49,435 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /docs
+2024-12-01 10:16:09,798 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /openapi.json
+2024-12-01 10:16:09,798 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /openapi.json
+2024-12-01 10:34:34,073 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /docs
+2024-12-01 10:34:34,074 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /docs
+2024-12-01 10:34:36,594 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /docs
+2024-12-01 10:34:36,594 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /docs
+2024-12-01 10:34:45,986 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /openapi.json
+2024-12-01 10:34:45,986 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /openapi.json
+2024-12-01 10:35:49,922 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 10:35:49,923 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 10:43:40,544 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /docs
+2024-12-01 10:43:40,545 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /docs
+2024-12-01 10:43:40,716 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /openapi.json
+2024-12-01 10:43:40,716 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /openapi.json
+2024-12-01 10:44:00,421 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /
+2024-12-01 10:44:00,421 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /
+2024-12-01 10:44:00,462 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /assets/index-CWdFXcUn.js
+2024-12-01 10:44:00,462 - auth_middleware - DEBUG - [auth.py:178] - Auth header: None
+2024-12-01 10:44:00,463 - auth_middleware - WARNING - [auth.py:181] - No Authorization header in request for path: /assets/index-CWdFXcUn.js
+2024-12-01 10:44:00,463 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 10:44:00,465 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /assets/index-DBZ7WpYe.css
+2024-12-01 10:44:00,466 - auth_middleware - DEBUG - [auth.py:178] - Auth header: None
+2024-12-01 10:44:00,466 - auth_middleware - WARNING - [auth.py:181] - No Authorization header in request for path: /assets/index-DBZ7WpYe.css
+2024-12-01 10:44:00,469 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 10:44:00,474 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /favicon.ico
+2024-12-01 10:44:00,474 - auth_middleware - DEBUG - [auth.py:178] - Auth header: None
+2024-12-01 10:44:00,474 - auth_middleware - WARNING - [auth.py:181] - No Authorization header in request for path: /favicon.ico
+2024-12-01 10:44:00,475 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 10:44:14,213 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 10:44:14,214 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 10:58:07,366 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 10:58:07,366 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 11:06:09,543 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 11:06:09,544 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 11:08:56,871 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 11:08:56,872 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 11:09:17,401 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/verify
+2024-12-01 11:09:17,401 - auth_middleware - DEBUG - [auth.py:178] - Auth header: None
+2024-12-01 11:09:17,404 - auth_middleware - WARNING - [auth.py:181] - No Authorization header in request for path: /api/v1/auth/verify
+2024-12-01 11:09:17,405 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 11:15:10,897 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 11:15:10,898 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 11:49:09,850 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/api/v1/scan/path
+2024-12-01 11:49:09,850 - auth_middleware - DEBUG - [auth.py:178] - Auth header: None
+2024-12-01 11:49:09,851 - auth_middleware - WARNING - [auth.py:181] - No Authorization header in request for path: /api/v1/api/v1/scan/path
+2024-12-01 11:49:09,851 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Authentication required
+2024-12-01 11:49:33,664 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 11:49:33,664 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 11:49:40,687 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 11:49:40,688 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 11:50:04,550 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/api/v1/scan/path
+2024-12-01 11:50:04,551 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-01 11:50:04,554 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-01 11:50:04,555 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-01 11:50:04,557 - auth_middleware - WARNING - [auth.py:33] - No active session found
+2024-12-01 11:50:04,557 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Invalid token
+2024-12-01 11:50:06,258 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/api/v1/scan/path
+2024-12-01 11:50:06,258 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-01 11:50:06,262 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-01 11:50:06,262 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-01 11:50:06,264 - auth_middleware - WARNING - [auth.py:33] - No active session found
+2024-12-01 11:50:06,265 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Invalid token
+2024-12-01 11:59:03,588 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/api/v1/scan/clear-cache
+2024-12-01 11:59:03,589 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-01 11:59:03,600 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-01 11:59:03,601 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-01 11:59:03,609 - auth_middleware - WARNING - [auth.py:33] - No active session found
+2024-12-01 11:59:03,612 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Invalid token
+2024-12-01 11:59:13,978 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 11:59:13,979 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:01:22,614 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:01:22,615 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login

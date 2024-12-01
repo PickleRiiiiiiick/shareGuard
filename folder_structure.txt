@@ -1,0 +1,155 @@
++--- alembic.ini
++--- api_test.py
++--- Auth_Diag.py
++--- auth_validation_test.py
++--- folder_structure.txt
++--- package-lock.json
++--- requirements-db.txt
++--- test_api.py
++--- test_auth.py
++--- test_basic_scanning.py
++--- test_user_access.py
++--- Test-GroupResolver.ps1
++--- token_debug.py
++--- update_permissions.py
++--- config
+    +--- __init__.py
+    \--- settings.py
++--- src
+    +--- __init__.py
+    +--- app.py
+    +--- api
+    |   +--- __init__.py
+    |   +--- schemas.py
+    |   +--- middleware
+    |   |   \--- auth.py
+    |   +--- models
+    |   |   \--- __init__.py
+    |   \--- routes
+    |   |   +--- __init__.py
+    |   |   +--- auth_routes.py
+    |   |   +--- cache_routes.py
+    |   |   +--- folder_routes.py
+    |   |   +--- scan_routes.py
+    |   |   +--- target_routes.py
+    |   |   \--- user_routes.py
+    +--- core
+    |   +--- __init__.py
+    |   \--- scanner.py
+    +--- db
+    |   +--- __init__.py
+    |   +--- database.py
+    |   +--- models.py
+    |   \--- models
+    |   |   +--- __init__.py
+    |   |   +--- alerts.py
+    |   |   +--- auth.py
+    |   |   +--- base.py
+    |   |   +--- cache.py
+    |   |   +--- changes.py
+    |   |   +--- enums.py
+    |   |   \--- scan.py
+    +--- scanner
+    |   +--- __init__.py
+    |   +--- file_scanner.py
+    |   \--- group_resolver.py
+    +--- utils
+    |   +--- __init__.py
+    |   \--- logger.py
+    \--- web
+    |   +--- index.html
+    |   +--- package.json
+    |   +--- package-lock.json
+    |   +--- postcss.config.js
+    |   +--- tailwind.config.js
+    |   +--- tsconfig.json
+    |   +--- tsconfig.node.json
+    |   +--- vite.config.ts
+    |   +--- dist
+    |       +--- index.html
+    |       \--- assets
+    |       |   +--- index-CWdFXcUn.js
+    |       |   \--- index-DBZ7WpYe.css
+    |   +--- src
+    |       +--- App.tsx
+    |       +--- main.tsx
+    |       +--- vite-env.d.ts
+    |       +--- api
+    |       |   +--- auth.ts
+    |       |   +--- cache.ts
+    |       |   +--- folders.ts
+    |       |   +--- scan.ts
+    |       |   \--- targets.ts
+    |       +--- components
+    |       |   +--- auth
+    |       |   |   +--- LoginForm.tsx
+    |       |   |   \--- ProtectedRoute.tsx
+    |       |   +--- common
+    |       |   |   +--- ErrorBoundary.tsx
+    |       |   |   +--- LoadingSpinner.tsx
+    |       |   |   +--- Navbar.tsx
+    |       |   |   \--- Sidebar.tsx
+    |       |   +--- dashboard
+    |       |   |   +--- DashboardLayout.tsx
+    |       |   |   +--- RecentScansTable.tsx
+    |       |   |   +--- ScanStatusWidget.tsx
+    |       |   |   \--- SystemHealthWidget.tsx
+    |       |   +--- permissions
+    |       |   |   +--- AccessViewer.tsx
+    |       |   |   +--- FolderPermissionsDrawer.tsx
+    |       |   |   +--- FolderTree.tsx
+    |       |   |   +--- PermissionBadge.tsx
+    |       |   |   +--- PermissionHistoryTable.tsx
+    |       |   |   +--- PermissionMatrix.tsx
+    |       |   |   \--- UserAccessPanel.tsx
+    |       |   \--- scanning
+    |       |   |   +--- NewScanForm.tsx
+    |       |   |   +--- NewTargetButton.tsx
+    |       |   |   +--- ScanResultsViewer.tsx
+    |       |   |   +--- ScanTargetFilters.tsx
+    |       |   |   +--- ScanTargetList.tsx
+    |       |   |   +--- ScanTargetRow.tsx
+    |       |   |   +--- TargetDetailsModal.tsx
+    |       |   |   \--- TargetEditForm.tsx
+    |       +--- config
+    |       |   \--- api.ts
+    |       +--- contexts
+    |       |   +--- AlertContext.tsx
+    |       |   \--- AuthContext.tsx
+    |       +--- hooks
+    |       |   +--- useAuth.ts
+    |       |   +--- useFolders.ts
+    |       |   +--- usePermissionHistory.ts
+    |       |   +--- usePermissions.ts
+    |       |   +--- useScan.ts
+    |       |   \--- useTargets.ts
+    |       +--- pages
+    |       |   +--- Dashboard.tsx
+    |       |   \--- Permissions.tsx
+    |       +--- types
+    |       |   +--- auth.ts
+    |       |   +--- enums.ts
+    |       |   +--- folder.ts
+    |       |   +--- history.ts
+    |       |   +--- permissions.ts
+    |       |   +--- scan.ts
+    |       |   \--- target.ts
+    |       \--- utils
+    |       |   \--- formatters.ts
+    |   +--- static
+    |       +--- css
+    |       |   +--- __init__.py
+    |       |   \--- tailwind.css
+    |       \--- js
+    |       |   +--- __init__.py
+    |       |   \--- main.ts
+    |   \--- templates
+    |       +--- __init__.py
+    |       \--- index.html
+\--- tests
+    +--- test_api
+        \--- __init__.py
+    +--- test_core
+        \--- __init__.py
+    \--- test_scanner
+        \--- __init__.py

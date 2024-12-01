@@ -2,7 +2,7 @@
 import os
 from typing import Dict, Any
 
-# Scanner settings (keeping existing configuration)
+# Scanner settings
 SCANNER_CONFIG = {
     "max_depth": 5,            
     "batch_size": 1000,        
@@ -12,17 +12,26 @@ SCANNER_CONFIG = {
         "C:\\Program Files\\",
         "C:\\Program Files (x86)\\"
     ],
-    "require_approved_targets": False  # Add this line to temporarily disable the requirement
+    "require_approved_targets": False
 }
 
-# API settings (keeping existing configuration)
+# API settings
 API_CONFIG = {
     "host": "0.0.0.0",
     "port": 8000,
     "debug": False,
     "workers": 4,
     "timeout": 60,
-    "cors_origins": ["*"]
+    "cors_origins": [
+        "http://localhost:5173",    # Development server
+        "http://localhost:8000",    # Production/Static serving
+        "http://127.0.0.1:5173",    # Alternative development URL
+        "http://127.0.0.1:8000"     # Alternative production URL
+    ],
+    "allowed_hosts": [
+        "localhost",
+        "127.0.0.1"
+    ]
 }
 
 # Enhanced Database settings
@@ -35,7 +44,7 @@ DB_CONFIG = {
     "password": os.getenv('DB_PASSWORD', 'YourStrongPassword123!'),
     "trusted_connection": os.getenv('DB_USE_WINDOWS_AUTH', 'true').lower() == 'true',
     
-    # Pool settings (keeping existing values)
+    # Pool settings
     "pool_size": int(os.getenv('DB_POOL_SIZE', '5')),
     "max_overflow": int(os.getenv('DB_MAX_OVERFLOW', '10')),
     "timeout": int(os.getenv('DB_TIMEOUT', '30')),
@@ -74,7 +83,7 @@ def get_db_url() -> str:
 # Update DB_CONFIG with the connection URL
 DB_CONFIG['url'] = get_db_url()
 
-# Logging settings (keeping existing configuration)
+# Logging settings
 LOG_CONFIG = {
     "level": "INFO",
     "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -83,9 +92,16 @@ LOG_CONFIG = {
     "backup_count": 5
 }
 
-# Security settings (keeping existing configuration)
+# Security settings
 SECURITY_CONFIG = {
     "secret_key": os.getenv('SECRET_KEY', 'your-secret-key-here'),
     "token_expire_minutes": 1440,  # 24 hours
-    "algorithm": "HS256"
+    "algorithm": "HS256",
+    # Added security headers
+    "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+    }
 }

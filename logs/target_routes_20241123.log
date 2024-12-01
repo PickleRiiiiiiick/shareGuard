@@ -13,3 +13,14 @@ Traceback (most recent call last):
 pydantic.errors.PydanticUserError: You must set the config attribute `from_attributes=True` to use from_orm
 2024-11-23 13:11:33,275 - target_routes - DEBUG - [target_routes.py:138] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=True
 2024-11-23 13:11:33,278 - target_routes - DEBUG - [target_routes.py:162] - Retrieved 3 targets
+2024-11-23 13:30:47,529 - target_routes - DEBUG - [target_routes.py:67] - Attempting to create target: Test-Target-20241123133047
+2024-11-23 13:30:47,553 - target_routes - INFO - [target_routes.py:110] - Successfully created target: Test-Target-20241123133047
+2024-11-23 13:30:47,562 - target_routes - DEBUG - [target_routes.py:138] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=False
+2024-11-23 13:30:47,564 - target_routes - DEBUG - [target_routes.py:162] - Retrieved 4 targets
+2024-11-23 13:30:47,576 - target_routes - DEBUG - [target_routes.py:204] - Retrieving target with ID: 4
+2024-11-23 13:30:47,596 - target_routes - DEBUG - [target_routes.py:299] - Disabling target with ID: 4
+2024-11-23 13:30:47,600 - target_routes - INFO - [target_routes.py:307] - Successfully disabled target: 4
+2024-11-23 13:30:47,609 - target_routes - DEBUG - [target_routes.py:330] - Enabling target with ID: 4 with frequency: daily
+2024-11-23 13:30:47,611 - target_routes - INFO - [target_routes.py:338] - Successfully enabled target: 4 with frequency: daily
+2024-11-23 13:30:47,619 - target_routes - DEBUG - [target_routes.py:270] - Deleting target with ID: 4
+2024-11-23 13:30:47,632 - target_routes - INFO - [target_routes.py:278] - Successfully deleted target: 4

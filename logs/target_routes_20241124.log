@@ -1,0 +1,26 @@
+2024-11-24 02:05:30,527 - target_routes - DEBUG - [target_routes.py:67] - Attempting to create target: Test-Target-20241124020530
+2024-11-24 02:05:30,536 - target_routes - INFO - [target_routes.py:110] - Successfully created target: Test-Target-20241124020530
+2024-11-24 02:05:30,545 - target_routes - DEBUG - [target_routes.py:138] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=False
+2024-11-24 02:05:30,548 - target_routes - DEBUG - [target_routes.py:162] - Retrieved 4 targets
+2024-11-24 02:05:30,556 - target_routes - DEBUG - [target_routes.py:204] - Retrieving target with ID: 5
+2024-11-24 02:05:30,598 - target_routes - DEBUG - [target_routes.py:299] - Disabling target with ID: 5
+2024-11-24 02:05:30,600 - target_routes - INFO - [target_routes.py:307] - Successfully disabled target: 5
+2024-11-24 02:05:30,608 - target_routes - DEBUG - [target_routes.py:330] - Enabling target with ID: 5 with frequency: daily
+2024-11-24 02:05:30,610 - target_routes - INFO - [target_routes.py:338] - Successfully enabled target: 5 with frequency: daily
+2024-11-24 02:05:30,617 - target_routes - DEBUG - [target_routes.py:270] - Deleting target with ID: 5
+2024-11-24 02:05:30,624 - target_routes - INFO - [target_routes.py:278] - Successfully deleted target: 5
+2024-11-24 02:14:22,646 - target_routes - DEBUG - [target_routes.py:67] - Attempting to create target: Test-Target-20241124021422
+2024-11-24 02:14:22,656 - target_routes - INFO - [target_routes.py:110] - Successfully created target: Test-Target-20241124021422
+2024-11-24 02:14:22,664 - target_routes - DEBUG - [target_routes.py:138] - Listing targets with params: skip=0, limit=10, sort_by=name, sort_desc=False
+2024-11-24 02:14:22,666 - target_routes - DEBUG - [target_routes.py:162] - Retrieved 4 targets
+2024-11-24 02:14:22,674 - target_routes - DEBUG - [target_routes.py:204] - Retrieving target with ID: 6
+2024-11-24 02:14:22,683 - target_routes - DEBUG - [target_routes.py:204] - Retrieving target with ID: 6
+2024-11-24 02:14:22,695 - target_routes - DEBUG - [target_routes.py:230] - Updating target with ID: 6
+2024-11-24 02:14:22,699 - target_routes - INFO - [target_routes.py:248] - Successfully updated target: 6
+2024-11-24 02:14:22,706 - target_routes - DEBUG - [target_routes.py:204] - Retrieving target with ID: 6
+2024-11-24 02:14:22,716 - target_routes - DEBUG - [target_routes.py:299] - Disabling target with ID: 6
+2024-11-24 02:14:22,718 - target_routes - INFO - [target_routes.py:307] - Successfully disabled target: 6
+2024-11-24 02:14:22,725 - target_routes - DEBUG - [target_routes.py:330] - Enabling target with ID: 6 with frequency: daily
+2024-11-24 02:14:22,727 - target_routes - INFO - [target_routes.py:338] - Successfully enabled target: 6 with frequency: daily
+2024-11-24 02:14:22,735 - target_routes - DEBUG - [target_routes.py:270] - Deleting target with ID: 6
+2024-11-24 02:14:22,742 - target_routes - INFO - [target_routes.py:278] - Successfully deleted target: 6

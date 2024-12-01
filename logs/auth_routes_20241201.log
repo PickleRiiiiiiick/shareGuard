@@ -1,0 +1,44 @@
+2024-12-01 10:35:49,926 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 10:35:49,927 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 10:35:49,974 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 31
+2024-12-01 10:35:49,975 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 12, 2, 18, 35, 49, 975024), 'iat': datetime.datetime(2024, 12, 1, 18, 35, 49, 975293)}
+2024-12-01 10:35:49,983 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2024-12-01 10:44:14,219 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 10:44:14,220 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 10:44:14,232 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2024-12-01 10:44:14,232 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2024-12-01 10:58:07,370 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 10:58:07,371 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 10:58:07,383 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2024-12-01 10:58:07,383 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2024-12-01 11:06:09,548 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 11:06:09,549 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 11:06:09,561 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2024-12-01 11:06:09,561 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2024-12-01 11:08:56,878 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 11:08:56,879 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 11:08:56,927 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 32
+2024-12-01 11:08:56,928 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 12, 2, 19, 8, 56, 927724), 'iat': datetime.datetime(2024, 12, 1, 19, 8, 56, 928085)}
+2024-12-01 11:08:56,935 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2024-12-01 11:15:10,902 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 11:15:10,902 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 11:15:10,913 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2024-12-01 11:15:10,913 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2024-12-01 11:49:33,672 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 11:49:33,677 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 11:49:33,722 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 33
+2024-12-01 11:49:33,722 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 12, 2, 19, 49, 33, 722887), 'iat': datetime.datetime(2024, 12, 1, 19, 49, 33, 722910)}
+2024-12-01 11:49:33,731 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2024-12-01 11:49:40,705 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 11:49:40,706 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 11:49:40,724 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 34
+2024-12-01 11:49:40,724 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2024, 12, 2, 19, 49, 40, 724752), 'iat': datetime.datetime(2024, 12, 1, 19, 49, 40, 724765)}
+2024-12-01 11:49:40,730 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2024-12-01 11:59:13,984 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 11:59:13,985 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 11:59:13,997 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2024-12-01 11:59:13,998 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2024-12-01 12:01:22,622 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2024-12-01 12:01:22,623 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2024-12-01 12:01:22,637 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2024-12-01 12:01:22,638 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService

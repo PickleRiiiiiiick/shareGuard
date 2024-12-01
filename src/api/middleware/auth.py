@@ -153,18 +153,32 @@ def require_permissions(required_permissions: List[str]):
 class AuthMiddleware:
     """Middleware for handling authentication on all routes"""
     
+    PUBLIC_ROUTES = {
+        "/api/v1/auth/login",
+        "/health",
+        "/",
+        "/docs",
+        "/openapi.json",
+        "/swagger-ui.css",
+        "/swagger-ui-bundle.js",
+        "/redoc",
+    }
+    
     async def __call__(self, request: Request, call_next):
         try:
-            # Skip auth for public endpoints
-            if request.url.path in ["/api/v1/auth/login", "/health", "/"]:
+            path = request.url.path
+            logger.debug(f"Processing request to: {path}")
+            
+            # Check if path is public
+            if path in self.PUBLIC_ROUTES or path.startswith(("/docs/", "/redoc/", "/openapi.")):
+                logger.debug(f"Allowing access to public route: {path}")
                 return await call_next(request)
 
             auth_header = request.headers.get('Authorization')
-            logger.debug(f"Processing request to {request.url.path}")
             logger.debug(f"Auth header: {auth_header[:20] if auth_header else None}")
 
             if not auth_header:
-                logger.warning("No Authorization header in request")
+                logger.warning(f"No Authorization header in request for path: {path}")
                 raise HTTPException(401, "Authentication required")
 
             # Validate bearer token format

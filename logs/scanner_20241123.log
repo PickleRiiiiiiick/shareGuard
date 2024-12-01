@@ -80,3 +80,5 @@
 2024-11-23 13:11:27,330 - scanner - INFO - [file_scanner.py:59] - PermissionScanner initialized with categorized Windows permissions
 2024-11-23 13:14:19,261 - scanner - INFO - [file_scanner.py:59] - PermissionScanner initialized with categorized Windows permissions
 2024-11-23 13:14:19,289 - scanner - INFO - [file_scanner.py:59] - PermissionScanner initialized with categorized Windows permissions
+2024-11-23 13:30:40,871 - scanner - INFO - [file_scanner.py:59] - PermissionScanner initialized with categorized Windows permissions
+2024-11-23 13:30:40,899 - scanner - INFO - [file_scanner.py:59] - PermissionScanner initialized with categorized Windows permissions
