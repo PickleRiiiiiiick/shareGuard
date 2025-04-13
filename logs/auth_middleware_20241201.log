@@ -142,3 +142,71 @@
 2024-12-01 11:59:13,979 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
 2024-12-01 12:01:22,614 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
 2024-12-01 12:01:22,615 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:14:42,031 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:14:42,031 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:21:35,471 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:21:35,472 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:21:53,874 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/logout
+2024-12-01 12:21:53,874 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-01 12:21:53,874 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-01 12:21:53,875 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-01 12:21:53,877 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 36
+2024-12-01 12:21:53,877 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-12-02 20:21:35.530000
+2024-12-01 12:21:53,877 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-12-01 12:21:53,878 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1733170895, 'iat': 1733084495}
+2024-12-01 12:21:53,878 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-12-01 12:21:53,887 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-12-01 12:21:57,450 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:21:57,450 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:21:59,773 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/logout
+2024-12-01 12:21:59,774 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-01 12:21:59,776 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-01 12:21:59,776 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-01 12:21:59,777 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 37
+2024-12-01 12:21:59,778 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-12-02 20:21:57.463000
+2024-12-01 12:21:59,778 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-12-01 12:21:59,778 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1733170917, 'iat': 1733084517}
+2024-12-01 12:21:59,779 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-12-01 12:21:59,780 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-12-01 12:22:03,024 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:22:03,025 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:22:18,071 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:22:18,071 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-01 12:22:19,341 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-01 12:22:19,341 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-04 10:24:28,144 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/verify
+2024-12-04 10:24:28,176 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-04 10:24:28,192 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-04 10:24:28,209 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-04 10:24:28,534 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 39
+2024-12-04 10:24:28,536 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-12-02 20:22:19.357000
+2024-12-04 10:24:28,538 - auth_middleware - WARNING - [auth.py:41] - Session has expired
+2024-12-04 10:24:28,588 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Token expired
+2024-12-04 10:24:28,629 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/verify
+2024-12-04 10:24:28,630 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-04 10:24:28,630 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-04 10:24:28,630 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-04 10:24:28,633 - auth_middleware - WARNING - [auth.py:33] - No active session found
+2024-12-04 10:24:28,634 - auth_middleware - ERROR - [auth.py:202] - HTTP error in middleware: 401 - Invalid token
+2024-12-04 10:24:32,232 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/login
+2024-12-04 10:24:32,233 - auth_middleware - DEBUG - [auth.py:174] - Allowing access to public route: /api/v1/auth/login
+2024-12-04 10:28:04,283 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/verify
+2024-12-04 10:28:04,285 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-04 10:28:04,291 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-04 10:28:04,292 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-04 10:28:04,318 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 40
+2024-12-04 10:28:04,319 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-12-05 18:24:32.527000
+2024-12-04 10:28:04,321 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-12-04 10:28:04,331 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1733423072, 'iat': 1733336672}
+2024-12-04 10:28:04,331 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-12-04 10:28:04,379 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2024-12-04 10:28:04,420 - auth_middleware - DEBUG - [auth.py:170] - Processing request to: /api/v1/auth/verify
+2024-12-04 10:28:04,420 - auth_middleware - DEBUG - [auth.py:178] - Auth header: Bearer eyJhbGciOiJIU
+2024-12-04 10:28:04,421 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2024-12-04 10:28:04,424 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2024-12-04 10:28:04,426 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 40
+2024-12-04 10:28:04,426 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2024-12-05 18:24:32.527000
+2024-12-04 10:28:04,427 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2024-12-04 10:28:04,427 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1733423072, 'iat': 1733336672}
+2024-12-04 10:28:04,428 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2024-12-04 10:28:04,430 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService

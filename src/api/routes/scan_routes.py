@@ -12,7 +12,7 @@ from pathlib import Path
 from config.settings import SCANNER_CONFIG
 
 router = APIRouter(
-    prefix="/api/v1/scan",
+    prefix="/scan",
     tags=["scanning"],
     dependencies=[Depends(security)]
 )
