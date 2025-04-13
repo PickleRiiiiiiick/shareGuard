@@ -1,4 +1,5 @@
-import { useState, useCallback } from 'react';
+// src/web/src/components/permissions/FolderTree.tsx
+import { useState, useCallback, useEffect } from 'react';
 import { useFolderStructure } from '@/hooks/useFolders';
 import { FolderStructure, FolderTreeOptions } from '@/types/folder';
 import { LoadingSpinner } from '@components/common/LoadingSpinner';
@@ -19,13 +20,24 @@ interface FolderTreeProps {
 }
 
 export function FolderTree({ rootPath, options, onFolderSelect }: FolderTreeProps) {
+    const [customRootPath, setCustomRootPath] = useState(rootPath);
+    const [currentRootPath, setCurrentRootPath] = useState(rootPath);
     const [expandedPaths, setExpandedPaths] = useState<Set<string>>(
         new Set(options?.expandedPaths || [])
     );
     const [selectedPath, setSelectedPath] = useState<string | null>(null);
     const [showPermissions, setShowPermissions] = useState(false);
 
-    const { data: structure, isLoading, error } = useFolderStructure(rootPath, options);
+    const { data, isLoading, error, refetch } = useFolderStructure(currentRootPath, options);
+    
+    // Extract structure from response if needed
+    const structure = data?.structure || data;
+
+    const handleBrowse = (e: React.FormEvent) => {
+        e.preventDefault();
+        setCurrentRootPath(customRootPath);
+        refetch();
+    };
 
     const handleToggle = useCallback((path: string) => {
         setExpandedPaths(prev => {
@@ -110,30 +122,6 @@ export function FolderTree({ rootPath, options, onFolderSelect }: FolderTreeProp
         );
     }, [expandedPaths, selectedPath, handleToggle, handleSelect]);
 
-    if (isLoading) {
-        return (
-            <div className="flex justify-center items-center h-64">
-                <LoadingSpinner />
-            </div>
-        );
-    }
-
-    if (error) {
-        return (
-            <div className="text-center text-red-600 p-4">
-                Error loading folder structure
-            </div>
-        );
-    }
-
-    if (!structure) {
-        return (
-            <div className="text-center text-gray-500 p-4">
-                No folder structure available
-            </div>
-        );
-    }
-
     return (
         <div className="relative">
             <div className="border rounded-lg bg-white">
@@ -142,11 +130,46 @@ export function FolderTree({ rootPath, options, onFolderSelect }: FolderTreeProp
                     <p className="mt-1 text-sm text-gray-500">
                         Browse folders and manage permissions
                     </p>
+
+                    <div className="mt-4">
+                        <form onSubmit={handleBrowse}>
+                            <label className="block text-sm font-medium text-gray-700">Root Path:</label>
+                            <div className="mt-1 flex rounded-md shadow-sm">
+                                <input
+                                    type="text"
+                                    value={customRootPath}
+                                    onChange={(e) => setCustomRootPath(e.target.value)}
+                                    className="flex-1 min-w-0 block w-full px-3 py-2 rounded-md border border-gray-300 focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
+                                    placeholder="Enter folder path (e.g., C:\ShareGuardTest\IT)"
+                                />
+                                <button
+                                    type="submit"
+                                    className="ml-3 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                                >
+                                    Browse
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
                 <div className="border-t">
                     <div className="p-4">
-                        {renderItem(structure)}
+                        {isLoading ? (
+                            <div className="flex justify-center items-center h-32">
+                                <LoadingSpinner />
+                            </div>
+                        ) : error ? (
+                            <div className="text-center text-red-600 p-4">
+                                Error loading folder structure. Please check the path and try again.
+                            </div>
+                        ) : !structure ? (
+                            <div className="text-center text-gray-500 p-4">
+                                No folder structure available. Enter a valid path and click Browse.
+                            </div>
+                        ) : (
+                            renderItem(structure)
+                        )}
                     </div>
                 </div>
             </div>

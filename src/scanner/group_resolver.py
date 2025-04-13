@@ -164,7 +164,7 @@ class GroupResolver:
             win32security.SidTypeInvalid: "Invalid",
             win32security.SidTypeUnknown: "Unknown",
             win32security.SidTypeComputer: "Computer",
-            win32security.SidTypeLabel: "Label"
+            #win32security.SidTypeLabel: "Label"
         }
         return type_mapping.get(account_type, f"Other ({account_type})")
 

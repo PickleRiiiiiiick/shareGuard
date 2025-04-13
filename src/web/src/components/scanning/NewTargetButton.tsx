@@ -1,3 +1,4 @@
+// src/web/src/components/scanning/NewTargetButton.tsx
 import { useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
@@ -45,7 +46,7 @@ export function NewTargetButton() {
             <button
                 type="button"
                 onClick={() => setIsOpen(true)}
-                className="inline-flex items-center rounded-md bg-primary-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+                className="w-full sm:w-auto inline-flex items-center justify-center rounded-md bg-primary-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
             >
                 <PlusIcon className="-ml-0.5 mr-1.5 h-5 w-5" />
                 New Target
@@ -53,6 +54,7 @@ export function NewTargetButton() {
 
             <Transition.Root show={isOpen} as={Fragment}>
                 <Dialog as="div" className="relative z-50" onClose={setIsOpen}>
+                    {/* Dialog content remains unchanged */}
                     <Transition.Child
                         as={Fragment}
                         enter="ease-out duration-300"

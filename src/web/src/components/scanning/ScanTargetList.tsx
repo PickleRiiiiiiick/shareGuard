@@ -1,3 +1,4 @@
+// src/web/src/components/scanning/ScanTargetList.tsx
 import { useState } from 'react';
 import { useTargets } from '@/hooks/useTargets';
 import { LoadingSpinner } from '@components/common/LoadingSpinner';
@@ -12,14 +13,14 @@ export function ScanTargetList() {
 
     return (
         <div className="space-y-6">
-            <div className="sm:flex sm:items-center">
-                <div className="sm:flex-auto">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                <div>
                     <h1 className="text-2xl font-semibold text-gray-900">Scan Targets</h1>
                     <p className="mt-2 text-sm text-gray-700">
                         A list of all scan targets including their paths, schedules, and last scan status.
                     </p>
                 </div>
-                <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+                <div className="mt-4 sm:mt-0">
                     <NewTargetButton />
                 </div>
             </div>

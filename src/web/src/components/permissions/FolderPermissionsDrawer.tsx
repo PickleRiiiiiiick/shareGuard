@@ -1,3 +1,4 @@
+// src/web/src/components/permissions/FolderPermissionsDrawer.tsx
 import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
@@ -15,9 +16,18 @@ export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermiss
     const { data, isLoading } = useFolderPermissions(path, { includeInherited: true });
 
     const renderPermissionList = (permissions: FolderPermission[]) => {
+        // Ensure permissions is an array before mapping
+        if (!permissions || !Array.isArray(permissions)) {
+            return (
+                <div className="p-4 text-center text-gray-500">
+                    No permissions data available
+                </div>
+            );
+        }
+
         return permissions.map((permission, index) => (
             <div
-                key={`${permission.trustee_sid}-${index}`}
+                key={`${permission.trustee_sid || index}-${index}`}
                 className={`p-4 ${permission.inherited ? 'bg-gray-50' : 'bg-white'}`}
             >
                 <div className="flex items-center justify-between">
@@ -37,7 +47,8 @@ export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermiss
                 </div>
                 <div className="mt-2">
                     <div className="flex flex-wrap gap-2">
-                        {permission.permissions.map((perm, i) => (
+                        {permission.permissions && Array.isArray(permission.permissions) && 
+                         permission.permissions.map((perm, i) => (
                             <span
                                 key={i}
                                 className="inline-flex items-center rounded-md bg-primary-50 px-2 py-1 text-xs font-medium text-primary-700"
@@ -99,7 +110,11 @@ export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermiss
                                             </div>
                                         ) : (
                                             <div className="flex-1 divide-y divide-gray-200">
-                                                {data?.permissions && renderPermissionList(data.permissions)}
+                                                {data?.permissions ? renderPermissionList(data.permissions) : (
+                                                    <div className="p-4 text-center text-gray-500">
+                                                        No permissions data available
+                                                    </div>
+                                                )}
                                             </div>
                                         )}
                                     </div>

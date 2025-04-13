@@ -12,20 +12,39 @@ interface ApiResponse<T> {
 }
 
 // Hook to fetch folder structure
+
 export function useFolderStructure(path: string, options?: FolderTreeOptions): UseQueryResult<FolderStructure> {
     const queryKey = ['folderStructure', path, options];
 
     return useQuery<FolderStructure>(
         queryKey,
         async () => {
-            const params = new URLSearchParams();
-            if (options?.maxDepth) params.append('max_depth', options.maxDepth.toString());
-            const response = await api.folders.get<FolderStructure>(`/structure?root_path=${encodeURIComponent(path)}&${params.toString()}`);
-            return response;
+            try {
+                const params = new URLSearchParams();
+                if (options?.maxDepth) params.append('max_depth', options.maxDepth.toString());
+                const response = await api.folders.get(`/structure?root_path=${encodeURIComponent(path)}&${params.toString()}`);
+                
+                // The backend returns a nested structure - we need to extract just the structure part
+                if (response && response.structure) {
+                    return response.structure;
+                }
+                
+                // For backwards compatibility
+                if (response && response.metadata) {
+                    return response;
+                }
+                
+                // If direct structure
+                return response;
+            } catch (error) {
+                console.error('Error fetching folder structure:', error);
+                throw error;
+            }
         },
         {
             enabled: !!path,
-            staleTime: 5 * 60 * 1000, // Consider data fresh for 5 minutes
+            staleTime: 5 * 60 * 1000,
+            retry: 1,
         }
     );
 }

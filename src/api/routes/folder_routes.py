@@ -2,7 +2,7 @@
 from fastapi import APIRouter, HTTPException, Depends, Request
 from sqlalchemy.orm import Session
 from src.db.database import get_db
-from src.core.scanner import scanner
+from src.core.scanner import ShareGuardScanner  # Changed from scanner
 from src.api.middleware.auth import security, require_permissions
 from typing import Optional
 from pathlib import Path
@@ -13,13 +13,16 @@ router = APIRouter(
    dependencies=[Depends(security)]
 )
 
+# Initialize scanner
+scanner = ShareGuardScanner()  # Create an instance here
+
 @router.get("/structure", summary="Get Folder Structure")
 @require_permissions(["folders:read"])
 async def get_folder_structure(
    root_path: str,
+   current_request: Request,
    max_depth: Optional[int] = None,
-   db: Session = Depends(get_db),
-   current_request: Request
+   db: Session = Depends(get_db)
 ):
    try:
        if not Path(root_path).exists():
@@ -47,9 +50,9 @@ async def get_folder_structure(
 @require_permissions(["folders:read"])
 async def get_folder_permissions(
    path: str,
+   current_request: Request,
    include_inherited: bool = True,
-   simplified_system: bool = True,
-   current_request: Request
+   simplified_system: bool = True
 ):
    try:
        if not Path(path).exists():
@@ -79,8 +82,8 @@ async def get_folder_permissions(
 async def get_user_folder_access(
    username: str,
    domain: str,
-   base_path: Optional[str] = None,
-   current_request: Request
+   current_request: Request,
+   base_path: Optional[str] = None
 ):
    try:
        if base_path and not Path(base_path).exists():
@@ -109,8 +112,8 @@ async def get_user_folder_access(
 @require_permissions(["folders:validate"])
 async def validate_folder_access(
    path: str,
-   check_write: bool = False,
-   current_request: Request
+   current_request: Request,
+   check_write: bool = False
 ):
    try:
        folder_path = Path(path)
