@@ -5,6 +5,7 @@ from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.openapi.utils import get_openapi
 from fastapi.security import HTTPBearer
 from api.routes import scan_routes, target_routes, auth_routes
+from api.routes import folder_routes
 from db.database import init_db
 from core.scanner import ShareGuardScanner
 from api.middleware.auth import AuthMiddleware
@@ -76,6 +77,11 @@ app.include_router(
     target_routes.router,
     prefix="/api/v1",
     tags=["targets"]
+)
+app.include_router(
+    folder_routes.router,
+    prefix="/api/v1",
+    tags=["folders"]
 )
 
 # Mount frontend files if the directory exists

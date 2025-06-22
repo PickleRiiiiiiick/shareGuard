@@ -10,8 +10,8 @@ const createApiInstance = (basePath: string = '') => {
 
     // Add request interceptor for authentication
     instance.interceptors.request.use((config) => {
-        // Add base path to URL
-        config.url = `/api/v1${basePath}${config.url}`;
+        // Remove the duplicate /api/v1 prefix since it's already in FastAPI
+        config.url = `${basePath}${config.url || ''}`;
 
         const token = localStorage.getItem('auth_token');
         if (token) {
@@ -57,8 +57,10 @@ const createApiInstance = (basePath: string = '') => {
     return instance;
 };
 
+// Create API instances for different endpoints with correct prefixes
 export const api = {
-    auth: createApiInstance('/auth'),
-    scan: createApiInstance('/scan'),
-    targets: createApiInstance('/targets')
+    auth: createApiInstance('/api/v1/auth'),
+    scan: createApiInstance('/api/v1/scan'),
+    targets: createApiInstance('/api/v1/targets'),
+    folders: createApiInstance('/api/v1/folders')
 };

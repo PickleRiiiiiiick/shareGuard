@@ -6,9 +6,11 @@ import { PlusIcon } from '@heroicons/react/24/outline';
 import { TargetEditForm } from './TargetEditForm';
 import { ScanTarget } from '@/types/target';
 import { ScanScheduleType } from '@/types/enums';
+import { ScanStatusViewer } from './ScanStatusViewer';
 
 export function NewTargetButton() {
     const [isOpen, setIsOpen] = useState(false);
+    const [activeJobId, setActiveJobId] = useState<number | null>(null);
     const { mutate: createTarget, isLoading } = useCreateTarget();
 
     const emptyTarget: ScanTarget = {
@@ -28,7 +30,11 @@ export function NewTargetButton() {
 
     const handleCreate = (data: Partial<ScanTarget>) => {
         createTarget(data as ScanTarget, {
-            onSuccess: () => {
+            onSuccess: (response) => {
+                // Assuming the API returns the scan job ID in the response
+                if (response.job_id) {
+                    setActiveJobId(response.job_id);
+                }
                 setIsOpen(false);
             },
         });
@@ -83,6 +89,13 @@ export function NewTargetButton() {
                     </div>
                 </Dialog>
             </Transition.Root>
+
+            {/* Show scan status if there's an active job */}
+            {activeJobId && (
+                <div className="fixed bottom-4 right-4 z-50">
+                    <ScanStatusViewer jobId={activeJobId} onComplete={() => setActiveJobId(null)} />
+                </div>
+            )}
         </>
     );
 }

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(python:*)",
+      "Bash(PYTHONPATH=/mnt/c/ShareGuard python3 -c \"from src.core.scanner import scanner; print('Scanner imported successfully')\")",
+      "Bash(PYTHONPATH=/mnt/c/ShareGuard python3 update_permissions.py)",
+      "Bash(npm install:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run lint)",
+      "Bash(.\\venv\\Scripts\\python.exe -c \"import win32security; print('pywin32 version:', getattr(win32security, '__version__', 'unknown')); import pkg_resources; print('Package version:', pkg_resources.get_distribution('pywin32').version)\")",
+      "Bash(./venv/Scripts/python.exe -c \"import pkg_resources; print('pywin32 version:', pkg_resources.get_distribution('pywin32').version)\")",
+      "Bash(./venv/Scripts/python.exe debug_sid_resolution.py:*)"
+    ],
+    "deny": []
+  }
+}

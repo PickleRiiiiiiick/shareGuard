@@ -1,5 +1,7 @@
-import { useQuery, useMutation, UseQueryResult } from 'react-query';
+import { useQuery, useMutation, UseQueryResult, useQueryClient } from 'react-query';
 import { api } from '@/utils/api';
+import { folderApi, type PermissionRequest, type PermissionResponse, type GroupMembersResponse } from '@/api/folders';
+import { useAlert } from '@/contexts/AlertContext';
 import type {
     FolderStructure,
     FolderPermission,
@@ -20,8 +22,8 @@ export function useFolderStructure(path: string, options?: FolderTreeOptions): U
         async () => {
             const params = new URLSearchParams();
             if (options?.maxDepth) params.append('max_depth', options.maxDepth.toString());
-            const response = await api.folders.get<FolderStructure>(`/structure?root_path=${encodeURIComponent(path)}&${params.toString()}`);
-            return response;
+            const response = await api.folders.get<{ structure: FolderStructure; metadata: any }>(`/structure?root_path=${encodeURIComponent(path)}&${params.toString()}`);
+            return response.structure;
         },
         {
             enabled: !!path,
@@ -90,6 +92,91 @@ export function useValidateFolderAccess() {
             });
             const response = await api.folders.post<ApiResponse<any>>(`/validate?${params.toString()}`);
             return response;
+        }
+    );
+}
+
+// Hook to modify folder permissions with notifications
+export function useModifyFolderPermissions() {
+    const alert = useAlert();
+    const queryClient = useQueryClient();
+
+    return useMutation<PermissionResponse, Error, { path: string; permissionRequest: PermissionRequest }>(
+        async ({ path, permissionRequest }) => {
+            return await folderApi.modifyFolderPermissions(path, permissionRequest);
+        },
+        {
+            onSuccess: (data) => {
+                // Invalidate related queries to trigger refresh
+                queryClient.invalidateQueries(['folderPermissions', data.path]);
+                queryClient.invalidateQueries(['folderStructure']);
+                
+                // Show notification
+                if (data.change_type === 'granted') {
+                    alert.permissionGranted(
+                        data.user_or_group,
+                        data.path,
+                        data.permissions.join(', ')
+                    );
+                } else {
+                    alert.warning(
+                        `Permission denied for ${data.user_or_group} on ${data.path}`
+                    );
+                }
+            },
+            onError: (error) => {
+                alert.error(`Failed to modify permissions: ${error.message}`);
+            }
+        }
+    );
+}
+
+// Hook to remove folder permissions with notifications
+export function useRemoveFolderPermissions() {
+    const alert = useAlert();
+    const queryClient = useQueryClient();
+
+    return useMutation<PermissionResponse, Error, { path: string; userOrGroup: string; domain: string }>(
+        async ({ path, userOrGroup, domain }) => {
+            return await folderApi.removeFolderPermissions(path, userOrGroup, domain);
+        },
+        {
+            onSuccess: (data) => {
+                // Invalidate related queries to trigger refresh
+                queryClient.invalidateQueries(['folderPermissions', data.path]);
+                queryClient.invalidateQueries(['folderStructure']);
+                
+                // Show notification
+                alert.permissionRevoked(
+                    data.user_or_group,
+                    data.path,
+                    'all permissions'
+                );
+            },
+            onError: (error) => {
+                alert.error(`Failed to remove permissions: ${error.message}`);
+            }
+        }
+    );
+}
+
+// Hook to get group members
+export function useGroupMembers(
+    groupName: string,
+    domain: string,
+    includeNested: boolean = true,
+    options?: { enabled?: boolean }
+): UseQueryResult<GroupMembersResponse> {
+    const queryKey = ['groupMembers', groupName, domain, includeNested];
+
+    return useQuery<GroupMembersResponse>(
+        queryKey,
+        async () => {
+            return await folderApi.getGroupMembers(groupName, domain, includeNested);
+        },
+        {
+            enabled: options?.enabled && !!groupName && !!domain,
+            staleTime: 5 * 60 * 1000, // Consider data fresh for 5 minutes
         }
     );
 }

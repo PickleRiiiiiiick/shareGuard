@@ -26,7 +26,9 @@ def update_service_account_permissions():
             "targets:update",
             "targets:delete",
             "scan:execute",
-            "scan:read"
+            "scan:read",
+            "folders:read",
+            "folders:validate"
         ]
 
         db.commit()

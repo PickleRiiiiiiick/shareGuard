@@ -341,3 +341,6 @@ class ShareGuardScanner:
                     "non_system_accounts": 0
                 }
             }
+
+# Create global scanner instance
+scanner = ShareGuardScanner()

@@ -1,0 +1,4 @@
+2025-06-18 11:52:27,675 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-06-18 11:52:27,675 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-06-18 11:52:27,689 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 6, 19, 18, 52, 27, 689484), 'iat': datetime.datetime(2025, 6, 18, 18, 52, 27, 689787)}
+2025-06-18 11:52:27,700 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService

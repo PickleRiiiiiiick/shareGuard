@@ -163,9 +163,12 @@ class GroupResolver:
             win32security.SidTypeDeletedAccount: "DeletedAccount",
             win32security.SidTypeInvalid: "Invalid",
             win32security.SidTypeUnknown: "Unknown",
-            win32security.SidTypeComputer: "Computer",
-            win32security.SidTypeLabel: "Label"
+            win32security.SidTypeComputer: "Computer"
         }
+        # Add SidTypeLabel if available in this pywin32 version
+        if hasattr(win32security, 'SidTypeLabel'):
+            type_mapping[win32security.SidTypeLabel] = "Label"
+        
         return type_mapping.get(account_type, f"Other ({account_type})")
 
     def _get_group_members_multi_provider(self, group_name: str, domain: str) -> List[Dict]:
@@ -558,6 +561,75 @@ class GroupResolver:
             logger.error(f"Error tracing group path for {group_key}: {str(e)}", 
                          exc_info=True)
             return None
+
+    def get_group_members(self, group_name: str, domain: str, include_nested: bool = True) -> Dict:
+        """
+        Public method to get group members with optional nested group resolution.
+        
+        Args:
+            group_name: Name of the group
+            domain: Domain of the group
+            include_nested: Whether to include nested group members
+            
+        Returns:
+            Dict containing group members and nested structure
+        """
+        logger.info(f"Getting members for group {domain}\\{group_name}")
+        
+        try:
+            # Get direct members
+            direct_members = self._get_group_members_multi_provider(group_name, domain)
+            
+            result = {
+                'group_name': group_name,
+                'domain': domain,
+                'full_name': f"{domain}\\{group_name}",
+                'direct_members': direct_members,
+                'nested_groups': [],
+                'all_members': direct_members.copy() if direct_members else [],
+                'total_direct_members': len(direct_members) if direct_members else 0,
+                'total_all_members': len(direct_members) if direct_members else 0
+            }
+            
+            if include_nested and direct_members:
+                # Find nested groups
+                nested_groups = [m for m in direct_members 
+                               if m.get('type', '').lower() in ['group', 'wellknowngroup', 'alias']]
+                
+                for nested_group in nested_groups:
+                    try:
+                        nested_result = self.get_group_members(
+                            nested_group['name'], 
+                            nested_group['domain'], 
+                            include_nested=True
+                        )
+                        result['nested_groups'].append(nested_result)
+                        
+                        # Add nested members to all_members (avoiding duplicates)
+                        for member in nested_result['all_members']:
+                            if not any(m.get('sid') == member.get('sid') for m in result['all_members']):
+                                result['all_members'].append(member)
+                                
+                    except Exception as e:
+                        logger.warning(f"Error resolving nested group {nested_group['name']}: {str(e)}")
+                
+                result['total_all_members'] = len(result['all_members'])
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error getting group members for {domain}\\{group_name}: {str(e)}")
+            return {
+                'group_name': group_name,
+                'domain': domain,
+                'full_name': f"{domain}\\{group_name}",
+                'error': str(e),
+                'direct_members': [],
+                'nested_groups': [],
+                'all_members': [],
+                'total_direct_members': 0,
+                'total_all_members': 0
+            }
 
     def clear_cache(self, cache_type: Optional[str] = None):
         """

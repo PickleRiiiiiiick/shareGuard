@@ -7,6 +7,8 @@ import { format } from 'date-fns';
 import { LoadingSpinner } from '@components/common/LoadingSpinner';
 import { useState } from 'react';
 import { TargetEditForm } from './TargetEditForm';
+import { ScanResultsViewer } from './ScanResultsViewer';
+
 
 interface TargetDetailsModalProps {
     isOpen: boolean;
@@ -164,6 +166,10 @@ export function TargetDetailsModal({ isOpen, onClose, target }: TargetDetailsMod
                                                         </dd>
                                                     </div>
                                                 </dl>
+                                                <div>
+                                                    <h3 className="text-sm font-medium text-gray-900 mt-8">Last Scan Results</h3>
+                                                    <ScanResultsViewer targetId={target.id} />
+                                                </div>
                                             </div>
                                         )}
 

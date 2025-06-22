@@ -4,11 +4,12 @@ from sqlalchemy.orm import Session
 from src.db.database import get_db
 from src.core.scanner import scanner
 from src.api.middleware.auth import security, require_permissions
-from typing import Optional
+from typing import Optional, List
 from pathlib import Path
+from pydantic import BaseModel
 
 router = APIRouter(
-   prefix="/api/v1/folders",
+   prefix="/folders",
    tags=["folders"],
    dependencies=[Depends(security)]
 )
@@ -17,26 +18,55 @@ router = APIRouter(
 @require_permissions(["folders:read"])
 async def get_folder_structure(
    root_path: str,
+   current_request: Request,
    max_depth: Optional[int] = None,
-   db: Session = Depends(get_db),
-   current_request: Request
+   db: Session = Depends(get_db)
 ):
    try:
        if not Path(root_path).exists():
            raise HTTPException(status_code=404, detail="Path does not exist")
 
-       structure = scanner.get_folder_structure(
+       result = scanner.get_folder_structure(
            root_path=root_path,
            max_depth=max_depth,
            simplified_system=True
        )
+
+       if not result.get("success"):
+           raise HTTPException(status_code=400, detail=result.get("error", "Failed to get folder structure"))
+
+       # Transform the structure to match frontend expectations
+       def transform_structure(node):
+           transformed = {
+               "name": node.get("name"),
+               "path": node.get("path"),
+               "type": "folder" if node.get("type") == "directory" else "file",
+               "permissions": node.get("permissions", []),
+               "children": []
+           }
+           
+           # Recursively transform children
+           if node.get("children"):
+               transformed["children"] = [transform_structure(child) for child in node["children"]]
+           
+           # Add owner info if available
+           if node.get("owner"):
+               transformed["owner"] = node["owner"]
+           
+           # Add statistics if it's the root node
+           if node.get("statistics"):
+               transformed["statistics"] = node["statistics"]
+           
+           return transformed
+
+       structure = transform_structure(result)
 
        return {
            "structure": structure,
            "metadata": {
                "root_path": root_path,
                "max_depth": max_depth,
-               "total_folders": structure.get("statistics", {}).get("total_folders", 0),
+               "total_folders": result.get("statistics", {}).get("total_folders", 0),
                "scanned_by": f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}"
            }
        }
@@ -47,9 +77,9 @@ async def get_folder_structure(
 @require_permissions(["folders:read"])
 async def get_folder_permissions(
    path: str,
+   current_request: Request,
    include_inherited: bool = True,
-   simplified_system: bool = True,
-   current_request: Request
+   simplified_system: bool = True
 ):
    try:
        if not Path(path).exists():
@@ -79,8 +109,8 @@ async def get_folder_permissions(
 async def get_user_folder_access(
    username: str,
    domain: str,
-   base_path: Optional[str] = None,
-   current_request: Request
+   current_request: Request,
+   base_path: Optional[str] = None
 ):
    try:
        if base_path and not Path(base_path).exists():
@@ -109,8 +139,8 @@ async def get_user_folder_access(
 @require_permissions(["folders:validate"])
 async def validate_folder_access(
    path: str,
-   check_write: bool = False,
-   current_request: Request
+   current_request: Request,
+   check_write: bool = False
 ):
    try:
        folder_path = Path(path)
@@ -152,3 +182,189 @@ async def validate_folder_access(
 
    except Exception as e:
        raise HTTPException(status_code=500, detail=str(e))
+
+# Pydantic models for ACL operations
+class PermissionRequest(BaseModel):
+    user_or_group: str
+    domain: str
+    permissions: List[str]  # ["read", "write", "execute", "delete", "modify", "full_control"]
+    access_type: str = "allow"  # "allow" or "deny"
+
+class PermissionResponse(BaseModel):
+    success: bool
+    message: str
+    path: str
+    user_or_group: str
+    permissions: List[str]
+    change_type: str  # "granted" or "revoked"
+
+@router.put("/permissions", summary="Modify Folder Permissions")
+@require_permissions(["folders:modify"])
+async def modify_folder_permissions(
+    path: str,
+    permission_request: PermissionRequest,
+    current_request: Request,
+    db: Session = Depends(get_db)
+):
+    try:
+        if not Path(path).exists():
+            raise HTTPException(status_code=404, detail="Path does not exist")
+
+        # Check if scanner has permission modification capability
+        if not hasattr(scanner, 'permission_scanner') or not hasattr(scanner.permission_scanner, 'set_folder_permissions'):
+            raise HTTPException(status_code=501, detail="ACL modification not implemented in scanner")
+
+        # Record the change in database before making it
+        from src.db.models.permissions import PermissionChange
+        from datetime import datetime
+        
+        change_record = PermissionChange(
+            folder_path=path,
+            user_or_group=f"{permission_request.domain}\\{permission_request.user_or_group}",
+            permission_type=",".join(permission_request.permissions),
+            change_type="manual_grant",
+            changed_by=f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}",
+            change_time=datetime.utcnow()
+        )
+        db.add(change_record)
+        db.commit()
+
+        # Apply the permission change
+        result = scanner.permission_scanner.set_folder_permissions(
+            folder_path=path,
+            user_or_group=f"{permission_request.domain}\\{permission_request.user_or_group}",
+            permissions=permission_request.permissions,
+            access_type=permission_request.access_type
+        )
+
+        if not result.get("success"):
+            # Rollback the database change if permission setting failed
+            db.delete(change_record)
+            db.commit()
+            raise HTTPException(status_code=400, detail=result.get("error", "Failed to modify permissions"))
+
+        return PermissionResponse(
+            success=True,
+            message=f"Permissions {'granted' if permission_request.access_type == 'allow' else 'denied'} successfully",
+            path=path,
+            user_or_group=f"{permission_request.domain}\\{permission_request.user_or_group}",
+            permissions=permission_request.permissions,
+            change_type="granted" if permission_request.access_type == "allow" else "denied"
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.delete("/permissions", summary="Remove Folder Permissions")
+@require_permissions(["folders:modify"])
+async def remove_folder_permissions(
+    path: str,
+    user_or_group: str,
+    domain: str,
+    current_request: Request,
+    db: Session = Depends(get_db)
+):
+    try:
+        if not Path(path).exists():
+            raise HTTPException(status_code=404, detail="Path does not exist")
+
+        # Check if scanner has permission modification capability
+        if not hasattr(scanner, 'permission_scanner') or not hasattr(scanner.permission_scanner, 'remove_folder_permissions'):
+            raise HTTPException(status_code=501, detail="ACL modification not implemented in scanner")
+
+        # Record the change in database before making it
+        from src.db.models.permissions import PermissionChange
+        from datetime import datetime
+        
+        change_record = PermissionChange(
+            folder_path=path,
+            user_or_group=f"{domain}\\{user_or_group}",
+            permission_type="all",
+            change_type="manual_revoke",
+            changed_by=f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}",
+            change_time=datetime.utcnow()
+        )
+        db.add(change_record)
+        db.commit()
+
+        # Remove the permissions
+        result = scanner.permission_scanner.remove_folder_permissions(
+            folder_path=path,
+            user_or_group=f"{domain}\\{user_or_group}"
+        )
+
+        if not result.get("success"):
+            # Rollback the database change if permission removal failed
+            db.delete(change_record)
+            db.commit()
+            raise HTTPException(status_code=400, detail=result.get("error", "Failed to remove permissions"))
+
+        return PermissionResponse(
+            success=True,
+            message="Permissions removed successfully",
+            path=path,
+            user_or_group=f"{domain}\\{user_or_group}",
+            permissions=["all"],
+            change_type="revoked"
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/group-members", summary="Get Group Members")
+@require_permissions(["folders:read"])
+async def get_group_members(
+    group_name: str,
+    domain: str,
+    current_request: Request,
+    include_nested: bool = True
+):
+    try:
+        # Use the group resolver to get group members
+        from src.scanner.group_resolver import GroupResolver
+        from datetime import datetime
+        
+        group_resolver = GroupResolver()
+        members_info = group_resolver.get_group_members(
+            group_name=group_name,
+            domain=domain,
+            include_nested=include_nested
+        )
+        
+        return {
+            "group_info": members_info,
+            "metadata": {
+                "requested_by": f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}",
+                "include_nested": include_nested,
+                "timestamp": datetime.utcnow().isoformat()
+            }
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/diagnose-sids", summary="Diagnose SID Resolution Issues")
+@require_permissions(["folders:read"])
+async def diagnose_sid_issues(
+    path: str,
+    current_request: Request
+):
+    try:
+        from datetime import datetime
+        
+        if not Path(path).exists():
+            raise HTTPException(status_code=404, detail="Path does not exist")
+
+        # Use the scanner's diagnostic method
+        diagnosis = scanner.permission_scanner.diagnose_sid_issues(path)
+        
+        return {
+            "diagnosis": diagnosis,
+            "metadata": {
+                "diagnosed_by": f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}",
+                "timestamp": datetime.utcnow().isoformat()
+            }
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

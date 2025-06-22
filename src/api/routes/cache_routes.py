@@ -4,7 +4,7 @@ from src.core.scanner import scanner
 from src.api.middleware.auth import security, require_permissions
 
 router = APIRouter(
-   prefix="/api/v1/cache",
+   prefix="/cache",
    tags=["cache"],
    dependencies=[Depends(security)]
 )

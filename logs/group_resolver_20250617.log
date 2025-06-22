@@ -1,0 +1,120 @@
+2025-06-17 03:59:30,148 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 03:59:30,150 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 03:59:30,150 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 03:59:30,151 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 03:59:30,152 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 03:59:30,152 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 03:59:30,184 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 03:59:30,184 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 03:59:30,185 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 03:59:30,186 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 03:59:30,187 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 03:59:30,187 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:36,891 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:36,893 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:36,893 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:36,894 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:36,894 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:36,894 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:36,930 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:36,931 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:36,931 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:36,932 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:36,933 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:36,933 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:47,817 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:47,818 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:47,818 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:47,840 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:47,841 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:47,841 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:47,872 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:47,873 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:47,873 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:06:47,874 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:06:47,875 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:06:47,875 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:08:17,814 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:08:17,815 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:08:17,815 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:08:17,816 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:08:17,816 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:08:17,817 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:08:17,845 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:08:17,846 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:08:17,846 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:08:17,847 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:08:17,847 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:08:17,848 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:21:30,176 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:21:30,177 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:21:30,177 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:21:30,178 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:21:30,179 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:21:30,179 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:21:30,206 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:21:30,206 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:21:30,207 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:21:30,208 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:21:30,208 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:21:30,209 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:24:22,109 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:24:22,110 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:24:22,110 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:24:22,111 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:24:22,112 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:24:22,112 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:24:22,141 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:24:22,142 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:24:22,142 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:24:22,143 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:24:22,144 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:24:22,144 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:07,295 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:07,326 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:07,335 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:07,344 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:07,346 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:07,346 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:07,394 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:07,395 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:07,396 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:07,398 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:07,399 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:07,400 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:49,713 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:49,714 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:49,714 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:49,715 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:49,716 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:49,716 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:49,754 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:49,755 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:49,755 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:44:49,756 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:44:49,757 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:44:49,757 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:45:16,215 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:45:16,216 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:45:16,216 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:45:16,217 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:45:16,218 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:45:16,218 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:45:16,245 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:45:16,246 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:45:16,246 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 04:45:16,247 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 04:45:16,248 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 04:45:16,248 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 06:04:21,928 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 06:04:21,930 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 06:04:21,930 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 06:04:21,931 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 06:04:21,932 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 06:04:21,932 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 06:04:21,973 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 06:04:21,973 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 06:04:21,974 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-17 06:04:21,975 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-17 06:04:21,976 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-17 06:04:21,976 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds

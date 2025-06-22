@@ -12,14 +12,12 @@ export function ScanTargetList() {
 
     return (
         <div className="space-y-6">
-            <div className="sm:flex sm:items-center">
-                <div className="sm:flex-auto">
-                    <h1 className="text-2xl font-semibold text-gray-900">Scan Targets</h1>
-                    <p className="mt-2 text-sm text-gray-700">
-                        A list of all scan targets including their paths, schedules, and last scan status.
-                    </p>
-                </div>
-                <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+            <div>
+                <h1 className="text-2xl font-semibold text-gray-900">Scan Targets</h1>
+                <p className="mt-2 text-sm text-gray-700">
+                    A list of all scan targets including their paths, schedules, and last scan status.
+                </p>
+                <div className="mt-4">
                     <NewTargetButton />
                 </div>
             </div>
