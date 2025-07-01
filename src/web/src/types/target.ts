@@ -30,9 +30,8 @@ export interface TargetStats {
 }
 
 export interface TargetFilters {
-    searchTerm?: string;
+    search?: string;
     department?: string;
-    sensitivity?: string;
     frequency?: ScanScheduleType;
     status?: 'active' | 'disabled';
 }

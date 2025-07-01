@@ -57,10 +57,35 @@ const createApiInstance = (basePath: string = '') => {
     return instance;
 };
 
+// Generic API request function
+export async function apiRequest<T>(url: string, options?: RequestInit): Promise<T> {
+    const token = localStorage.getItem('auth_token');
+    const headers = {
+        'Content-Type': 'application/json',
+        ...(token && { Authorization: `Bearer ${token}` }),
+        ...options?.headers,
+    };
+
+    const config: RequestInit = {
+        ...options,
+        headers,
+    };
+
+    const response = await fetch(url, config);
+    
+    if (!response.ok) {
+        const error = await response.text();
+        throw new Error(`API request failed: ${response.status} ${error}`);
+    }
+    
+    return response.json();
+}
+
 // Create API instances for different endpoints with correct prefixes
 export const api = {
     auth: createApiInstance('/api/v1/auth'),
     scan: createApiInstance('/api/v1/scan'),
     targets: createApiInstance('/api/v1/targets'),
-    folders: createApiInstance('/api/v1/folders')
+    folders: createApiInstance('/api/v1/folders'),
+    alerts: createApiInstance('/api/v1/alerts')
 };

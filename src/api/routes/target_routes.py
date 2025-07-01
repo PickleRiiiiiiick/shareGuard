@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, HTTPException, Depends, Request, Query
 from sqlalchemy.orm import Session
-from sqlalchemy import desc
+from sqlalchemy import desc, or_
 from src.db.database import get_db
 from src.db.models import ScanTarget, ScanJob
 from src.api.middleware.auth import security, require_permissions
@@ -138,13 +138,40 @@ async def list_targets(
     sort_desc: bool = Query(
         default=True,
         description="Sort in descending order"
-    )
+    ),
+    search: Optional[str] = Query(default=None, description="Search in name and path"),
+    department: Optional[str] = Query(default=None, description="Filter by department"),
+    frequency: Optional[str] = Query(default=None, description="Filter by scan frequency"),
+    status: Optional[str] = Query(default=None, description="Filter by status (active/disabled)")
 ):
     """List scan targets with pagination and sorting."""
     try:
         logger.debug(f"Listing targets with params: skip={skip}, limit={limit}, sort_by={sort_by}, sort_desc={sort_desc}")
+        logger.debug(f"Filters: search={search}, department={department}, frequency={frequency}, status={status}")
 
         query = db.query(ScanTarget)
+        
+        # Apply filters
+        if search:
+            search_term = f"%{search}%"
+            query = query.filter(
+                or_(
+                    ScanTarget.name.ilike(search_term),
+                    ScanTarget.path.ilike(search_term)
+                )
+            )
+        
+        if department:
+            query = query.filter(ScanTarget.department == department)
+            
+        if frequency:
+            query = query.filter(ScanTarget.scan_frequency == frequency)
+            
+        if status:
+            if status == "active":
+                query = query.filter(ScanTarget.scan_frequency != 'disabled')
+            elif status == "disabled":
+                query = query.filter(ScanTarget.scan_frequency == 'disabled')
 
         if sort_desc:
             query = query.order_by(desc(getattr(ScanTarget, sort_by)))

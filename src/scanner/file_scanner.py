@@ -453,6 +453,12 @@ class PermissionScanner:
                 win32security.GROUP_SECURITY_INFORMATION
             )
 
+            # Check if inheritance is disabled by looking at the security descriptor control flags
+            sd_control = sd.GetSecurityDescriptorControl()
+            # SE_DACL_PROTECTED flag indicates that inheritance is disabled
+            inheritance_enabled = not (sd_control[0] & win32security.SE_DACL_PROTECTED)
+            logger.debug(f"Security descriptor control for {folder_path}: {sd_control[0]}, inheritance_enabled: {inheritance_enabled}")
+
             # Get owner information
             owner_sid = sd.GetSecurityDescriptorOwner()
             owner_info = self._get_trustee_name(owner_sid)
@@ -511,6 +517,7 @@ class PermissionScanner:
                 "folder_info": folder_info,
                 "owner": owner_info,
                 "primary_group": group_info,
+                "inheritance_enabled": inheritance_enabled,
                 "aces": aces,
                 "scan_time": scan_time,
                 "success": True,

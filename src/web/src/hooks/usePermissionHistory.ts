@@ -1,4 +1,4 @@
-import { useQuery, UseQueryResult } from 'react-query';
+import { useQuery, UseQueryResult } from '@tanstack/react-query';
 import { api } from '@/utils/api';
 import type { PermissionHistoryEntry, PermissionHistoryFilters } from '@/types/history';
 
@@ -7,9 +7,9 @@ export function usePermissionHistory(
 ): UseQueryResult<PermissionHistoryEntry[]> {
     const queryKey = ['permissionHistory', filters];
 
-    return useQuery<PermissionHistoryEntry[]>(
+    return useQuery<PermissionHistoryEntry[]>({
         queryKey,
-        async () => {
+        queryFn: async () => {
             const params = new URLSearchParams();
             if (filters.startDate) params.append('start_date', filters.startDate);
             if (filters.endDate) params.append('end_date', filters.endDate);
@@ -20,5 +20,5 @@ export function usePermissionHistory(
             const response = await api.folders.get<PermissionHistoryEntry[]>(`/history?${params.toString()}`);
             return response;
         }
-    );
+    });
 }

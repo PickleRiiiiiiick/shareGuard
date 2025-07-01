@@ -3,7 +3,7 @@ import { API_CONFIG } from '@/config/api';
 import type { LoginCredentials, AuthResponse, AuthSession } from '@/types/auth';
 
 const api = axios.create({
-    baseURL: '/api/v1/auth',  // This should match your backend route
+    baseURL: '/api/v1/auth',
     headers: {
         'Content-Type': 'application/json',
     },

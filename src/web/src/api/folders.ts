@@ -86,11 +86,12 @@ export const folderApi = {
     return response.data;
   },
 
-  async getFolderPermissions(path: string, includeInherited = true, simplifiedSystem = true): Promise<FolderPermissions> {
+  async getFolderPermissions(path: string, includeInherited = true, simplifiedSystem = true, saveForAnalysis = false): Promise<FolderPermissions> {
     const params = new URLSearchParams({ 
       path,
       include_inherited: includeInherited.toString(),
-      simplified_system: simplifiedSystem.toString()
+      simplified_system: simplifiedSystem.toString(),
+      save_for_analysis: saveForAnalysis.toString()
     });
     
     const response = await api.get(`/permissions?${params}`);

@@ -27,8 +27,8 @@ def upgrade() -> None:
         sa.Column('permissions', sa.JSON()),
         sa.Column('is_active', sa.Boolean(), default=True),
         sa.Column('last_login', sa.DateTime()),
-        sa.Column('created_at', sa.DateTime(), server_default=text('GETDATE()')),
-        sa.Column('updated_at', sa.DateTime(), server_default=text('GETDATE()')),
+        sa.Column('created_at', sa.DateTime(), server_default=sa.func.now()),
+        sa.Column('updated_at', sa.DateTime(), server_default=sa.func.now()),
         sa.PrimaryKeyConstraint('id')
     )
 
@@ -36,7 +36,7 @@ def upgrade() -> None:
         sa.Column('id', sa.Integer(), nullable=False),
         sa.Column('service_account_id', sa.Integer(), nullable=False),
         sa.Column('token', sa.String(500), unique=True),
-        sa.Column('created_at', sa.DateTime(), server_default=text('GETDATE()')),
+        sa.Column('created_at', sa.DateTime(), server_default=sa.func.now()),
         sa.Column('expires_at', sa.DateTime()),
         sa.Column('is_active', sa.Boolean(), default=True),
         sa.ForeignKeyConstraint(['service_account_id'], ['service_accounts.id']),

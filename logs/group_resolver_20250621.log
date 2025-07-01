@@ -6639,3 +6639,500 @@ AttributeError: module 'win32security' has no attribute 'SidTypeLabel'. Did you 
 2025-06-21 18:36:02,206 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
 2025-06-21 18:36:02,206 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
 2025-06-21 18:36:02,206 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:36:52,076 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:52,076 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\ShareGuardService is system: False
+2025-06-21 18:36:57,632 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\ShareGuardService: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:57,654 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\ShareGuardService is system: False
+2025-06-21 18:36:57,654 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\ShareGuardService of type Unknown
+2025-06-21 18:36:57,654 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\ShareGuardService is system: False
+2025-06-21 18:36:57,655 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:57,655 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/ShareGuardService,user
+2025-06-21 18:36:58,419 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Users: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,421 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,421 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,422 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:58,422 - group_resolver - INFO - [group_resolver.py:409] - Found 1 groups for user SHAREGUARD\ShareGuardService
+2025-06-21 18:36:58,423 - group_resolver - DEBUG - [group_resolver.py:471] - Found 1 groups for user
+2025-06-21 18:36:58,423 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Domain Users (depth: 0)
+2025-06-21 18:36:58,423 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,424 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Domain Users,group
+2025-06-21 18:36:58,844 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,851 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,853 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:36:58,855 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\krbtgt: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,857 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\krbtgt is system: False
+2025-06-21 18:36:58,858 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\krbtgt
+2025-06-21 18:36:58,859 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\john.smith: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,862 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:36:58,863 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\john.smith
+2025-06-21 18:36:58,864 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\jane.doe: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,866 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\jane.doe is system: False
+2025-06-21 18:36:58,866 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\jane.doe
+2025-06-21 18:36:58,867 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\bob.wilson: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,868 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:36:58,869 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\bob.wilson
+2025-06-21 18:36:58,870 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\ShareGuardService: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,872 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\ShareGuardService is system: False
+2025-06-21 18:36:58,873 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:58,874 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\ShareGuardServiceAcc: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,875 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\ShareGuardServiceAcc is system: False
+2025-06-21 18:36:58,875 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\ShareGuardServiceAcc
+2025-06-21 18:36:58,875 - group_resolver - DEBUG - [group_resolver.py:260] - Found 7 members via ADSI for SHAREGUARD\Domain Users
+2025-06-21 18:36:58,876 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,876 - group_resolver - INFO - [group_resolver.py:196] - Found 7 members for group SHAREGUARD\Domain Users
+2025-06-21 18:36:58,878 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,878 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:58,916 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\Administrator
+2025-06-21 18:36:58,916 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,917 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,917 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,917 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\Administrator of type Unknown
+2025-06-21 18:36:58,918 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,918 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\Administrator
+2025-06-21 18:36:58,919 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/Administrator,user
+2025-06-21 18:36:58,922 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Users: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,924 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,924 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,925 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Schema Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,925 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Schema Admins is system: False
+2025-06-21 18:36:58,925 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Schema Admins
+2025-06-21 18:36:58,926 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Group Policy Creator Owners: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,926 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Group Policy Creator Owners is system: False
+2025-06-21 18:36:58,927 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Group Policy Creator Owners
+2025-06-21 18:36:58,927 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Enterprise Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,928 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Enterprise Admins is system: False
+2025-06-21 18:36:58,928 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Enterprise Admins
+2025-06-21 18:36:58,929 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,930 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Admins is system: False
+2025-06-21 18:36:58,931 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Domain Admins
+2025-06-21 18:36:58,931 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrators: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,932 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrators is system: False
+2025-06-21 18:36:58,934 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Administrators
+2025-06-21 18:36:58,935 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\Administrator
+2025-06-21 18:36:58,935 - group_resolver - INFO - [group_resolver.py:409] - Found 6 groups for user SHAREGUARD\Administrator
+2025-06-21 18:36:58,936 - group_resolver - DEBUG - [group_resolver.py:471] - Found 6 groups for user
+2025-06-21 18:36:58,936 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Domain Users (depth: 0)
+2025-06-21 18:36:58,936 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,936 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,937 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,937 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Schema Admins (depth: 0)
+2025-06-21 18:36:58,937 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Schema Admins is system: False
+2025-06-21 18:36:58,938 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Schema Admins,group
+2025-06-21 18:36:58,941 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,942 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,942 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:36:58,942 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Schema Admins
+2025-06-21 18:36:58,944 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Schema Admins
+2025-06-21 18:36:58,944 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Schema Admins
+2025-06-21 18:36:58,945 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Schema Admins
+2025-06-21 18:36:58,945 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Group Policy Creator Owners (depth: 0)
+2025-06-21 18:36:58,946 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Group Policy Creator Owners is system: False
+2025-06-21 18:36:58,946 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Group Policy Creator Owners,group
+2025-06-21 18:36:58,949 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,950 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,950 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:36:58,950 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Group Policy Creator Owners
+2025-06-21 18:36:58,951 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Group Policy Creator Owners
+2025-06-21 18:36:58,951 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Group Policy Creator Owners
+2025-06-21 18:36:58,951 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Group Policy Creator Owners
+2025-06-21 18:36:58,952 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Enterprise Admins (depth: 0)
+2025-06-21 18:36:58,952 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Enterprise Admins is system: False
+2025-06-21 18:36:58,952 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Enterprise Admins,group
+2025-06-21 18:36:58,955 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,956 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,956 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:36:58,956 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Enterprise Admins
+2025-06-21 18:36:58,957 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Enterprise Admins
+2025-06-21 18:36:58,957 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Enterprise Admins
+2025-06-21 18:36:58,957 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Enterprise Admins
+2025-06-21 18:36:58,958 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Domain Admins (depth: 0)
+2025-06-21 18:36:58,958 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Admins is system: False
+2025-06-21 18:36:58,958 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Domain Admins,group
+2025-06-21 18:36:58,961 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,962 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,962 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:36:58,962 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Domain Admins
+2025-06-21 18:36:58,962 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Domain Admins
+2025-06-21 18:36:58,963 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Domain Admins
+2025-06-21 18:36:58,965 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Admins
+2025-06-21 18:36:58,965 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Administrators (depth: 0)
+2025-06-21 18:36:58,966 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrators is system: False
+2025-06-21 18:36:58,966 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Administrators,group
+2025-06-21 18:36:58,971 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,972 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:36:58,972 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:36:58,973 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Enterprise Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,973 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Enterprise Admins is system: False
+2025-06-21 18:36:58,975 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Enterprise Admins
+2025-06-21 18:36:58,976 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,977 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Admins is system: False
+2025-06-21 18:36:58,977 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Domain Admins
+2025-06-21 18:36:58,977 - group_resolver - DEBUG - [group_resolver.py:260] - Found 3 members via ADSI for SHAREGUARD\Administrators
+2025-06-21 18:36:58,978 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Administrators
+2025-06-21 18:36:58,978 - group_resolver - INFO - [group_resolver.py:196] - Found 3 members for group SHAREGUARD\Administrators
+2025-06-21 18:36:58,979 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Administrators
+2025-06-21 18:36:58,979 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\Administrator
+2025-06-21 18:36:58,979 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,980 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,980 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,981 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Users: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,981 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,982 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\Domain Users of type Unknown
+2025-06-21 18:36:58,982 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for users: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,982 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:58,983 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,983 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/Domain Users,user
+2025-06-21 18:36:58,984 - group_resolver - WARNING - [group_resolver.py:369] - ADSI lookup failed for Domain Users: (-2147022675, 'The user name could not be found.', None, None)
+2025-06-21 18:36:58,987 - group_resolver - DEBUG - [group_resolver.py:383] - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,987 - group_resolver - DEBUG - [group_resolver.py:399] - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2025-06-21 18:36:58,987 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,988 - group_resolver - INFO - [group_resolver.py:409] - Found 0 groups for user SHAREGUARD\Domain Users
+2025-06-21 18:36:58,988 - group_resolver - DEBUG - [group_resolver.py:471] - Found 0 groups for user
+2025-06-21 18:36:58,989 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\Domain Users
+2025-06-21 18:36:58,992 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:36:58,993 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:58,993 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Finance_Staff is system: False
+2025-06-21 18:36:58,994 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Finance_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:58,996 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Finance_Staff is system: False
+2025-06-21 18:36:58,997 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\Finance_Staff of type Unknown
+2025-06-21 18:36:58,997 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Finance_Staff is system: False
+2025-06-21 18:36:58,998 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:58,998 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/Finance_Staff,user
+2025-06-21 18:36:58,999 - group_resolver - WARNING - [group_resolver.py:369] - ADSI lookup failed for Finance_Staff: (-2147022675, 'The user name could not be found.', None, None)
+2025-06-21 18:36:59,000 - group_resolver - DEBUG - [group_resolver.py:383] - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,001 - group_resolver - DEBUG - [group_resolver.py:399] - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2025-06-21 18:36:59,001 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:59,001 - group_resolver - INFO - [group_resolver.py:409] - Found 0 groups for user SHAREGUARD\Finance_Staff
+2025-06-21 18:36:59,002 - group_resolver - DEBUG - [group_resolver.py:471] - Found 0 groups for user
+2025-06-21 18:36:59,002 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:59,003 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,004 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Report_Viewers is system: False
+2025-06-21 18:36:59,004 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Report_Viewers: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,007 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Report_Viewers is system: False
+2025-06-21 18:36:59,007 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\Report_Viewers of type Unknown
+2025-06-21 18:36:59,008 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Report_Viewers is system: False
+2025-06-21 18:36:59,008 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,008 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/Report_Viewers,user
+2025-06-21 18:36:59,010 - group_resolver - WARNING - [group_resolver.py:369] - ADSI lookup failed for Report_Viewers: (-2147022675, 'The user name could not be found.', None, None)
+2025-06-21 18:36:59,011 - group_resolver - DEBUG - [group_resolver.py:383] - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,011 - group_resolver - DEBUG - [group_resolver.py:399] - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2025-06-21 18:36:59,011 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,012 - group_resolver - INFO - [group_resolver.py:409] - Found 0 groups for user SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,012 - group_resolver - DEBUG - [group_resolver.py:471] - Found 0 groups for user
+2025-06-21 18:36:59,012 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,014 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\john.smith
+2025-06-21 18:36:59,014 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:36:59,015 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\john.smith: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,016 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:36:59,016 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\john.smith of type Unknown
+2025-06-21 18:36:59,018 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:36:59,018 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\john.smith
+2025-06-21 18:36:59,019 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/john.smith,user
+2025-06-21 18:36:59,025 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Users: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,026 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:59,026 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Domain Users
+2025-06-21 18:36:59,027 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Folder_Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,028 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Folder_Admins is system: False
+2025-06-21 18:36:59,029 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,029 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\IT_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,030 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\IT_Staff is system: False
+2025-06-21 18:36:59,030 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,031 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\john.smith
+2025-06-21 18:36:59,031 - group_resolver - INFO - [group_resolver.py:409] - Found 3 groups for user SHAREGUARD\john.smith
+2025-06-21 18:36:59,031 - group_resolver - DEBUG - [group_resolver.py:471] - Found 3 groups for user
+2025-06-21 18:36:59,032 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Domain Users (depth: 0)
+2025-06-21 18:36:59,032 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:59,033 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:59,033 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:59,033 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Folder_Admins (depth: 0)
+2025-06-21 18:36:59,033 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Folder_Admins is system: False
+2025-06-21 18:36:59,034 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Folder_Admins,group
+2025-06-21 18:36:59,037 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\john.smith: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,039 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:36:59,039 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\john.smith
+2025-06-21 18:36:59,040 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,040 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,040 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,041 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,041 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\IT_Staff (depth: 0)
+2025-06-21 18:36:59,041 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\IT_Staff is system: False
+2025-06-21 18:36:59,042 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/IT_Staff,group
+2025-06-21 18:36:59,045 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\john.smith: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,045 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:36:59,046 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\john.smith
+2025-06-21 18:36:59,046 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,046 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,048 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,049 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,049 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\john.smith
+2025-06-21 18:36:59,052 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:59,054 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:36:59,055 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:36:59,055 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:59,056 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,057 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:36:59,080 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:36:59,081 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,081 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\HR_Staff is system: False
+2025-06-21 18:36:59,082 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\HR_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,083 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\HR_Staff is system: False
+2025-06-21 18:36:59,083 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\HR_Staff of type Unknown
+2025-06-21 18:36:59,083 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\HR_Staff is system: False
+2025-06-21 18:36:59,084 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,084 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/HR_Staff,user
+2025-06-21 18:36:59,085 - group_resolver - WARNING - [group_resolver.py:369] - ADSI lookup failed for HR_Staff: (-2147022675, 'The user name could not be found.', None, None)
+2025-06-21 18:36:59,086 - group_resolver - DEBUG - [group_resolver.py:383] - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,086 - group_resolver - DEBUG - [group_resolver.py:399] - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2025-06-21 18:36:59,086 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,087 - group_resolver - INFO - [group_resolver.py:409] - Found 0 groups for user SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,089 - group_resolver - DEBUG - [group_resolver.py:471] - Found 0 groups for user
+2025-06-21 18:36:59,089 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,090 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,091 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,091 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Folder_Admins is system: False
+2025-06-21 18:36:59,092 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Folder_Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,093 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Folder_Admins is system: False
+2025-06-21 18:36:59,093 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\Folder_Admins of type Unknown
+2025-06-21 18:36:59,093 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for users: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,093 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Folder_Admins is system: False
+2025-06-21 18:36:59,094 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,094 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/Folder_Admins,user
+2025-06-21 18:36:59,095 - group_resolver - WARNING - [group_resolver.py:369] - ADSI lookup failed for Folder_Admins: (-2147022675, 'The user name could not be found.', None, None)
+2025-06-21 18:36:59,096 - group_resolver - DEBUG - [group_resolver.py:383] - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,097 - group_resolver - DEBUG - [group_resolver.py:399] - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2025-06-21 18:36:59,097 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,124 - group_resolver - INFO - [group_resolver.py:409] - Found 0 groups for user SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,125 - group_resolver - DEBUG - [group_resolver.py:471] - Found 0 groups for user
+2025-06-21 18:36:59,125 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,128 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,130 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:36:59,131 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:36:59,132 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,133 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,138 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,138 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,138 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\IT_Staff is system: False
+2025-06-21 18:36:59,139 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\IT_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,139 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\IT_Staff is system: False
+2025-06-21 18:36:59,140 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\IT_Staff of type Unknown
+2025-06-21 18:36:59,140 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for users: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,140 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\IT_Staff is system: False
+2025-06-21 18:36:59,141 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,141 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/IT_Staff,user
+2025-06-21 18:36:59,142 - group_resolver - WARNING - [group_resolver.py:369] - ADSI lookup failed for IT_Staff: (-2147022675, 'The user name could not be found.', None, None)
+2025-06-21 18:36:59,143 - group_resolver - DEBUG - [group_resolver.py:383] - NetUserGetGroups failed: (1722, 'NetUserGetGroups', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,143 - group_resolver - DEBUG - [group_resolver.py:399] - NetUserGetLocalGroups failed: (2221, 'NetUserGetLocalGroups', 'The user name could not be found.')
+2025-06-21 18:36:59,144 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,144 - group_resolver - INFO - [group_resolver.py:409] - Found 0 groups for user SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,146 - group_resolver - DEBUG - [group_resolver.py:471] - Found 0 groups for user
+2025-06-21 18:36:59,147 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,147 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,151 - group_resolver - INFO - [group_resolver.py:435] - Building access paths for: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,151 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:36:59,152 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\bob.wilson: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,152 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:36:59,153 - group_resolver - DEBUG - [group_resolver.py:449] - Processing trustee SHAREGUARD\bob.wilson of type Unknown
+2025-06-21 18:36:59,153 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:36:59,153 - group_resolver - INFO - [group_resolver.py:338] - Getting groups for user: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,154 - group_resolver - DEBUG - [group_resolver.py:345] - Attempting ADSI connection to: WinNT://SHAREGUARD/bob.wilson,user
+2025-06-21 18:36:59,158 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Users: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,160 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:59,160 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\Domain Users
+2025-06-21 18:36:59,160 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\HR_Staff: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,161 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\HR_Staff is system: False
+2025-06-21 18:36:59,161 - group_resolver - DEBUG - [group_resolver.py:362] - Found group membership: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,162 - group_resolver - DEBUG - [group_resolver.py:119] - Cached users: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,162 - group_resolver - INFO - [group_resolver.py:409] - Found 2 groups for user SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,163 - group_resolver - DEBUG - [group_resolver.py:471] - Found 2 groups for user
+2025-06-21 18:36:59,163 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\Domain Users (depth: 0)
+2025-06-21 18:36:59,163 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Users is system: False
+2025-06-21 18:36:59,163 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:59,164 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\Domain Users
+2025-06-21 18:36:59,164 - group_resolver - DEBUG - [group_resolver.py:521] - Tracing group path for: SHAREGUARD\HR_Staff (depth: 0)
+2025-06-21 18:36:59,164 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\HR_Staff is system: False
+2025-06-21 18:36:59,165 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,165 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/HR_Staff,group
+2025-06-21 18:36:59,168 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\bob.wilson: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:36:59,168 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:36:59,169 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,169 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,169 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,170 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,170 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for group_members: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,170 - group_resolver - DEBUG - [group_resolver.py:119] - Cached paths: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,172 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,172 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,175 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,178 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,178 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,181 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:59,184 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:36:59,185 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:37:00,930 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:37:00,935 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,935 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Domain Users
+2025-06-21 18:37:00,940 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,941 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:37:00,941 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:37:00,942 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:37:00,944 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:37:00,947 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,948 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,948 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:37:00,951 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:37:00,952 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:37:00,954 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,955 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:37:00,955 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:37:00,958 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:37:00,962 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,963 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:00,963 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:37:00,965 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:37:00,967 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:37:00,968 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:37:00,970 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\bob.wilson
+2025-06-21 18:37:00,973 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:37:00,974 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:37:00,976 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\bob.wilson
+2025-06-21 18:37:00,977 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:37:00,978 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:37:00,980 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:37:00,985 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:37:00,986 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:37:02,756 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:37:09,590 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:37:09,591 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:37:09,592 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:37:09,594 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:37:13,468 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-21 18:37:13,469 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-21 18:37:13,470 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:37:13,470 - group_resolver - INFO - [group_resolver.py:577] - Getting members for group SHAREGUARD\Finance_Staff
+2025-06-21 18:37:13,471 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Finance_Staff,group
+2025-06-21 18:37:13,474 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\jane.doe: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:37:13,475 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\jane.doe is system: False
+2025-06-21 18:37:13,475 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\jane.doe
+2025-06-21 18:37:13,476 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Finance_Staff
+2025-06-21 18:37:13,476 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Finance_Staff
+2025-06-21 18:37:13,476 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Finance_Staff
+2025-06-21 18:39:14,494 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:39:14,494 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:39:14,495 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:39:26,030 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-21 18:39:26,031 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-21 18:39:26,032 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:39:26,033 - group_resolver - INFO - [group_resolver.py:577] - Getting members for group SHAREGUARD\HR_Staff
+2025-06-21 18:39:26,034 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/HR_Staff,group
+2025-06-21 18:39:28,390 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\bob.wilson: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:39:28,391 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:39:28,391 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\bob.wilson
+2025-06-21 18:39:28,392 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\HR_Staff
+2025-06-21 18:39:28,392 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\HR_Staff
+2025-06-21 18:39:28,392 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\HR_Staff
+2025-06-21 18:39:37,528 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-21 18:39:37,529 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-21 18:39:37,531 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:39:37,532 - group_resolver - INFO - [group_resolver.py:577] - Getting members for group SHAREGUARD\Folder_Admins
+2025-06-21 18:39:37,532 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/Folder_Admins,group
+2025-06-21 18:39:37,535 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\john.smith: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:39:37,536 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\john.smith is system: False
+2025-06-21 18:39:37,536 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\john.smith
+2025-06-21 18:39:37,537 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\Folder_Admins
+2025-06-21 18:39:37,539 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\Folder_Admins
+2025-06-21 18:39:37,539 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\Folder_Admins
+2025-06-21 18:39:56,571 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:40:01,073 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-21 18:40:01,074 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-21 18:40:01,074 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:40:01,075 - group_resolver - INFO - [group_resolver.py:577] - Getting members for group BUILTIN\Administrators
+2025-06-21 18:40:01,079 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://BUILTIN/Administrators,group
+2025-06-21 18:40:15,851 - group_resolver - DEBUG - [group_resolver.py:253] - Failed to connect to WinNT://BUILTIN/Administrators,group: (-2147024843, 'The network path was not found.', None, None)
+2025-06-21 18:40:15,852 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://localhost/Administrators,group
+2025-06-21 18:40:25,828 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:40:25,833 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:40:25,834 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:40:25,836 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Enterprise Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:40:25,837 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Enterprise Admins is system: False
+2025-06-21 18:40:25,838 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Enterprise Admins
+2025-06-21 18:40:25,840 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:40:25,841 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Admins is system: False
+2025-06-21 18:40:25,844 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Domain Admins
+2025-06-21 18:40:25,844 - group_resolver - DEBUG - [group_resolver.py:260] - Found 3 members via ADSI for BUILTIN\Administrators
+2025-06-21 18:40:25,845 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: BUILTIN\Administrators
+2025-06-21 18:40:25,845 - group_resolver - INFO - [group_resolver.py:196] - Found 3 members for group BUILTIN\Administrators
+2025-06-21 18:56:15,299 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:56:15,309 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-21 18:56:15,310 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-21 18:56:15,310 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:56:15,311 - group_resolver - INFO - [group_resolver.py:577] - Getting members for group BUILTIN\Administrators
+2025-06-21 18:56:15,311 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://BUILTIN/Administrators,group
+2025-06-21 18:56:32,089 - group_resolver - DEBUG - [group_resolver.py:253] - Failed to connect to WinNT://BUILTIN/Administrators,group: (-2147024843, 'The network path was not found.', None, None)
+2025-06-21 18:56:32,090 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://localhost/Administrators,group
+2025-06-21 18:56:45,643 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Administrator: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:56:45,645 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Administrator is system: False
+2025-06-21 18:56:45,645 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Administrator
+2025-06-21 18:56:45,646 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Enterprise Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:56:45,647 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Enterprise Admins is system: False
+2025-06-21 18:56:45,647 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Enterprise Admins
+2025-06-21 18:56:45,648 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\Domain Admins: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:56:45,649 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\Domain Admins is system: False
+2025-06-21 18:56:45,649 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\Domain Admins
+2025-06-21 18:56:45,650 - group_resolver - DEBUG - [group_resolver.py:260] - Found 3 members via ADSI for BUILTIN\Administrators
+2025-06-21 18:56:45,650 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: BUILTIN\Administrators
+2025-06-21 18:56:45,650 - group_resolver - INFO - [group_resolver.py:196] - Found 3 members for group BUILTIN\Administrators
+2025-06-21 18:56:45,673 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:56:45,677 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,678 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Domain Users
+2025-06-21 18:56:45,684 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,684 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:56:45,685 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:56:45,685 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:56:45,688 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:56:45,692 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,696 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,696 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Finance_Staff
+2025-06-21 18:56:45,697 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Report_Viewers
+2025-06-21 18:56:45,698 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:56:45,700 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,701 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:45,703 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:45,706 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:45,709 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,710 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,711 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:45,712 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:45,716 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:56:45,717 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:45,720 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\bob.wilson
+2025-06-21 18:56:45,721 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:56:45,721 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:45,726 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\bob.wilson
+2025-06-21 18:56:45,729 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\IT_Staff
+2025-06-21 18:56:45,729 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:45,732 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:56:45,737 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\john.smith
+2025-06-21 18:56:45,738 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\ShareGuardService
+2025-06-21 18:56:45,788 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:45,790 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:45,791 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:47,770 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:47,771 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:47,771 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:47,776 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:47,778 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:47,779 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Administrator
+2025-06-21 18:56:47,780 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:47,780 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\Folder_Admins
+2025-06-21 18:56:51,642 - group_resolver - DEBUG - [group_resolver.py:104] - Cache hit for paths: SHAREGUARD\HR_Staff
+2025-06-21 18:56:54,547 - group_resolver - INFO - [group_resolver.py:80] - Using domain controller: WIN-I2VDDDLDOUA
+2025-06-21 18:56:54,548 - group_resolver - DEBUG - [group_resolver.py:94] - Could not get additional domain info: (1355, 'NetGetAnyDCName', 'The specified domain either does not exist or could not be contacted.')
+2025-06-21 18:56:54,549 - group_resolver - INFO - [group_resolver.py:59] - GroupResolver initialized with TTL: 3600 seconds
+2025-06-21 18:56:54,549 - group_resolver - INFO - [group_resolver.py:577] - Getting members for group SHAREGUARD\HR_Staff
+2025-06-21 18:56:54,550 - group_resolver - DEBUG - [group_resolver.py:216] - Attempting ADSI connection to: WinNT://SHAREGUARD/HR_Staff,group
+2025-06-21 18:56:54,553 - group_resolver - WARNING - [group_resolver.py:146] - Failed to get account details for SHAREGUARD\bob.wilson: (1722, 'LookupAccountName', 'The RPC server is unavailable.')
+2025-06-21 18:56:54,554 - group_resolver - DEBUG - [group_resolver.py:125] - Account SHAREGUARD\bob.wilson is system: False
+2025-06-21 18:56:54,554 - group_resolver - DEBUG - [group_resolver.py:237] - Found member via ADSI: SHAREGUARD\bob.wilson
+2025-06-21 18:56:54,554 - group_resolver - DEBUG - [group_resolver.py:260] - Found 1 members via ADSI for SHAREGUARD\HR_Staff
+2025-06-21 18:56:54,555 - group_resolver - DEBUG - [group_resolver.py:119] - Cached group_members: SHAREGUARD\HR_Staff
+2025-06-21 18:56:54,555 - group_resolver - INFO - [group_resolver.py:196] - Found 1 members for group SHAREGUARD\HR_Staff

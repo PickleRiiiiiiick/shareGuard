@@ -1,0 +1,29 @@
+2025-06-22 06:30:20,282 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 06:30:32,247 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring
+2025-06-22 06:30:32,291 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring
+2025-06-22 06:30:39,331 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 06:43:42,944 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 06:44:28,122 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring
+2025-06-22 06:46:00,655 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 06:50:20,652 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 10:48:29,701 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 11:00:59,255 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 11:03:10,665 - alert_routes - INFO - [alert_routes.py:96] - Created alert configuration 1: test
+2025-06-22 11:05:58,763 - alert_routes - INFO - [alert_routes.py:266] - Deleted alert configuration 1
+2025-06-22 11:07:19,404 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 11:12:48,095 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 11:40:45,121 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 11:41:41,104 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring
+2025-06-22 11:41:41,133 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring
+2025-06-22 11:52:46,519 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 12:05:33,979 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 12:08:36,364 - alert_routes - INFO - [alert_routes.py:96] - Created alert configuration 2: New Access High
+2025-06-22 12:09:04,439 - alert_routes - INFO - [alert_routes.py:96] - Created alert configuration 3: New Access Low
+2025-06-22 12:09:19,352 - alert_routes - INFO - [alert_routes.py:96] - Created alert configuration 4: New Access Medium
+2025-06-22 12:09:40,362 - alert_routes - INFO - [alert_routes.py:96] - Created alert configuration 5: New Access Critical
+2025-06-22 12:22:37,356 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 12:26:32,034 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 12:31:15,639 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 12:38:52,890 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 12:55:37,949 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-06-22 13:03:22,436 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring

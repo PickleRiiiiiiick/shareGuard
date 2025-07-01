@@ -92,7 +92,7 @@ export function TargetEditForm({ target, onSubmit, onCancel, isLoading }: Target
 
                     <div>
                         <label htmlFor="scan_frequency" className="block text-sm font-medium text-gray-700">
-                            Scan Frequency
+                            Monitoring Status & Scan Frequency
                         </label>
                         <select
                             id="scan_frequency"
@@ -101,12 +101,16 @@ export function TargetEditForm({ target, onSubmit, onCancel, isLoading }: Target
                             onChange={(e) => setFormData({ ...formData, scan_frequency: e.target.value as ScanScheduleType })}
                             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm"
                         >
-                            {Object.values(ScanScheduleType).map((frequency) => (
+                            <option value="disabled">🔴 Inactive (Disabled)</option>
+                            {Object.values(ScanScheduleType).filter(f => f !== 'disabled').map((frequency) => (
                                 <option key={frequency} value={frequency}>
-                                    {frequency.charAt(0).toUpperCase() + frequency.slice(1)}
+                                    🟢 Active - {frequency.charAt(0).toUpperCase() + frequency.slice(1)}
                                 </option>
                             ))}
                         </select>
+                        <p className="mt-1 text-xs text-gray-500">
+                            Only active targets are monitored for ACL changes
+                        </p>
                     </div>
 
                     <div>

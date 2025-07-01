@@ -22,9 +22,7 @@ export const ScanResultsViewer: React.FC<Props> = ({ targetId }) => {
             </p>
         );
     }
-    interface Props {
-        targetId: string;
-    }
+
     if (!data || data.length === 0) {
         return <p className="text-sm text-gray-500 mt-2">No scan results available for this target.</p>;
     }

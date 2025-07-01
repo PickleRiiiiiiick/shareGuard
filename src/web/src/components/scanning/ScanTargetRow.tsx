@@ -52,9 +52,18 @@ export function ScanTargetRow({ target }: ScanTargetRowProps) {
                             <div className="flex items-center space-x-4">
                                 <div className="hidden md:block">
                                     <div>
-                                        <p className="text-sm text-gray-900">
-                                            {target.scan_frequency.toUpperCase()}
-                                        </p>
+                                        <div className="flex items-center space-x-2">
+                                            <p className="text-sm text-gray-900">
+                                                {target.scan_frequency.toUpperCase()}
+                                            </p>
+                                            <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                                                target.scan_frequency === 'disabled' 
+                                                    ? 'bg-red-100 text-red-800' 
+                                                    : 'bg-green-100 text-green-800'
+                                            }`}>
+                                                {target.scan_frequency === 'disabled' ? 'Inactive' : 'Active'}
+                                            </span>
+                                        </div>
                                         {target.last_scan_time && (
                                             <p className="mt-1 text-sm text-gray-500">
                                                 Last scan {formatDistanceToNow(new Date(target.last_scan_time))} ago

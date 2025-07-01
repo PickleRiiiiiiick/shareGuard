@@ -7,11 +7,13 @@ import { TargetEditForm } from './TargetEditForm';
 import { ScanTarget } from '@/types/target';
 import { ScanScheduleType } from '@/types/enums';
 import { ScanStatusViewer } from './ScanStatusViewer';
+import { useAlert } from '@/contexts/AlertContext';
 
 export function NewTargetButton() {
     const [isOpen, setIsOpen] = useState(false);
     const [activeJobId, setActiveJobId] = useState<number | null>(null);
     const { mutate: createTarget, isLoading } = useCreateTarget();
+    const alert = useAlert();
 
     const emptyTarget: ScanTarget = {
         id: 0,
@@ -29,13 +31,30 @@ export function NewTargetButton() {
     };
 
     const handleCreate = (data: Partial<ScanTarget>) => {
-        createTarget(data as ScanTarget, {
+        const { id, created_at, created_by, ...targetData } = data;
+        console.log('Creating target with data:', targetData);
+        createTarget(targetData as Omit<ScanTarget, 'id' | 'created_at' | 'created_by'>, {
             onSuccess: (response) => {
+                alert.success('Target created successfully');
                 // Assuming the API returns the scan job ID in the response
                 if (response.job_id) {
                     setActiveJobId(response.job_id);
                 }
                 setIsOpen(false);
+            },
+            onError: (error: any) => {
+                console.error('Failed to create target:', error);
+                let errorMessage = 'Failed to create target';
+                
+                if (error.response?.data?.detail) {
+                    errorMessage = error.response.data.detail;
+                } else if (error.response?.data?.message) {
+                    errorMessage = error.response.data.message;
+                } else if (error.message) {
+                    errorMessage = error.message;
+                }
+                
+                alert.error(errorMessage);
             },
         });
     };

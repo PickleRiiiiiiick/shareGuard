@@ -83,6 +83,16 @@ async def get_current_service_account(credentials: HTTPAuthorizationCredentials 
     finally:
         db.close()
 
+async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    """Get current user - alias for get_current_service_account for compatibility"""
+    service_account = await get_current_service_account(credentials)
+    return {
+        'id': service_account.id,
+        'username': service_account.username,
+        'permissions': service_account.permissions or [],
+        'created_at': service_account.created_at
+    }
+
 def require_permissions(required_permissions: List[str]):
     """Decorator to check required permissions for endpoints"""
     def decorator(func):

@@ -59,6 +59,13 @@ DB_CONFIG = {
 # Construct database URL
 def get_db_url() -> str:
     """Generate database connection URL based on configuration."""
+    # Use SQLite for development if SQL Server isn't available
+    use_sqlite = os.getenv('USE_SQLITE', 'false').lower() == 'true'
+    
+    if use_sqlite:
+        db_path = os.getenv('SQLITE_PATH', 'shareguard.db')
+        return f'sqlite:///{db_path}'
+    
     if DB_CONFIG['trusted_connection']:
         params = [
             f"Driver={{{DB_CONFIG['driver']}}}",

@@ -9,8 +9,8 @@ interface ScanTargetFiltersProps {
 }
 
 export function ScanTargetFilters({ filters, onChange }: ScanTargetFiltersProps) {
-    const handleSearchChange = debounce((searchTerm: string) => {
-        onChange({ ...filters, searchTerm });
+    const handleSearchChange = debounce((search: string) => {
+        onChange({ ...filters, search });
     }, 300);
 
     return (

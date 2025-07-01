@@ -1,0 +1,114 @@
+2025-06-29 13:48:40,814 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:48:40,999 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:48:41,124 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:48:41,162 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:48:41,169 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:54:37,455 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:54:37,603 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:54:37,722 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:54:37,754 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:54:37,760 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 13:55:36,167 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT
+2025-06-29 13:55:36,167 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: BUILTIN\Administrators
+2025-06-29 13:55:36,168 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-32-544 using _lookup_sid_local
+2025-06-29 13:55:36,169 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Domain Users
+2025-06-29 13:55:36,169 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-513 using _lookup_sid_local
+2025-06-29 13:55:36,169 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: NT AUTHORITY\SYSTEM
+2025-06-29 13:55:36,170 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-18 using _lookup_sid_local
+2025-06-29 13:55:36,170 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:36,170 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\IT_Staff
+2025-06-29 13:55:36,171 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1103 using _lookup_sid_local
+2025-06-29 13:55:41,259 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Folder_Admins
+2025-06-29 13:55:41,259 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1106 using _lookup_sid_local
+2025-06-29 13:55:41,270 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\awilson
+2025-06-29 13:55:41,270 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-9554 using _lookup_sid_local
+2025-06-29 13:55:42,143 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\elewis
+2025-06-29 13:55:42,143 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-9654 using _lookup_sid_local
+2025-06-29 13:55:42,192 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\mcox
+2025-06-29 13:55:42,192 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-9798 using _lookup_sid_local
+2025-06-29 13:55:42,269 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\mcampbell1
+2025-06-29 13:55:42,270 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-9879 using _lookup_sid_local
+2025-06-29 13:55:42,343 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\sbailey
+2025-06-29 13:55:42,343 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-9806 using _lookup_sid_local
+2025-06-29 13:55:42,379 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2025-06-29 13:55:42,379 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:42,379 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-29 13:55:42,379 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:42,382 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\bob.wilson
+2025-06-29 13:55:42,382 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1110 using _lookup_sid_local
+2025-06-29 13:55:42,401 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-29 13:55:42,401 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:42,403 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-29 13:55:42,404 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-29 13:55:42,404 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9554
+2025-06-29 13:55:42,404 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9654
+2025-06-29 13:55:42,405 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9798
+2025-06-29 13:55:42,405 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9879
+2025-06-29 13:55:42,405 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9806
+2025-06-29 13:55:42,406 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2025-06-29 13:55:42,407 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:42,407 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-29 13:55:42,407 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:42,407 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-29 13:55:42,407 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-29 13:55:42,408 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:42,408 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-29 13:55:42,408 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-29 13:55:42,408 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9554
+2025-06-29 13:55:42,409 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9654
+2025-06-29 13:55:42,409 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9798
+2025-06-29 13:55:42,409 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9879
+2025-06-29 13:55:42,410 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9806
+2025-06-29 13:55:45,379 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2025-06-29 13:55:45,379 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:45,380 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-29 13:55:45,380 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:45,380 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-29 13:55:45,380 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-29 13:55:45,380 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-29 13:55:45,381 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-29 13:55:45,381 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-29 13:55:45,381 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9554
+2025-06-29 13:55:45,382 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9654
+2025-06-29 13:55:45,382 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9798
+2025-06-29 13:55:45,382 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9879
+2025-06-29 13:55:45,383 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-9806
+2025-06-29 14:55:32,808 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 14:55:32,931 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 14:55:33,041 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 14:55:33,071 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 14:55:33,076 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:04:52,495 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:04:52,565 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:04:52,610 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:04:52,642 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:04:52,647 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:06:29,040 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:06:29,113 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:06:29,158 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:06:29,193 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:06:29,199 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:36,286 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:36,355 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:36,399 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:42,120 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:42,190 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:42,234 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:10:54,507 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:11:00,705 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:14:58,353 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:18:46,580 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:18:46,733 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:18:46,842 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:20:49,528 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:20:49,627 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:20:49,681 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:22:09,757 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:22:09,840 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:22:09,915 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:22:15,852 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:22:15,937 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:22:16,010 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:23:15,486 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:23:15,584 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching
+2025-06-29 15:23:15,634 - scanner - INFO - [file_scanner.py:62] - PermissionScanner initialized with categorized Windows permissions and SID caching

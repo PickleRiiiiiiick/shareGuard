@@ -1,0 +1,349 @@
+2025-06-22 05:35:36,441 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 05:36:08,469 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 05:36:25,850 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 05:36:36,303 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 05:44:29,928 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 06:07:15,280 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 06:11:56,924 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 06:17:54,193 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 06:30:20,271 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 06:30:20,273 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:20,273 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:30:20,273 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:30:20,275 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:20,275 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:30:20,276 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:30:20,276 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:20,276 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:30:20,277 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:30:20,277 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:20,277 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 06:30:20,278 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 06:30:20,278 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:20,278 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 06:30:20,279 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 06:30:20,279 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 06:30:20,279 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 06:30:20,280 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 06:30:22,241 - change_monitor - INFO - [change_monitor.py:102] - Stopping ACL change monitoring
+2025-06-22 06:30:22,242 - change_monitor - INFO - [change_monitor.py:603] - Group membership monitoring stopped
+2025-06-22 06:30:22,242 - change_monitor - INFO - [change_monitor.py:117] - ACL change monitoring stopped
+2025-06-22 06:30:39,319 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 06:30:39,320 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:39,320 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:30:39,320 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:30:39,321 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:39,321 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:30:39,322 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:30:39,323 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:39,323 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:30:39,326 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:30:39,327 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:39,327 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 06:30:39,327 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 06:30:39,328 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:30:39,328 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 06:30:39,328 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 06:30:39,329 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 06:30:39,329 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 06:30:39,329 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 06:35:39,353 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 06:41:39,367 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 06:43:15,385 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 06:43:42,871 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 06:43:42,872 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:43:42,872 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:43:42,873 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:43:42,875 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:43:42,875 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:43:42,878 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:43:42,880 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:43:42,880 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:43:42,881 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:43:42,882 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:43:42,882 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 06:43:42,883 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 06:43:42,889 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:43:42,889 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 06:43:42,891 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 06:43:42,935 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 06:43:42,935 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 06:43:42,941 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 06:44:18,116 - change_monitor - INFO - [change_monitor.py:102] - Stopping ACL change monitoring
+2025-06-22 06:44:18,117 - change_monitor - INFO - [change_monitor.py:603] - Group membership monitoring stopped
+2025-06-22 06:44:18,118 - change_monitor - INFO - [change_monitor.py:117] - ACL change monitoring stopped
+2025-06-22 06:46:00,631 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 06:46:00,632 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:46:00,632 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:46:00,633 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:46:00,634 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:46:00,635 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:46:00,636 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:46:00,640 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:46:00,641 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:46:00,642 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:46:00,643 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:46:00,643 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 06:46:00,644 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 06:46:00,645 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:46:00,645 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 06:46:00,646 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 06:46:00,648 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 06:46:00,648 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 06:46:00,652 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 06:50:04,916 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 06:50:20,631 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 06:50:20,634 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:50:20,634 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:50:20,635 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 06:50:20,637 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:50:20,637 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:50:20,638 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 06:50:20,639 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:50:20,639 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:50:20,640 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 06:50:20,641 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:50:20,641 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 06:50:20,645 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 06:50:20,646 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 06:50:20,647 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 06:50:20,648 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 06:50:20,649 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 06:50:20,649 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 06:50:20,650 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 10:28:18,793 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 10:36:43,860 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 10:48:29,682 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 10:48:29,684 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 10:48:29,685 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 10:48:29,685 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 10:48:29,687 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 10:48:29,687 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 10:48:29,688 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 10:48:29,689 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 10:48:29,690 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 10:48:29,690 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 10:48:29,691 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 10:48:29,692 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 10:48:29,692 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 10:48:29,695 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 10:48:29,695 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 10:48:29,696 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 10:48:29,697 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 10:48:29,697 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 10:48:29,699 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 10:53:29,703 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 10:59:21,349 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 10:59:31,508 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 10:59:40,716 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 11:00:59,244 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 5 paths
+2025-06-22 11:00:59,245 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:00:59,245 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:00:59,246 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:00:59,246 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:00:59,246 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:00:59,247 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:00:59,248 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:00:59,248 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:00:59,248 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:00:59,249 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:00:59,249 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\
+2025-06-22 11:00:59,249 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\
+2025-06-22 11:00:59,250 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTestData: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:00:59,250 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTestData
+2025-06-22 11:00:59,250 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTestData
+2025-06-22 11:00:59,251 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 11:00:59,251 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 11:00:59,254 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 11:04:58,719 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 11:07:19,396 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 11:07:19,397 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:07:19,397 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:07:19,398 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:07:19,398 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:07:19,398 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:07:19,399 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:07:19,400 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:07:19,400 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:07:19,401 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:07:19,402 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 11:07:19,402 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 11:07:19,403 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 11:12:36,351 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 11:12:48,088 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 11:12:48,089 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:12:48,089 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:12:48,089 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:12:48,090 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:12:48,090 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:12:48,091 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:12:48,092 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:12:48,092 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:12:48,092 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:12:48,093 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 11:12:48,093 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 11:12:48,094 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 11:17:48,142 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 11:23:48,206 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 11:29:25,885 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 11:40:45,086 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 11:40:45,088 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:40:45,088 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:40:45,089 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:40:45,090 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:40:45,090 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:40:45,091 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:40:45,091 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:40:45,091 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:40:45,092 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:40:45,092 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 11:40:45,092 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 11:40:45,093 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 11:41:31,089 - change_monitor - INFO - [change_monitor.py:102] - Stopping ACL change monitoring
+2025-06-22 11:41:31,089 - change_monitor - INFO - [change_monitor.py:603] - Group membership monitoring stopped
+2025-06-22 11:41:31,090 - change_monitor - INFO - [change_monitor.py:117] - ACL change monitoring stopped
+2025-06-22 11:49:26,633 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 11:52:46,511 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 11:52:46,512 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:52:46,512 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:52:46,513 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 11:52:46,513 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:52:46,513 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:52:46,514 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 11:52:46,516 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 11:52:46,516 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:52:46,517 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 11:52:46,517 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 11:52:46,517 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 11:52:46,518 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 11:53:16,523 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 11:54:46,536 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 11:56:16,558 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 11:57:46,578 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 11:59:16,590 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:05:13,794 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:05:33,972 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 12:05:33,973 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:05:33,973 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:05:33,974 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:05:33,974 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:05:33,975 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:05:33,975 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:05:33,976 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:05:33,976 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:05:33,977 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:05:33,977 - change_monitor - INFO - [change_monitor.py:582] - Group membership monitoring active
+2025-06-22 12:05:33,977 - change_monitor - INFO - [change_monitor.py:574] - Started group membership monitoring
+2025-06-22 12:05:33,978 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 12:06:03,985 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:07:34,009 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:09:04,015 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:10:34,024 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:12:04,044 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:13:34,067 - change_monitor - ERROR - [change_monitor.py:597] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:13:38,172 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:14:15,173 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:14:52,843 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:15:05,811 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:15:23,729 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:18:53,247 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:22:37,341 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 12:22:37,343 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:22:37,343 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:22:37,344 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:22:37,345 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:22:37,345 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:22:37,346 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:22:37,347 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:22:37,347 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:22:37,348 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:22:37,349 - change_monitor - INFO - [change_monitor.py:646] - Group membership monitoring active
+2025-06-22 12:22:37,349 - change_monitor - INFO - [change_monitor.py:638] - Started group membership monitoring
+2025-06-22 12:22:37,351 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 12:23:07,357 - change_monitor - ERROR - [change_monitor.py:661] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:24:37,377 - change_monitor - ERROR - [change_monitor.py:661] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:25:12,492 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:25:27,355 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:25:36,050 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:25:45,990 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:25:55,776 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:26:32,018 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 12:26:32,019 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:26:32,019 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:26:32,020 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:26:32,023 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:26:32,023 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:26:32,023 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:26:32,025 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:26:32,025 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:26:32,026 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:26:32,027 - change_monitor - INFO - [change_monitor.py:660] - Group membership monitoring active
+2025-06-22 12:26:32,027 - change_monitor - INFO - [change_monitor.py:652] - Started group membership monitoring
+2025-06-22 12:26:32,029 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 12:27:02,035 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:29:18,249 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:30:27,195 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:31:15,621 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 12:31:15,630 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:31:15,631 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:31:15,631 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:31:15,632 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:31:15,632 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:31:15,633 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:31:15,633 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:31:15,634 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:31:15,634 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:31:15,634 - change_monitor - INFO - [change_monitor.py:660] - Group membership monitoring active
+2025-06-22 12:31:15,634 - change_monitor - INFO - [change_monitor.py:652] - Started group membership monitoring
+2025-06-22 12:31:15,635 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 12:31:45,658 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:33:15,678 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:34:43,115 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:34:45,692 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:35:14,293 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:38:52,883 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 3 paths
+2025-06-22 12:38:52,884 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:38:52,884 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:38:52,884 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:38:52,885 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:38:52,885 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:38:52,886 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:38:52,887 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:38:52,887 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:38:52,887 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:38:52,888 - change_monitor - INFO - [change_monitor.py:660] - Group membership monitoring active
+2025-06-22 12:38:52,888 - change_monitor - INFO - [change_monitor.py:652] - Started group membership monitoring
+2025-06-22 12:38:52,889 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 12:39:22,891 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:40:52,901 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:42:22,906 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:43:52,927 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:45:22,931 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:46:52,938 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:48:22,944 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:49:52,948 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:50:58,949 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-06-22 12:55:37,936 - change_monitor - INFO - [change_monitor.py:78] - Starting ACL change monitoring for 4 paths
+2025-06-22 12:55:37,937 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Finance: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:55:37,937 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:55:37,938 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Finance
+2025-06-22 12:55:37,939 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\HR: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:55:37,939 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:55:37,939 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\HR
+2025-06-22 12:55:37,940 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\IT: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:55:37,940 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:55:37,941 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\IT
+2025-06-22 12:55:37,942 - change_monitor - ERROR - [change_monitor.py:206] - Failed to initialize monitoring for C:\ShareGuardTest\Test: module 'win32file' has no attribute 'FILE_LIST_DIRECTORY'
+2025-06-22 12:55:37,942 - change_monitor - INFO - [change_monitor.py:148] - Started monitoring path: C:\ShareGuardTest\Test
+2025-06-22 12:55:37,944 - change_monitor - INFO - [change_monitor.py:213] - Stopped monitoring path: C:\ShareGuardTest\Test
+2025-06-22 12:55:37,946 - change_monitor - INFO - [change_monitor.py:660] - Group membership monitoring active
+2025-06-22 12:55:37,946 - change_monitor - INFO - [change_monitor.py:652] - Started group membership monitoring
+2025-06-22 12:55:37,947 - change_monitor - INFO - [change_monitor.py:90] - ACL change monitoring started successfully
+2025-06-22 12:56:07,951 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:57:37,956 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 12:59:07,961 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 13:00:37,976 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 13:02:07,980 - change_monitor - ERROR - [change_monitor.py:675] - Error in group monitoring cycle: There is no current event loop in thread 'GroupMembershipMonitor'.
+2025-06-22 13:03:12,418 - change_monitor - INFO - [change_monitor.py:102] - Stopping ACL change monitoring
+2025-06-22 13:03:12,419 - change_monitor - INFO - [change_monitor.py:681] - Group membership monitoring stopped
+2025-06-22 13:03:12,420 - change_monitor - INFO - [change_monitor.py:117] - ACL change monitoring stopped

@@ -10,15 +10,24 @@ from config.settings import DB_CONFIG
 logger = logging.getLogger(__name__)
 
 # Create database engine
-engine = create_engine(
-    DB_CONFIG['url'],
-    poolclass=QueuePool,
-    pool_size=DB_CONFIG['pool_size'],
-    max_overflow=DB_CONFIG['max_overflow'],
-    pool_timeout=DB_CONFIG['timeout'],
-    pool_recycle=DB_CONFIG['pool_recycle'],
-    fast_executemany=DB_CONFIG['fast_executemany']
-)
+if DB_CONFIG['url'].startswith('sqlite:'):
+    # SQLite specific configuration
+    engine = create_engine(
+        DB_CONFIG['url'],
+        pool_pre_ping=True,
+        echo=False
+    )
+else:
+    # SQL Server configuration
+    engine = create_engine(
+        DB_CONFIG['url'],
+        poolclass=QueuePool,
+        pool_size=DB_CONFIG['pool_size'],
+        max_overflow=DB_CONFIG['max_overflow'],
+        pool_timeout=DB_CONFIG['timeout'],
+        pool_recycle=DB_CONFIG['pool_recycle'],
+        fast_executemany=DB_CONFIG['fast_executemany']
+    )
 
 # Create session factory
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

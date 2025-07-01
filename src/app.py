@@ -5,7 +5,7 @@ from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.openapi.utils import get_openapi
 from fastapi.security import HTTPBearer
 from api.routes import scan_routes, target_routes, auth_routes
-from api.routes import folder_routes
+from api.routes import folder_routes, alert_routes, health_routes
 from db.database import init_db
 from core.scanner import ShareGuardScanner
 from api.middleware.auth import AuthMiddleware
@@ -83,6 +83,16 @@ app.include_router(
     prefix="/api/v1",
     tags=["folders"]
 )
+app.include_router(
+    alert_routes.router,
+    prefix="/api/v1",
+    tags=["alerts"]
+)
+app.include_router(
+    health_routes.router,
+    prefix="/api/v1/health",
+    tags=["health"]
+)
 
 # Mount frontend files if the directory exists
 if dist_dir.exists():
@@ -118,4 +128,18 @@ async def health_check():
 @app.on_event("startup")
 async def startup_event():
     init_db()
+    
+    # Start notification service
+    from src.services.notification_service import notification_service
+    await notification_service.start_service()
+    
+    logger.info("ShareGuard API started successfully")
     logger.info("Configured CORS origins: ['http://localhost:5173', 'http://localhost:8000']")
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    # Stop notification service
+    from src.services.notification_service import notification_service
+    await notification_service.stop_service()
+    
+    logger.info("ShareGuard API shutdown complete")

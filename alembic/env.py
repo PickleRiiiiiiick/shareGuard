@@ -1,6 +1,10 @@
 from logging.config import fileConfig
 import os
 import sys
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Add root path to sys.path for imports
 root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -17,10 +21,17 @@ from src.db.models.scan import ScanTarget, ScanJob, ScanResult, AccessEntry
 from src.db.models.alerts import AlertConfiguration, Alert
 from src.db.models.changes import PermissionChange
 from src.db.models.cache import UserGroupMapping
+from src.db.models.auth import ServiceAccount, AuthSession
 from src.db.models.enums import ScanScheduleType, AlertType, AlertSeverity
+
+# Import the database configuration
+from config.settings import get_db_url
 
 # this is the Alembic Config object
 config = context.config
+
+# Override the sqlalchemy.url with the one from settings
+config.set_main_option('sqlalchemy.url', get_db_url())
 
 # Interpret the config file for Python logging
 if config.config_file_name is not None:

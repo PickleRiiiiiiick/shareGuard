@@ -7,6 +7,8 @@ import { DashboardLayout } from '@/components/dashboard/DashboardLayout';
 import { ScanTargetList } from '@/components/scanning/ScanTargetList';
 import { DashboardPage } from '@/components/dashboard/DashboardPage';
 import { PermissionsPage } from '@/pages/Permissions';
+import Alerts from '@/pages/Alerts';
+import { Health } from '@/pages/Health';
 
 
 export default function App() {
@@ -25,6 +27,8 @@ export default function App() {
                             <Route path="/dashboard" element={<DashboardPage />} />
                             <Route path="/targets" element={<ScanTargetList />} />
                             <Route path="/permissions" element={<PermissionsPage />} />
+                            <Route path="/health" element={<Health />} />
+                            <Route path="/alerts" element={<Alerts />} />
                         </Route>
                     </Route>
 

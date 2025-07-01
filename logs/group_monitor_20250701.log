@@ -1,0 +1,84 @@
+2025-07-01 05:30:04,655 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 05:30:51,744 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-07-01 05:30:51,745 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-07-01 05:30:51,766 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-07-01 05:31:37,015 - group_monitor - INFO - [group_monitor.py:83] - Stopping group membership monitoring
+2025-07-01 05:31:47,030 - group_monitor - INFO - [group_monitor.py:90] - Group membership monitoring stopped
+2025-07-01 05:31:51,784 - group_monitor - INFO - [group_monitor.py:116] - Group membership monitoring loop ended
+2025-07-01 05:55:33,525 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 05:55:47,500 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 05:57:07,456 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 05:59:25,205 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:06:22,005 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:06:30,453 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:22:30,018 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:22:36,565 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:23:10,113 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:23:19,773 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:33:23,543 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:54:21,520 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:58:33,257 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:58:42,667 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:59:18,888 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 06:59:56,653 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 07:00:02,159 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 07:00:07,710 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 07:02:01,470 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:10:09,333 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:17:07,238 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:35:48,519 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:35:54,960 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:36:08,883 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:36:15,463 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:49:15,381 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:49:27,134 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:49:33,694 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:49:41,252 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 09:53:01,279 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:04:13,948 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:07:52,172 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:09:42,128 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:18:41,606 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:19:03,647 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:20:01,896 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:28:17,626 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:33:44,852 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:33:53,405 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:34:05,064 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 10:35:23,421 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:02:27,150 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:28:25,460 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:35:02,047 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:35:31,464 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:35:50,555 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:39:21,308 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:48:07,226 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 13:49:28,214 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:02:23,225 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:13:26,078 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:14:49,665 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:25:14,588 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:25:24,101 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:43:42,634 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:44:38,686 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:45:01,659 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:45:21,614 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 14:59:34,953 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:05:55,212 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:16:52,462 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:18:16,321 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:18:41,937 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:19:41,431 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:19:48,065 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:24:28,482 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:33:38,321 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:35:29,277 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-07-01 15:36:45,041 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized

@@ -1,6 +1,6 @@
 // 📄 File: /src/hooks/useScanResults.ts
 
-import { useQuery, QueryObserverResult } from 'react-query';
+import { useQuery, QueryObserverResult } from '@tanstack/react-query';
 import { api } from '@/utils/api'; // ✅ Your existing Axios wrapper
 
 // Define the expected structure of scan result items
@@ -14,15 +14,15 @@ export interface ScanResult {
 
 // Function to fetch scan results from the backend
 const fetchScanResults = async (targetId: number): Promise<ScanResult[]> => {
-    const response = await api.scan.get(`/results/${targetId}`);
-    return response.data;
+    const response = await api.scan.get<ScanResult[]>(`/results/${targetId}`);
+    return response;
 };
 
 // Hook to fetch scan results for a given target
 export function useScanResults(targetId: number): QueryObserverResult<ScanResult[]> {
-    return useQuery(
-        ['scan-results', targetId],
-        () => fetchScanResults(targetId),
-        { enabled: !!targetId }
-    );
+    return useQuery({
+        queryKey: ['scan-results', targetId],
+        queryFn: () => fetchScanResults(targetId),
+        enabled: !!targetId
+    });
 }

@@ -39,7 +39,7 @@ def upgrade() -> None:
         # Ensure created_at has a default value if it doesn't already
         batch_op.alter_column('created_at',
                             existing_type=sa.DateTime(),
-                            server_default=text('GETDATE()'),
+                            server_default=sa.func.now(),
                             nullable=False)
 
 def downgrade() -> None:

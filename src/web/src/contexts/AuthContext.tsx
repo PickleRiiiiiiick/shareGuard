@@ -5,6 +5,7 @@ import type { ServiceAccount } from '@/types/auth';
 interface AuthContextType {
     isAuthenticated: boolean;
     account: ServiceAccount | null;
+    user: ServiceAccount | null; // Alias for account for compatibility
     login: (username: string, domain: string, password: string) => Promise<void>;
     logout: () => Promise<void>;
     isLoading: boolean;
@@ -72,6 +73,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             value={{
                 isAuthenticated,
                 account,
+                user: account, // Alias for compatibility
                 login,
                 logout,
                 isLoading,

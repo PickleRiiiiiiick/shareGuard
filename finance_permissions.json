@@ -1,0 +1,721 @@
+{
+  "success": true,
+  "scan_time": "2024-11-16T09:31:55.697148",
+  "folder_info": {
+    "name": "Finance",
+    "path": "C:\\ShareGuardTest\\Finance",
+    "parent": "C:\\ShareGuardTest",
+    "is_root": false
+  },
+  "permissions": {
+    "path": "C:\\ShareGuardTest\\Finance",
+    "owner": {
+      "name": "Administrators",
+      "domain": "BUILTIN",
+      "sid": "S-1-5-32-544",
+      "full_name": "BUILTIN\\Administrators"
+    },
+    "primary_group": {
+      "name": "Domain Users",
+      "domain": "SHAREGUARD",
+      "sid": "S-1-5-21-1923339626-2680576837-3225702567-513",
+      "full_name": "SHAREGUARD\\Domain Users"
+    },
+    "aces": [
+      {
+        "trustee": {
+          "name": "SYSTEM",
+          "domain": "NT AUTHORITY",
+          "sid": "S-1-5-18",
+          "full_name": "NT AUTHORITY\\SYSTEM"
+        },
+        "type": "Allow",
+        "inherited": false,
+        "permissions": {
+          "Advanced": [
+            "Change Permissions",
+            "Delete",
+            "Read Permissions",
+            "Take Ownership"
+          ],
+          "Directory": [
+            "Create Files",
+            "Create Folders",
+            "Delete Subfolders and Files",
+            "List Folder",
+            "Read Attributes",
+            "Read Extended Attributes",
+            "Traverse Folder",
+            "Write Attributes",
+            "Write Extended Attributes"
+          ]
+        },
+        "access_paths": {
+          "trustee": {
+            "name": "SYSTEM",
+            "domain": "NT AUTHORITY",
+            "sid": "S-1-5-18",
+            "full_name": "NT AUTHORITY\\SYSTEM"
+          },
+          "direct_access": true,
+          "group_paths": [],
+          "nested_level": 0
+        }
+      },
+      {
+        "trustee": {
+          "name": "Administrators",
+          "domain": "BUILTIN",
+          "sid": "S-1-5-32-544",
+          "full_name": "BUILTIN\\Administrators"
+        },
+        "type": "Allow",
+        "inherited": false,
+        "permissions": {
+          "Advanced": [
+            "Change Permissions",
+            "Delete",
+            "Read Permissions",
+            "Take Ownership"
+          ],
+          "Directory": [
+            "Create Files",
+            "Create Folders",
+            "Delete Subfolders and Files",
+            "List Folder",
+            "Read Attributes",
+            "Read Extended Attributes",
+            "Traverse Folder",
+            "Write Attributes",
+            "Write Extended Attributes"
+          ]
+        },
+        "access_paths": {
+          "trustee": {
+            "name": "Administrators",
+            "domain": "BUILTIN",
+            "sid": "S-1-5-32-544",
+            "full_name": "BUILTIN\\Administrators"
+          },
+          "direct_access": true,
+          "group_paths": [],
+          "nested_level": 0
+        }
+      },
+      {
+        "trustee": {
+          "name": "Administrator",
+          "domain": "SHAREGUARD",
+          "sid": "S-1-5-21-1923339626-2680576837-3225702567-500",
+          "full_name": "SHAREGUARD\\Administrator"
+        },
+        "type": "Allow",
+        "inherited": false,
+        "permissions": {
+          "Advanced": [
+            "Change Permissions",
+            "Delete",
+            "Read Permissions",
+            "Take Ownership"
+          ],
+          "Directory": [
+            "Create Files",
+            "Create Folders",
+            "Delete Subfolders and Files",
+            "List Folder",
+            "Read Attributes",
+            "Read Extended Attributes",
+            "Traverse Folder",
+            "Write Attributes",
+            "Write Extended Attributes"
+          ]
+        },
+        "access_paths": {
+          "trustee": {
+            "name": "Administrator",
+            "domain": "SHAREGUARD",
+            "sid": "S-1-5-21-1923339626-2680576837-3225702567-500",
+            "full_name": "SHAREGUARD\\Administrator"
+          },
+          "direct_access": true,
+          "group_paths": [
+            {
+              "group": {
+                "name": "Domain Users",
+                "domain": "SHAREGUARD",
+                "type": "Group",
+                "full_name": "SHAREGUARD\\Domain Users"
+              },
+              "member_groups": [],
+              "nested_level": 0
+            },
+            {
+              "group": {
+                "name": "Schema Admins",
+                "domain": "SHAREGUARD",
+                "type": "Group",
+                "full_name": "SHAREGUARD\\Schema Admins"
+              },
+              "member_groups": [],
+              "nested_level": 0
+            },
+            {
+              "group": {
+                "name": "Group Policy Creator Owners",
+                "domain": "SHAREGUARD",
+                "type": "Group",
+                "full_name": "SHAREGUARD\\Group Policy Creator Owners"
+              },
+              "member_groups": [],
+              "nested_level": 0
+            },
+            {
+              "group": {
+                "name": "Enterprise Admins",
+                "domain": "SHAREGUARD",
+                "type": "Group",
+                "full_name": "SHAREGUARD\\Enterprise Admins"
+              },
+              "member_groups": [],
+              "nested_level": 0
+            },
+            {
+              "group": {
+                "name": "Domain Admins",
+                "domain": "SHAREGUARD",
+                "type": "Group",
+                "full_name": "SHAREGUARD\\Domain Admins"
+              },
+              "member_groups": [],
+              "nested_level": 0
+            },
+            {
+              "group": {
+                "name": "Administrators",
+                "domain": "SHAREGUARD",
+                "type": "Group",
+                "full_name": "SHAREGUARD\\Administrators"
+              },
+              "member_groups": [],
+              "nested_level": 0
+            }
+          ],
+          "nested_level": 0
+        }
+      },
+      {
+        "trustee": {
+          "name": "Finance_Staff",
+          "domain": "SHAREGUARD",
+          "sid": "S-1-5-21-1923339626-2680576837-3225702567-1104",
+          "full_name": "SHAREGUARD\\Finance_Staff"
+        },
+        "type": "Allow",
+        "inherited": false,
+        "permissions": {
+          "Advanced": [
+            "Delete",
+            "Read Permissions"
+          ],
+          "Directory": [
+            "Create Files",
+            "Create Folders",
+            "List Folder",
+            "Read Attributes",
+            "Read Extended Attributes",
+            "Traverse Folder",
+            "Write Attributes",
+            "Write Extended Attributes"
+          ]
+        },
+        "access_paths": {
+          "trustee": {
+            "name": "Finance_Staff",
+            "domain": "SHAREGUARD",
+            "sid": "S-1-5-21-1923339626-2680576837-3225702567-1104",
+            "full_name": "SHAREGUARD\\Finance_Staff"
+          },
+          "direct_access": true,
+          "group_paths": [],
+          "nested_level": 0
+        }
+      },
+      {
+        "trustee": {
+          "name": "Report_Viewers",
+          "domain": "SHAREGUARD",
+          "sid": "S-1-5-21-1923339626-2680576837-3225702567-1107",
+          "full_name": "SHAREGUARD\\Report_Viewers"
+        },
+        "type": "Allow",
+        "inherited": false,
+        "permissions": {
+          "Advanced": [
+            "Read Permissions"
+          ],
+          "Directory": [
+            "List Folder",
+            "Read Attributes",
+            "Read Extended Attributes"
+          ]
+        },
+        "access_paths": {
+          "trustee": {
+            "name": "Report_Viewers",
+            "domain": "SHAREGUARD",
+            "sid": "S-1-5-21-1923339626-2680576837-3225702567-1107",
+            "full_name": "SHAREGUARD\\Report_Viewers"
+          },
+          "direct_access": true,
+          "group_paths": [],
+          "nested_level": 0
+        }
+      }
+    ],
+    "scan_time": "2024-11-16T09:31:55.697135",
+    "success": true
+  },
+  "subfolders": [
+    {
+      "success": true,
+      "scan_time": "2024-11-16T09:31:55.698201",
+      "folder_info": {
+        "name": "Confidential",
+        "path": "C:\\ShareGuardTest\\Finance\\Confidential",
+        "parent": "C:\\ShareGuardTest\\Finance",
+        "is_root": false
+      },
+      "permissions": {
+        "path": "C:\\ShareGuardTest\\Finance\\Confidential",
+        "owner": {
+          "name": "Administrators",
+          "domain": "BUILTIN",
+          "sid": "S-1-5-32-544",
+          "full_name": "BUILTIN\\Administrators"
+        },
+        "primary_group": {
+          "name": "Domain Users",
+          "domain": "SHAREGUARD",
+          "sid": "S-1-5-21-1923339626-2680576837-3225702567-513",
+          "full_name": "SHAREGUARD\\Domain Users"
+        },
+        "aces": [
+          {
+            "trustee": {
+              "name": "SYSTEM",
+              "domain": "NT AUTHORITY",
+              "sid": "S-1-5-18",
+              "full_name": "NT AUTHORITY\\SYSTEM"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Change Permissions",
+                "Delete",
+                "Read Permissions",
+                "Take Ownership"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "Delete Subfolders and Files",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "SYSTEM",
+                "domain": "NT AUTHORITY",
+                "sid": "S-1-5-18",
+                "full_name": "NT AUTHORITY\\SYSTEM"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          },
+          {
+            "trustee": {
+              "name": "Administrators",
+              "domain": "BUILTIN",
+              "sid": "S-1-5-32-544",
+              "full_name": "BUILTIN\\Administrators"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Change Permissions",
+                "Delete",
+                "Read Permissions",
+                "Take Ownership"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "Delete Subfolders and Files",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "Administrators",
+                "domain": "BUILTIN",
+                "sid": "S-1-5-32-544",
+                "full_name": "BUILTIN\\Administrators"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          },
+          {
+            "trustee": {
+              "name": "Finance_Staff",
+              "domain": "SHAREGUARD",
+              "sid": "S-1-5-21-1923339626-2680576837-3225702567-1104",
+              "full_name": "SHAREGUARD\\Finance_Staff"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Delete",
+                "Read Permissions"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "Finance_Staff",
+                "domain": "SHAREGUARD",
+                "sid": "S-1-5-21-1923339626-2680576837-3225702567-1104",
+                "full_name": "SHAREGUARD\\Finance_Staff"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          }
+        ],
+        "scan_time": "2024-11-16T09:31:55.698193",
+        "success": true
+      },
+      "subfolders": [],
+      "statistics": {
+        "total_folders": 1,
+        "processed_folders": 1,
+        "error_count": 0
+      }
+    },
+    {
+      "success": true,
+      "scan_time": "2024-11-16T09:31:55.699443",
+      "folder_info": {
+        "name": "Reports",
+        "path": "C:\\ShareGuardTest\\Finance\\Reports",
+        "parent": "C:\\ShareGuardTest\\Finance",
+        "is_root": false
+      },
+      "permissions": {
+        "path": "C:\\ShareGuardTest\\Finance\\Reports",
+        "owner": {
+          "name": "Administrator",
+          "domain": "SHAREGUARD",
+          "sid": "S-1-5-21-1923339626-2680576837-3225702567-500",
+          "full_name": "SHAREGUARD\\Administrator"
+        },
+        "primary_group": {
+          "name": "Domain Users",
+          "domain": "SHAREGUARD",
+          "sid": "S-1-5-21-1923339626-2680576837-3225702567-513",
+          "full_name": "SHAREGUARD\\Domain Users"
+        },
+        "aces": [
+          {
+            "trustee": {
+              "name": "Administrators",
+              "domain": "BUILTIN",
+              "sid": "S-1-5-32-544",
+              "full_name": "BUILTIN\\Administrators"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Change Permissions",
+                "Delete",
+                "Read Permissions",
+                "Take Ownership"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "Delete Subfolders and Files",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "Administrators",
+                "domain": "BUILTIN",
+                "sid": "S-1-5-32-544",
+                "full_name": "BUILTIN\\Administrators"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          },
+          {
+            "trustee": {
+              "name": "Administrator",
+              "domain": "SHAREGUARD",
+              "sid": "S-1-5-21-1923339626-2680576837-3225702567-500",
+              "full_name": "SHAREGUARD\\Administrator"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Change Permissions",
+                "Delete",
+                "Read Permissions",
+                "Take Ownership"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "Delete Subfolders and Files",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "Administrator",
+                "domain": "SHAREGUARD",
+                "sid": "S-1-5-21-1923339626-2680576837-3225702567-500",
+                "full_name": "SHAREGUARD\\Administrator"
+              },
+              "direct_access": true,
+              "group_paths": [
+                {
+                  "group": {
+                    "name": "Domain Users",
+                    "domain": "SHAREGUARD",
+                    "type": "Group",
+                    "full_name": "SHAREGUARD\\Domain Users"
+                  },
+                  "member_groups": [],
+                  "nested_level": 0
+                },
+                {
+                  "group": {
+                    "name": "Schema Admins",
+                    "domain": "SHAREGUARD",
+                    "type": "Group",
+                    "full_name": "SHAREGUARD\\Schema Admins"
+                  },
+                  "member_groups": [],
+                  "nested_level": 0
+                },
+                {
+                  "group": {
+                    "name": "Group Policy Creator Owners",
+                    "domain": "SHAREGUARD",
+                    "type": "Group",
+                    "full_name": "SHAREGUARD\\Group Policy Creator Owners"
+                  },
+                  "member_groups": [],
+                  "nested_level": 0
+                },
+                {
+                  "group": {
+                    "name": "Enterprise Admins",
+                    "domain": "SHAREGUARD",
+                    "type": "Group",
+                    "full_name": "SHAREGUARD\\Enterprise Admins"
+                  },
+                  "member_groups": [],
+                  "nested_level": 0
+                },
+                {
+                  "group": {
+                    "name": "Domain Admins",
+                    "domain": "SHAREGUARD",
+                    "type": "Group",
+                    "full_name": "SHAREGUARD\\Domain Admins"
+                  },
+                  "member_groups": [],
+                  "nested_level": 0
+                },
+                {
+                  "group": {
+                    "name": "Administrators",
+                    "domain": "SHAREGUARD",
+                    "type": "Group",
+                    "full_name": "SHAREGUARD\\Administrators"
+                  },
+                  "member_groups": [],
+                  "nested_level": 0
+                }
+              ],
+              "nested_level": 0
+            }
+          },
+          {
+            "trustee": {
+              "name": "SYSTEM",
+              "domain": "NT AUTHORITY",
+              "sid": "S-1-5-18",
+              "full_name": "NT AUTHORITY\\SYSTEM"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Change Permissions",
+                "Delete",
+                "Read Permissions",
+                "Take Ownership"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "Delete Subfolders and Files",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "SYSTEM",
+                "domain": "NT AUTHORITY",
+                "sid": "S-1-5-18",
+                "full_name": "NT AUTHORITY\\SYSTEM"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          },
+          {
+            "trustee": {
+              "name": "Finance_Staff",
+              "domain": "SHAREGUARD",
+              "sid": "S-1-5-21-1923339626-2680576837-3225702567-1104",
+              "full_name": "SHAREGUARD\\Finance_Staff"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Delete",
+                "Read Permissions"
+              ],
+              "Directory": [
+                "Create Files",
+                "Create Folders",
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes",
+                "Traverse Folder",
+                "Write Attributes",
+                "Write Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "Finance_Staff",
+                "domain": "SHAREGUARD",
+                "sid": "S-1-5-21-1923339626-2680576837-3225702567-1104",
+                "full_name": "SHAREGUARD\\Finance_Staff"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          },
+          {
+            "trustee": {
+              "name": "Report_Viewers",
+              "domain": "SHAREGUARD",
+              "sid": "S-1-5-21-1923339626-2680576837-3225702567-1107",
+              "full_name": "SHAREGUARD\\Report_Viewers"
+            },
+            "type": "Allow",
+            "inherited": false,
+            "permissions": {
+              "Advanced": [
+                "Read Permissions"
+              ],
+              "Directory": [
+                "List Folder",
+                "Read Attributes",
+                "Read Extended Attributes"
+              ]
+            },
+            "access_paths": {
+              "trustee": {
+                "name": "Report_Viewers",
+                "domain": "SHAREGUARD",
+                "sid": "S-1-5-21-1923339626-2680576837-3225702567-1107",
+                "full_name": "SHAREGUARD\\Report_Viewers"
+              },
+              "direct_access": true,
+              "group_paths": [],
+              "nested_level": 0
+            }
+          }
+        ],
+        "scan_time": "2024-11-16T09:31:55.699435",
+        "success": true
+      },
+      "subfolders": [],
+      "statistics": {
+        "total_folders": 1,
+        "processed_folders": 1,
+        "error_count": 0
+      }
+    }
+  ],
+  "statistics": {
+    "total_folders": 3,
+    "processed_folders": 3,
+    "error_count": 0
+  }
+}

@@ -43,6 +43,8 @@ interface PermissionsResponse {
 export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermissionsDrawerProps) {
     const [showEditMode, setShowEditMode] = useState(false);
     const [selectedGroup, setSelectedGroup] = useState<{ name: string; domain: string } | null>(null);
+    const [hideBuiltinGroups, setHideBuiltinGroups] = useState(false);
+    const [showOnlyExplicit, setShowOnlyExplicit] = useState(false);
     const { data, isLoading, refetch } = useFolderPermissions(path, { includeInherited: true }) as { data: PermissionsResponse | undefined, isLoading: boolean, refetch: () => void };
     
     console.log('Full API data:', data);
@@ -116,10 +118,41 @@ export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermiss
         }
     };
 
+    const isBuiltinGroup = (trustee: any) => {
+        if (!trustee) return false;
+        const builtinGroups = [
+            'Administrators', 'Administrator', 'SYSTEM', 'Users', 'Authenticated Users',
+            'Everyone', 'CREATOR OWNER', 'CREATOR GROUP', 'NETWORK', 'INTERACTIVE',
+            'SERVICE', 'LOCAL SERVICE', 'NETWORK SERVICE', 'Power Users', 'Guests',
+            'Remote Desktop Users', 'IIS_IUSRS', 'TrustedInstaller'
+        ];
+        
+        const name = trustee.name || '';
+        const fullName = trustee.full_name || '';
+        
+        return builtinGroups.some(group => 
+            name.toLowerCase() === group.toLowerCase() ||
+            fullName.toLowerCase().includes(group.toLowerCase()) ||
+            fullName.toLowerCase() === `builtin\\${group.toLowerCase()}` ||
+            fullName.toLowerCase() === `nt authority\\${group.toLowerCase()}`
+        );
+    };
+
     const renderPermissionList = (aces: ACE[]) => {
         console.log('Rendering ACEs:', aces);
         
-        return aces.map((ace, index) => {
+        // Apply filters
+        const filteredAces = aces.filter(ace => {
+            if (hideBuiltinGroups && isBuiltinGroup(ace.trustee)) {
+                return false;
+            }
+            if (showOnlyExplicit && ace.inherited) {
+                return false;
+            }
+            return true;
+        });
+        
+        return filteredAces.map((ace, index) => {
             console.log('ACE:', ace);
             console.log('ACE permissions:', ace.permissions);
             
@@ -160,9 +193,14 @@ export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermiss
                         </div>
                         <div className="flex items-center gap-2">
                             {ace.inherited && (
-                                <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
-                                    Inherited
-                                </span>
+                                <div className="text-right">
+                                    <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
+                                        Inherited
+                                    </span>
+                                    <p className="text-xs text-gray-500 mt-1">
+                                        from parent folder
+                                    </p>
+                                </div>
                             )}
                         </div>
                     </div>
@@ -251,6 +289,29 @@ export function FolderPermissionsDrawer({ isOpen, onClose, path }: FolderPermiss
                                                     {path}
                                                 </p>
                                             </div>
+                                            {/* Filter Controls */}
+                                            {!selectedGroup && !showEditMode && (
+                                                <div className="mt-4 space-y-2">
+                                                    <label className="flex items-center">
+                                                        <input
+                                                            type="checkbox"
+                                                            checked={hideBuiltinGroups}
+                                                            onChange={(e) => setHideBuiltinGroups(e.target.checked)}
+                                                            className="rounded border-gray-300 text-primary-600 focus:ring-primary-500"
+                                                        />
+                                                        <span className="ml-2 text-sm text-white">Hide built-in groups</span>
+                                                    </label>
+                                                    <label className="flex items-center">
+                                                        <input
+                                                            type="checkbox"
+                                                            checked={showOnlyExplicit}
+                                                            onChange={(e) => setShowOnlyExplicit(e.target.checked)}
+                                                            className="rounded border-gray-300 text-primary-600 focus:ring-primary-500"
+                                                        />
+                                                        <span className="ml-2 text-sm text-white">Show only explicit permissions</span>
+                                                    </label>
+                                                </div>
+                                            )}
                                         </div>
 
                                         {isLoading ? (

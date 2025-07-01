@@ -16,7 +16,7 @@ BASE_URL = "http://localhost:8000/api/v1"
 def test_auth():
     auth_data = {
         "username": "ShareGuardService",
-        "domain": "shareguard.com",
+        "domain": "WIN-I2VDDDLDOUA",
         "password": r"P(5$\#SX07sj"
     }
     

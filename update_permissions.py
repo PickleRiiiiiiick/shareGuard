@@ -12,7 +12,7 @@ def update_service_account_permissions():
         # Find the ShareGuardService account
         service_account = db.query(ServiceAccount).filter(
             ServiceAccount.username == "ShareGuardService",
-            ServiceAccount.domain == "shareguard.com"
+            ServiceAccount.domain == "WIN-I2VDDDLDOUA"
         ).first()
 
         if not service_account:

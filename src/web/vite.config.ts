@@ -18,7 +18,7 @@ export default defineConfig({
     },
     server: {
         proxy: {
-            '^/api/.*': {
+            '/api': {
                 target: 'http://localhost:8000',
                 changeOrigin: true,
                 secure: false,
@@ -32,6 +32,9 @@ export default defineConfig({
                     });
                     proxy.on('proxyRes', (proxyRes, req, _res) => {
                         console.log('Received API Response:', proxyRes.statusCode, req.url);
+                    });
+                    proxy.on('upgrade', (req, socket, head) => {
+                        console.log('WebSocket upgrade request:', req.url);
                     });
                 }
             }

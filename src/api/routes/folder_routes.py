@@ -79,7 +79,9 @@ async def get_folder_permissions(
    path: str,
    current_request: Request,
    include_inherited: bool = True,
-   simplified_system: bool = True
+   simplified_system: bool = True,
+   save_for_analysis: bool = False,
+   db: Session = Depends(get_db)
 ):
    try:
        if not Path(path).exists():
@@ -91,6 +93,40 @@ async def get_folder_permissions(
            simplified_system=simplified_system
        )
 
+       # Save scan results if requested for health analysis
+       if save_for_analysis and permissions.get("aces"):
+           from src.db.models import ScanResult, AccessEntry
+           from datetime import datetime
+           import json
+           
+           # Create scan result without a job (for real-time analysis)
+           scan_result = ScanResult(
+               path=path,
+               permissions=json.dumps(permissions),
+               owner=json.dumps(permissions.get("owner", {})),
+               scan_time=datetime.utcnow(),
+               job_id=None,  # No associated job for real-time scans
+               success=True
+           )
+           db.add(scan_result)
+           db.flush()  # Get the ID
+           
+           # Store individual ACEs for detailed analysis
+           for ace in permissions.get("aces", []):
+               trustee = ace.get("trustee", {})
+               access_entry = AccessEntry(
+                   scan_result_id=scan_result.id,
+                   trustee_name=trustee.get("name", "Unknown"),
+                   trustee_domain=trustee.get("domain", ""),
+                   trustee_sid=trustee.get("sid", ""),
+                   access_type=ace.get("type", "Unknown"),
+                   inherited=ace.get("is_inherited", False),
+                   permissions=ace.get("permissions", {})
+               )
+               db.add(access_entry)
+           
+           db.commit()
+
        return {
            "path": path,
            "permissions": permissions,
@@ -98,7 +134,8 @@ async def get_folder_permissions(
                "include_inherited": include_inherited,
                "simplified_system": simplified_system,
                "scanned_by": f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}",
-               "scan_time": permissions.get("scan_time")
+               "scan_time": permissions.get("scan_time"),
+               "saved_for_analysis": save_for_analysis
            }
        }
    except Exception as e:

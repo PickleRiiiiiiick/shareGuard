@@ -1,0 +1,2 @@
+2025-07-01 05:30:51,745 - alert_routes - INFO - [alert_routes.py:531] - Started ACL and group membership monitoring
+2025-07-01 05:31:47,033 - alert_routes - INFO - [alert_routes.py:549] - Stopped ACL and group membership monitoring

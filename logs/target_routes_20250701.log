@@ -1,0 +1,480 @@
+2025-07-01 05:30:39,977 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:30:39,977 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:30:39,981 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:31:02,136 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:31:02,136 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:31:02,137 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:31:12,571 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:31:12,571 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:31:12,572 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:31:12,607 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:31:12,616 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:31:12,621 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:31:22,960 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:31:22,960 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:31:22,961 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:32:53,326 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:32:53,327 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:32:53,347 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:40:02,506 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:40:02,507 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:40:02,512 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:40:05,822 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:40:05,822 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:40:05,824 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 05:40:06,065 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:40:06,079 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:40:06,086 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:40:17,808 - target_routes - DEBUG - [target_routes.py:69] - Attempting to create target: Finance
+2025-07-01 05:40:17,931 - target_routes - INFO - [target_routes.py:112] - Successfully created target: Finance
+2025-07-01 05:40:17,975 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:40:17,975 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:40:17,977 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:40:18,010 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:40:32,053 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:40:32,060 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:40:32,061 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:40:32,062 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:40:32,079 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:40:32,087 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:40:32,094 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:41:50,897 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:41:50,902 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:41:50,907 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:41:50,913 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:41:50,914 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:41:50,914 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:41:50,918 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:42:15,117 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:42:15,117 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:42:15,118 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:42:15,122 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:42:15,132 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:42:15,138 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:42:15,145 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:42:41,708 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:42:41,708 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:42:41,709 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:42:41,714 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:42:41,719 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:42:41,725 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:42:41,730 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:43:34,805 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:43:34,805 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:43:34,806 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:45:53,802 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:45:53,802 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:45:53,803 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:48:07,517 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:48:07,517 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:48:07,518 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:48:12,949 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:48:12,949 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:48:12,950 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:48:17,791 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:48:17,791 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:48:17,792 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:48:17,867 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:48:17,873 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:48:17,880 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:48:17,886 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:49:01,956 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:49:01,956 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:49:01,958 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:49:01,965 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:49:02,009 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:49:02,017 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:49:02,023 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:49:05,011 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:49:05,015 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:49:05,021 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:49:05,026 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:49:05,031 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:49:05,031 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:49:05,032 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:49:06,908 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:49:06,908 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:49:06,909 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:49:58,429 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:49:58,434 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:49:58,440 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:49:58,445 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:49:58,450 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:49:58,450 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:49:58,451 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:50:12,773 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:50:12,774 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:50:12,775 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:50:12,783 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:50:12,788 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:50:12,793 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:50:12,798 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:50:13,805 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:50:13,805 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:50:13,806 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:50:43,828 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:50:43,828 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:50:43,829 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:50:51,557 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:50:51,557 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:50:51,557 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:51:06,762 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:51:06,762 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:51:06,763 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:52:19,549 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:52:19,550 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:52:19,552 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:52:47,851 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:52:47,851 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:52:47,852 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:53:08,101 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:53:08,101 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:53:08,102 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:53:47,450 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:53:47,451 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:53:47,451 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:58:50,515 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:58:50,515 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:58:50,518 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:58:55,800 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:58:55,800 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:58:55,801 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:58:58,821 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:58:58,821 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:58:58,822 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:58:58,871 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:58:58,880 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:58:58,887 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:58:58,893 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:59:02,497 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:59:02,497 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:59:02,498 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:59:02,556 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:59:02,565 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:59:02,573 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:59:02,579 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:59:37,892 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:59:37,892 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:59:37,896 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:59:37,942 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:59:37,952 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:59:37,958 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:59:37,963 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 05:59:50,318 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 05:59:50,318 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 05:59:50,319 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 4 targets
+2025-07-01 05:59:50,323 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 3
+2025-07-01 05:59:50,329 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 05:59:50,335 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 2
+2025-07-01 05:59:50,340 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:00:06,866 - target_routes - DEBUG - [target_routes.py:69] - Attempting to create target: ShareGuardTestData
+2025-07-01 06:00:06,868 - target_routes - WARNING - [target_routes.py:83] - Target already exists with name: ShareGuardTestData or path: C:\ShareGuardTestData
+2025-07-01 06:00:19,638 - target_routes - DEBUG - [target_routes.py:304] - Deleting target with ID: 3
+2025-07-01 06:00:19,648 - target_routes - INFO - [target_routes.py:312] - Successfully deleted target: 3
+2025-07-01 06:00:19,668 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:00:19,669 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:00:19,670 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:00:28,044 - target_routes - DEBUG - [target_routes.py:69] - Attempting to create target: ShareGuardTestData
+2025-07-01 06:00:28,045 - target_routes - WARNING - [target_routes.py:83] - Target already exists with name: ShareGuardTestData or path: C:\ShareGuardTestData
+2025-07-01 06:00:35,949 - target_routes - DEBUG - [target_routes.py:304] - Deleting target with ID: 2
+2025-07-01 06:00:35,955 - target_routes - INFO - [target_routes.py:312] - Successfully deleted target: 2
+2025-07-01 06:00:35,971 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:00:35,971 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:00:35,972 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 2 targets
+2025-07-01 06:00:44,727 - target_routes - DEBUG - [target_routes.py:69] - Attempting to create target: ShareGuardTestData
+2025-07-01 06:00:44,735 - target_routes - INFO - [target_routes.py:112] - Successfully created target: ShareGuardTestData
+2025-07-01 06:00:44,751 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:00:44,751 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:00:44,752 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:00:44,772 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:00:53,799 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:00:53,799 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:00:53,800 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:01:39,465 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:01:39,465 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:01:39,466 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:01:43,409 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:01:43,417 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:01:43,423 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:01:43,429 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:01:43,429 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:01:43,430 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:01:56,226 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:01:56,227 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:01:56,228 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:01:56,236 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:01:56,242 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:01:56,248 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:01:57,641 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:01:57,641 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:01:57,642 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:04:47,272 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:04:47,279 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:04:47,284 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:04:47,289 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:04:47,289 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:04:47,290 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:05:14,889 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:05:14,889 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:05:14,890 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:05:14,893 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:05:14,900 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:05:14,907 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:05:37,820 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:05:37,821 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:05:37,822 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:05:37,827 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:05:37,843 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:05:37,851 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:05:38,420 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:05:38,420 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:05:38,422 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:05:38,430 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:05:38,440 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:05:38,449 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:05:38,803 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:05:38,803 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:05:38,807 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:05:38,810 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:05:38,815 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:05:38,824 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:06:45,418 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:06:45,429 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:06:45,434 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:06:45,434 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:06:45,436 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:06:45,440 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:07:24,011 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:07:24,011 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:07:24,012 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:07:24,017 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:07:24,022 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:07:24,028 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:08:16,863 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:08:16,863 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:08:16,864 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:08:16,870 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:08:16,876 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:08:16,880 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:09:13,716 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:09:13,724 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:09:13,724 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:09:13,725 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:09:13,741 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:09:13,748 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:09:14,942 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:09:14,942 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:09:14,943 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:09:14,948 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:09:14,955 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:09:14,963 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:16:01,615 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:16:01,615 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:16:01,616 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:16:01,621 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:16:01,626 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:16:01,632 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:16:32,293 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:16:32,298 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:16:32,298 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:16:32,299 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:16:32,313 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:16:32,321 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:16:45,603 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:16:45,603 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:16:45,604 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:16:45,607 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:16:45,624 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:16:45,632 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:16:59,535 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:16:59,543 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:16:59,548 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:16:59,548 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:16:59,549 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:16:59,554 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:17:24,155 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:17:24,155 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:17:24,156 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:17:24,162 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:17:24,167 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:17:24,173 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:21:26,345 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:21:26,345 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:21:26,349 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:21:26,352 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 06:21:26,361 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 06:21:26,366 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 06:33:39,738 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:33:39,739 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:33:39,742 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:39:22,545 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:39:22,549 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:39:22,568 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 06:54:35,423 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 06:54:35,423 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 06:54:35,425 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 07:02:14,041 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 07:02:14,041 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 07:02:14,045 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 07:02:14,091 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 07:02:14,103 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 07:02:14,112 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 07:02:16,262 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 07:02:16,262 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 07:02:16,263 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 09:11:30,519 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:11:30,519 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 09:11:30,524 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 09:42:02,077 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:42:02,078 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 09:42:02,081 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 09:42:17,288 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:42:17,289 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 09:42:17,289 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 09:42:17,325 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 09:42:17,335 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 09:42:17,342 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 09:43:04,065 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:43:04,065 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=disabled
+2025-07-01 09:43:04,066 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 0 targets
+2025-07-01 09:43:05,079 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 09:43:05,083 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 09:43:05,089 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 09:43:05,094 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:43:05,094 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 09:43:05,095 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 09:44:28,443 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:44:28,443 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 09:44:28,444 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 09:44:31,290 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 09:44:31,295 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 09:44:31,302 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 09:44:31,311 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 09:44:31,312 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 09:44:31,313 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:11:30,383 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:11:30,384 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:11:30,387 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:12:21,559 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:12:21,561 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:12:21,562 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:23:52,346 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:23:52,346 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:23:52,349 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:24:44,475 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:24:44,476 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:24:44,477 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:24:45,260 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:24:45,261 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:24:45,261 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:24:46,398 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:24:46,398 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:24:46,399 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:25:12,933 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:25:12,933 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:25:12,934 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:25:24,244 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:25:24,248 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:25:24,249 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:25:46,583 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:25:46,583 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:25:46,584 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:27:10,218 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:27:10,218 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:27:10,220 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:27:11,742 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:27:11,742 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:27:11,743 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:30:42,047 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:30:42,048 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:30:42,050 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:30:45,004 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:30:45,004 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:30:45,005 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:31:46,542 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:31:46,542 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:31:46,543 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 10:35:35,761 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 10:35:35,761 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 10:35:35,764 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:08:25,112 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:08:25,113 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:08:25,117 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:09:33,011 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:09:33,011 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:09:33,012 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:09:33,058 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 13:09:33,068 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 13:09:33,073 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 13:09:35,331 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 5
+2025-07-01 13:09:35,337 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 4
+2025-07-01 13:09:35,342 - target_routes - DEBUG - [target_routes.py:451] - Retrieving stats for target ID: 1
+2025-07-01 13:09:35,351 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:09:35,351 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:09:35,352 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:09:36,693 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:09:36,694 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:09:36,695 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:18:57,050 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:18:57,050 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:18:57,052 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:20:23,731 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:20:23,731 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:20:23,732 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:22:19,896 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:22:19,896 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:22:19,897 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:39:38,464 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:39:38,465 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:39:38,467 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:41:40,500 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:41:40,500 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:41:40,501 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:43:57,949 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:43:57,949 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:43:57,950 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:50:50,142 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:50:50,142 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:50:50,145 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:54:46,410 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:54:46,410 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:54:46,411 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 13:58:36,536 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 13:58:36,536 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 13:58:36,537 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:41:05,898 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:41:05,898 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:41:05,901 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:50:07,798 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:50:07,798 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:50:07,801 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:52:24,528 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:52:24,529 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:52:24,530 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:55:21,359 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:55:21,359 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:55:21,360 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:55:54,835 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:55:54,836 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:55:54,836 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:56:53,516 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:56:53,516 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:56:53,517 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:58:37,992 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:58:37,992 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:58:37,993 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:58:48,679 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:58:48,679 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:58:48,680 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 14:59:07,127 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 14:59:07,127 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 14:59:07,128 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 15:25:20,678 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 15:25:20,679 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 15:25:20,680 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 15:29:05,149 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 15:29:05,149 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 15:29:05,150 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets
+2025-07-01 15:29:06,456 - target_routes - DEBUG - [target_routes.py:149] - Listing targets with params: skip=0, limit=100, sort_by=created_at, sort_desc=True
+2025-07-01 15:29:06,456 - target_routes - DEBUG - [target_routes.py:150] - Filters: search=None, department=None, frequency=None, status=None
+2025-07-01 15:29:06,457 - target_routes - DEBUG - [target_routes.py:192] - Retrieved 3 targets

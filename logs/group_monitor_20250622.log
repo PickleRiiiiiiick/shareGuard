@@ -1,0 +1,1071 @@
+2025-06-22 05:35:36,444 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 05:36:08,471 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 05:36:25,851 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 05:36:36,305 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 05:44:29,929 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 06:07:15,282 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 06:11:56,926 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 06:17:54,195 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 06:30:20,280 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 06:30:20,280 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 06:30:20,321 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:30:22,243 - group_monitor - INFO - [group_monitor.py:83] - Stopping group membership monitoring
+2025-06-22 06:30:32,246 - group_monitor - INFO - [group_monitor.py:90] - Group membership monitoring stopped
+2025-06-22 06:30:39,330 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 06:30:39,330 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 06:30:39,330 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:31:20,325 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:31:39,333 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:32:20,330 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:32:39,336 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:33:20,333 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:33:39,340 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:34:20,336 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:34:39,352 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:35:20,340 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:35:39,355 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:36:20,351 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:36:39,357 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:37:20,354 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:37:39,360 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:38:20,357 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:38:39,362 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:39:20,361 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:39:39,366 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:40:20,372 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:40:39,378 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:41:20,375 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:41:39,381 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:43:15,387 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 06:43:42,943 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 06:43:42,943 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 06:43:42,950 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:44:18,118 - group_monitor - INFO - [group_monitor.py:83] - Stopping group membership monitoring
+2025-06-22 06:44:28,119 - group_monitor - INFO - [group_monitor.py:90] - Group membership monitoring stopped
+2025-06-22 06:44:42,956 - group_monitor - INFO - [group_monitor.py:116] - Group membership monitoring loop ended
+2025-06-22 06:46:00,653 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 06:46:00,653 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 06:46:00,654 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:47:00,658 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:48:00,662 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:49:00,671 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:50:04,917 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 06:50:20,651 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 06:50:20,651 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 06:50:20,737 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 06:51:20,795 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:28:18,806 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 10:36:43,862 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 10:48:29,699 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 10:48:29,700 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 10:48:29,721 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:49:29,739 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:50:29,743 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:51:29,753 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:52:29,756 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:53:29,758 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:54:29,764 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:55:29,774 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:56:29,787 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:57:29,800 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:58:29,813 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 10:59:21,351 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 10:59:31,510 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 10:59:40,719 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 11:00:59,254 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 11:00:59,254 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 11:00:59,258 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:01:59,272 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:02:59,287 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:03:59,301 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:04:58,721 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 11:07:19,403 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 11:07:19,403 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 11:07:19,407 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:08:19,421 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:09:19,435 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:10:19,449 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:11:19,462 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:12:36,352 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 11:12:48,094 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 11:12:48,095 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 11:12:48,098 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:13:48,109 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:14:48,120 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:15:48,130 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:16:48,140 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:17:48,150 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:18:48,160 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:19:48,170 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:20:48,180 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:21:48,190 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:22:48,200 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:23:48,211 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:24:48,220 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:29:25,887 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 11:40:45,093 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 11:40:45,093 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 11:40:45,146 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:41:31,090 - group_monitor - INFO - [group_monitor.py:83] - Stopping group membership monitoring
+2025-06-22 11:41:41,102 - group_monitor - INFO - [group_monitor.py:90] - Group membership monitoring stopped
+2025-06-22 11:41:45,172 - group_monitor - INFO - [group_monitor.py:116] - Group membership monitoring loop ended
+2025-06-22 11:49:26,634 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 11:52:46,518 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 11:52:46,519 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 11:52:46,523 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:53:46,533 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:54:46,541 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:55:46,547 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:56:46,555 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:57:46,562 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:58:46,570 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 11:59:46,577 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:05:13,796 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:05:33,979 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 12:05:33,979 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 12:05:33,982 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:06:33,989 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:07:33,993 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:08:33,998 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:09:34,003 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:10:34,008 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:11:34,019 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:12:34,028 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:13:34,034 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:13:38,174 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:14:15,174 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:14:52,844 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:15:05,812 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:15:23,730 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:18:53,249 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:22:37,352 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 12:22:37,352 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 12:22:37,357 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:23:37,364 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:24:37,369 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:25:12,494 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:25:27,356 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:25:36,052 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:25:45,992 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:25:55,777 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:26:32,030 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 12:26:32,030 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 12:26:32,036 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:29:18,255 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:30:27,197 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:31:15,638 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 12:31:15,638 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 12:31:15,660 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:32:15,680 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:33:15,685 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:34:15,689 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:34:43,117 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:35:14,294 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:38:52,889 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 12:38:52,889 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 12:38:52,893 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:39:52,897 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:40:52,901 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:41:52,905 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:42:52,908 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:43:52,911 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:44:52,915 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:45:52,919 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:46:52,923 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:47:52,926 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:48:52,930 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:49:52,934 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:50:58,951 - group_monitor - INFO - [group_monitor.py:51] - Group Membership Tracker initialized
+2025-06-22 12:55:37,948 - group_monitor - INFO - [group_monitor.py:95] - Group membership monitoring loop started
+2025-06-22 12:55:37,948 - group_monitor - INFO - [group_monitor.py:71] - Group membership monitoring started
+2025-06-22 12:55:37,952 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:56:37,956 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:57:37,966 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:58:37,969 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 12:59:37,973 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 13:00:37,976 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 13:01:37,979 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 13:02:37,982 - group_monitor - ERROR - [group_monitor.py:110] - Error in monitoring cycle: There is no current event loop in thread 'GroupMembershipTracker'.
+Traceback (most recent call last):
+  File "C:\ShareGuard\src\services\group_monitor.py", line 102, in _monitoring_loop
+    asyncio.get_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 716, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+                       % threading.current_thread().name)
+RuntimeError: There is no current event loop in thread 'GroupMembershipTracker'.
+2025-06-22 13:03:12,420 - group_monitor - INFO - [group_monitor.py:83] - Stopping group membership monitoring
+2025-06-22 13:03:22,431 - group_monitor - INFO - [group_monitor.py:90] - Group membership monitoring stopped
+2025-06-22 13:03:37,985 - group_monitor - INFO - [group_monitor.py:116] - Group membership monitoring loop ended

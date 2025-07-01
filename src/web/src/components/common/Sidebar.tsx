@@ -8,6 +8,8 @@ import {
     ShieldCheckIcon,
     CogIcon,
     ClockIcon,
+    BellIcon,
+    ChartBarIcon,
 } from '@heroicons/react/24/outline';
 
 interface SidebarProps {
@@ -20,6 +22,8 @@ const navigation = [
     { name: 'Scan Targets', href: '/targets', icon: FolderIcon },
     { name: 'Scan History', href: '/scans', icon: ClockIcon },
     { name: 'Permissions', href: '/permissions', icon: ShieldCheckIcon },
+    { name: 'Health', href: '/health', icon: ChartBarIcon },
+    { name: 'Alerts', href: '/alerts', icon: BellIcon },
     { name: 'Settings', href: '/settings', icon: CogIcon },
 ];
 

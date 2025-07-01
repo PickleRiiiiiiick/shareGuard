@@ -3003,3 +3003,445 @@
 2025-06-21 18:36:02,208 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
 2025-06-21 18:36:02,208 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: CREATOR OWNER
 2025-06-21 18:36:02,208 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-3-0 using _lookup_sid_local
+2025-06-21 18:36:52,070 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest
+2025-06-21 18:36:52,071 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: BUILTIN\Administrators
+2025-06-21 18:36:52,071 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-32-544 using _lookup_sid_local
+2025-06-21 18:36:52,072 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Domain Users
+2025-06-21 18:36:52,072 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-513 using _lookup_sid_local
+2025-06-21 18:36:52,072 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:52,073 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\ShareGuardService
+2025-06-21 18:36:52,075 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1112 using _lookup_sid_local
+2025-06-21 18:36:58,879 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: NT AUTHORITY\SYSTEM
+2025-06-21 18:36:58,879 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-18 using _lookup_sid_local
+2025-06-21 18:36:58,879 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:58,880 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: BUILTIN\Users
+2025-06-21 18:36:58,880 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-32-545 using _lookup_sid_local
+2025-06-21 18:36:58,880 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:58,883 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:58,884 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: CREATOR OWNER
+2025-06-21 18:36:58,884 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-3-0 using _lookup_sid_local
+2025-06-21 18:36:58,912 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Common
+2025-06-21 18:36:58,914 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Administrator
+2025-06-21 18:36:58,914 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-500 using _lookup_sid_local
+2025-06-21 18:36:58,914 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:58,915 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:58,915 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:58,915 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:58,979 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:58,990 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance
+2025-06-21 18:36:58,991 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:58,991 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:58,991 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:58,991 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:58,992 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:58,992 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Finance_Staff
+2025-06-21 18:36:58,993 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1104 using _lookup_sid_local
+2025-06-21 18:36:59,003 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Report_Viewers
+2025-06-21 18:36:59,003 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1107 using _lookup_sid_local
+2025-06-21 18:36:59,013 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\john.smith
+2025-06-21 18:36:59,013 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1108 using _lookup_sid_local
+2025-06-21 18:36:59,050 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2025-06-21 18:36:59,050 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,050 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,051 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,051 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,051 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:36:59,052 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2025-06-21 18:36:59,053 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,053 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,053 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,054 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,054 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,054 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,055 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,055 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:36:59,056 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1107
+2025-06-21 18:36:59,056 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:36:59,077 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR
+2025-06-21 18:36:59,078 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,078 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,079 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,079 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,079 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,080 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\HR_Staff
+2025-06-21 18:36:59,080 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1105 using _lookup_sid_local
+2025-06-21 18:36:59,090 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\Folder_Admins
+2025-06-21 18:36:59,090 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1106 using _lookup_sid_local
+2025-06-21 18:36:59,126 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2025-06-21 18:36:59,126 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,127 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,127 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,127 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,128 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:36:59,128 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2025-06-21 18:36:59,129 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,129 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,129 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,130 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,130 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,131 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,131 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:36:59,132 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:36:59,132 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:36:59,134 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT
+2025-06-21 18:36:59,136 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,136 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,136 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,136 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,137 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\IT_Staff
+2025-06-21 18:36:59,137 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1103 using _lookup_sid_local
+2025-06-21 18:36:59,147 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:36:59,148 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2025-06-21 18:36:59,149 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,149 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,150 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,150 - scanner - DEBUG - [file_scanner.py:148] - Local SID lookup successful: SHAREGUARD\bob.wilson
+2025-06-21 18:36:59,150 - scanner - DEBUG - [file_scanner.py:108] - Successfully resolved SID S-1-5-21-1923339626-2680576837-3225702567-1110 using _lookup_sid_local
+2025-06-21 18:36:59,171 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,171 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,171 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:36:59,172 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:36:59,173 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2025-06-21 18:36:59,174 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,174 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,174 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,174 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-21 18:36:59,175 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,175 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,176 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:36:59,178 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:36:59,179 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget
+2025-06-21 18:36:59,179 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,180 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,180 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,180 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:36:59,181 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,181 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:59,181 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:59,182 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:59,182 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:36:59,183 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget\Test-Target-20241124021422
+2025-06-21 18:36:59,184 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,184 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:36:59,184 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:36:59,185 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:36:59,185 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:36:59,186 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:36:59,186 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:59,186 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:59,189 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:36:59,189 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:37:00,927 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest
+2025-06-21 18:37:00,927 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,928 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,928 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,930 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:37:00,930 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,931 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,931 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,931 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,932 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,932 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:37:00,932 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Common
+2025-06-21 18:37:00,933 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,933 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,934 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,934 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,934 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,935 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,936 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance
+2025-06-21 18:37:00,936 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,937 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,937 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,937 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,940 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,940 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:37:00,941 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1107
+2025-06-21 18:37:00,942 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:37:00,942 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2025-06-21 18:37:00,943 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,943 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,944 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,944 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,944 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:37:00,945 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2025-06-21 18:37:00,946 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,946 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,946 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,946 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,947 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,947 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,947 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,948 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:37:00,949 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1107
+2025-06-21 18:37:00,951 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:37:00,952 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR
+2025-06-21 18:37:00,953 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,953 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,953 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,954 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,954 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,954 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:37:00,955 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:37:00,956 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2025-06-21 18:37:00,956 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,957 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,957 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,957 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,957 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:37:00,958 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2025-06-21 18:37:00,959 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,959 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,959 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,959 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,962 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,962 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,963 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:00,963 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:37:00,964 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:37:00,965 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT
+2025-06-21 18:37:00,966 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,966 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,966 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,967 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,967 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:37:00,967 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:37:00,968 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2025-06-21 18:37:00,969 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,969 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,969 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,970 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-21 18:37:00,972 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,973 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,973 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:37:00,974 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:37:00,974 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2025-06-21 18:37:00,975 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,975 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,975 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,976 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-21 18:37:00,976 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,977 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,977 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:37:00,977 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:37:00,978 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget
+2025-06-21 18:37:00,979 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,979 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,979 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,980 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:37:00,980 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,980 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,981 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,981 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,981 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:37:00,984 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget\Test-Target-20241124021422
+2025-06-21 18:37:00,984 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,985 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:00,985 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:37:00,985 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:00,986 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:37:00,986 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:00,987 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,987 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,987 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:00,987 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:37:02,752 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest
+2025-06-21 18:37:02,753 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:02,753 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:02,754 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:02,756 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:37:02,758 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:02,758 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:02,759 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:02,759 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:02,759 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:37:02,759 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:37:09,587 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance
+2025-06-21 18:37:09,588 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:09,588 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:37:09,588 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:37:09,589 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:37:09,590 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:37:09,590 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:37:09,591 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1107
+2025-06-21 18:37:09,592 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:39:14,492 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR
+2025-06-21 18:39:14,492 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:39:14,492 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:39:14,493 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:39:14,493 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:39:14,493 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:39:14,494 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:39:14,494 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:39:56,570 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget
+2025-06-21 18:39:56,570 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:39:56,570 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:39:56,571 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:39:56,571 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:39:56,572 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:39:56,572 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:39:56,572 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:39:56,572 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:39:56,573 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:56:15,298 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget
+2025-06-21 18:56:15,298 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:15,299 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:15,299 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:15,299 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:56:15,300 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:15,300 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:15,300 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:15,301 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:15,302 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:56:45,669 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest
+2025-06-21 18:56:45,671 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,672 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,672 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,672 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:56:45,673 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,673 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,673 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,674 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,674 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,674 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:56:45,675 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Common
+2025-06-21 18:56:45,675 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,676 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,676 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,676 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,676 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,677 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,679 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance
+2025-06-21 18:56:45,682 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,682 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,683 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,683 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,683 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,684 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:56:45,684 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1107
+2025-06-21 18:56:45,685 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:56:45,686 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance\Confidential
+2025-06-21 18:56:45,686 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,687 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,687 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,687 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,688 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:56:45,688 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\Finance\Reports
+2025-06-21 18:56:45,689 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,689 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,689 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,690 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,692 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,693 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,695 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,696 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1104
+2025-06-21 18:56:45,697 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1107
+2025-06-21 18:56:45,697 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:56:45,698 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR
+2025-06-21 18:56:45,699 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,699 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,699 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,700 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,700 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,701 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:45,701 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:45,704 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2025-06-21 18:56:45,704 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,705 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,705 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,705 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,706 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:45,706 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2025-06-21 18:56:45,707 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,708 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,709 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,709 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,709 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,710 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,710 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,711 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:45,711 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:45,714 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT
+2025-06-21 18:56:45,715 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,715 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,715 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,716 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,716 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:56:45,716 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:45,717 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Documentation
+2025-06-21 18:56:45,718 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,719 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,719 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,719 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-21 18:56:45,720 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,720 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,720 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:56:45,721 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:45,722 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\IT\Projects
+2025-06-21 18:56:45,722 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,722 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,723 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,726 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1110
+2025-06-21 18:56:45,726 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,727 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,727 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1103
+2025-06-21 18:56:45,729 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:45,730 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget
+2025-06-21 18:56:45,731 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,731 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,731 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,731 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:56:45,732 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,732 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,733 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,733 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,733 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:56:45,734 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\TestTarget\Test-Target-20241124021422
+2025-06-21 18:56:45,734 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,735 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,737 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1108
+2025-06-21 18:56:45,738 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,738 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1112
+2025-06-21 18:56:45,738 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,739 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,739 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,740 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-545
+2025-06-21 18:56:45,741 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-3-0
+2025-06-21 18:56:45,782 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR
+2025-06-21 18:56:45,784 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,786 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:45,786 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:45,787 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:45,787 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:45,788 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:45,790 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:47,768 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR
+2025-06-21 18:56:47,768 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:47,769 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:47,769 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:47,769 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:47,770 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:47,770 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:47,771 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:47,772 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2025-06-21 18:56:47,772 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:47,772 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:47,775 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:47,775 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:47,775 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:47,776 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Policies
+2025-06-21 18:56:47,777 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:47,777 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:47,777 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:47,778 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:47,778 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:47,778 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:47,779 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-500
+2025-06-21 18:56:47,779 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105
+2025-06-21 18:56:47,780 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1106
+2025-06-21 18:56:51,640 - scanner - INFO - [file_scanner.py:442] - Analyzing permissions for: C:\ShareGuardTest\HR\Personnel
+2025-06-21 18:56:51,640 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:51,640 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-513
+2025-06-21 18:56:51,641 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-18
+2025-06-21 18:56:51,641 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-32-544
+2025-06-21 18:56:51,641 - scanner - DEBUG - [file_scanner.py:93] - Using cached SID resolution for S-1-5-21-1923339626-2680576837-3225702567-1105

@@ -105,7 +105,7 @@ export function PermissionsPage() {
                                 options={{
                                     showFiles: false,
                                     showPermissions: true,
-                                    maxDepth: 3
+                                    maxDepth: 6
                                 }}
                                 onFolderSelect={setSelectedFolder}
                             />
