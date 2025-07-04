@@ -96,6 +96,14 @@ const AlertsList: React.FC<AlertsListProps> = ({
     return 'Just now';
   };
 
+  const isRecentAlert = (dateString: string) => {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diff = now.getTime() - date.getTime();
+    const minutes = Math.floor(diff / 60000);
+    return minutes < 10; // Alert is "recent" if less than 10 minutes old
+  };
+
   if (isLoading) {
     return (
       <div className={`flex items-center justify-center h-64 ${className}`}>
@@ -190,6 +198,7 @@ const AlertsList: React.FC<AlertsListProps> = ({
               getSeverityIcon={getSeverityIcon}
               getTypeIcon={getTypeIcon}
               formatTimeAgo={formatTimeAgo}
+              isRecent={isRecentAlert(alert.created_at)}
             />
           ))}
         </div>
@@ -209,6 +218,109 @@ const AlertsList: React.FC<AlertsListProps> = ({
   );
 };
 
+// Helper function to render user-friendly alert details
+const renderAlertDetails = (details: any) => {
+  // Check if this is our new formatted structure
+  if (details && details.folder && details.changes && details.metadata) {
+    return (
+      <div className="space-y-4">
+        {/* Folder Information */}
+        <div className="bg-blue-50 rounded-lg p-3">
+          <h4 className="text-sm font-medium text-blue-900 mb-2">📁 Affected Folder</h4>
+          <div className="text-sm text-blue-800">
+            <p className="font-medium">{details.folder.name}</p>
+            <p className="text-xs text-blue-600 mt-1">{details.folder.full_path}</p>
+          </div>
+        </div>
+
+        {/* Summary */}
+        <div className="bg-gray-50 rounded-lg p-3">
+          <h4 className="text-sm font-medium text-gray-900 mb-2">📊 Summary</h4>
+          <div className="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <span className="text-gray-600">Changes Detected:</span>
+              <span className="ml-2 font-medium">{details.summary.changes_detected}</span>
+            </div>
+            <div>
+              <span className="text-gray-600">Severity Level:</span>
+              <span className={`ml-2 px-2 py-1 rounded text-xs font-medium ${
+                details.summary.severity_level === 'high' ? 'bg-red-100 text-red-800' :
+                details.summary.severity_level === 'medium' ? 'bg-yellow-100 text-yellow-800' :
+                'bg-blue-100 text-blue-800'
+              }`}>
+                {details.summary.severity_level.toUpperCase()}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Changes */}
+        {details.changes && details.changes.length > 0 && (
+          <div>
+            <h4 className="text-sm font-medium text-gray-900 mb-3">🔍 Changes Detected</h4>
+            <div className="space-y-3">
+              {details.changes.map((change: any, index: number) => (
+                <div key={index} className="border border-gray-200 rounded-lg p-3">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl">{change.icon}</span>
+                    <div className="flex-1">
+                      <h5 className="text-sm font-medium text-gray-900">{change.type}</h5>
+                      <p className="text-sm text-gray-700 mt-1">{change.description}</p>
+                      
+                      {change.users_affected && change.users_affected.length > 0 && (
+                        <div className="mt-2">
+                          <span className="text-xs font-medium text-gray-600">Users/Groups Affected:</span>
+                          <div className="mt-1 flex flex-wrap gap-1">
+                            {change.users_affected.map((user: string, userIndex: number) => (
+                              <span key={userIndex} className="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">
+                                {user}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      
+                      <div className="mt-2 p-2 bg-gray-50 rounded text-xs text-gray-600">
+                        <strong>Impact:</strong> {change.impact}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Metadata */}
+        <div className="bg-gray-50 rounded-lg p-3 text-xs text-gray-600">
+          <h4 className="text-sm font-medium text-gray-900 mb-2">ℹ️ Detection Information</h4>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+            <div>
+              <span className="font-medium">Source:</span> {details.metadata.source}
+            </div>
+            <div>
+              <span className="font-medium">Type:</span> {details.metadata.alert_type}
+            </div>
+            <div>
+              <span className="font-medium">Detected:</span> {new Date(details.metadata.detected_at).toLocaleString()}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Fallback to old format for existing alerts
+  return (
+    <div className="space-y-2">
+      <h4 className="text-sm font-medium text-gray-900">Details:</h4>
+      <pre className="text-xs text-gray-600 bg-gray-50 p-2 rounded overflow-x-auto">
+        {JSON.stringify(details, null, 2)}
+      </pre>
+    </div>
+  );
+};
+
 // Alert Card Component
 interface AlertCardProps {
   alert: Alert;
@@ -217,6 +329,7 @@ interface AlertCardProps {
   getSeverityIcon: (severity: AlertSeverity) => string;
   getTypeIcon: (type?: string) => string;
   formatTimeAgo: (dateString: string) => string;
+  isRecent: boolean;
 }
 
 const AlertCard: React.FC<AlertCardProps> = ({
@@ -225,7 +338,8 @@ const AlertCard: React.FC<AlertCardProps> = ({
   getSeverityColor,
   getSeverityIcon,
   getTypeIcon,
-  formatTimeAgo
+  formatTimeAgo,
+  isRecent
 }) => {
   const [showDetails, setShowDetails] = useState(false);
   // const [showAcknowledgeForm, setShowAcknowledgeForm] = useState(false);
@@ -238,9 +352,14 @@ const AlertCard: React.FC<AlertCardProps> = ({
   };
 
   return (
-    <div className={`bg-white rounded-lg border-2 transition-all duration-200 ${
+    <div className={`bg-white rounded-lg border-2 transition-all duration-200 relative ${
       alert.acknowledged_at ? 'border-gray-200 opacity-75' : getSeverityColor(alert.severity).replace('bg-', 'border-').replace('text-', '')
-    }`}>
+    } ${isRecent && !alert.acknowledged_at ? 'shadow-lg ring-2 ring-blue-500 ring-opacity-50' : ''}`}>
+      {isRecent && !alert.acknowledged_at && (
+        <div className="absolute -top-2 -right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full font-medium animate-pulse">
+          NEW
+        </div>
+      )}
       <div className="p-4">
         <div className="flex items-start justify-between">
           <div className="flex items-start space-x-3 flex-1">
@@ -259,8 +378,8 @@ const AlertCard: React.FC<AlertCardProps> = ({
                     {alert.configuration.alert_type.replace(/_/g, ' ').toUpperCase()}
                   </span>
                 )}
-                <span className="text-xs text-gray-500">
-                  {formatTimeAgo(alert.created_at)}
+                <span className={`text-xs ${isRecent ? 'text-blue-600 font-medium' : 'text-gray-500'}`}>
+                  {isRecent && '🔴 '}{formatTimeAgo(alert.created_at)}
                 </span>
               </div>
               
@@ -309,42 +428,7 @@ const AlertCard: React.FC<AlertCardProps> = ({
         {/* Details Section */}
         {showDetails && (
           <div className="mt-4 pt-4 border-t border-gray-200">
-            {alert.details && (
-              <div className="space-y-2">
-                <h4 className="text-sm font-medium text-gray-900">Details:</h4>
-                <pre className="text-xs text-gray-600 bg-gray-50 p-2 rounded overflow-x-auto">
-                  {JSON.stringify(alert.details, null, 2)}
-                </pre>
-              </div>
-            )}
-            
-            {alert.permission_change && (
-              <div className="mt-3 space-y-2">
-                <h4 className="text-sm font-medium text-gray-900">Permission Change:</h4>
-                <div className="text-xs text-gray-600 space-y-1">
-                  <p><strong>Type:</strong> {alert.permission_change.change_type}</p>
-                  <p><strong>Detected:</strong> {new Date(alert.permission_change.detected_time).toLocaleString()}</p>
-                  
-                  {alert.permission_change.previous_state && (
-                    <div>
-                      <strong>Previous State:</strong>
-                      <pre className="bg-gray-50 p-2 rounded mt-1 overflow-x-auto">
-                        {JSON.stringify(alert.permission_change.previous_state, null, 2)}
-                      </pre>
-                    </div>
-                  )}
-                  
-                  {alert.permission_change.current_state && (
-                    <div>
-                      <strong>Current State:</strong>
-                      <pre className="bg-gray-50 p-2 rounded mt-1 overflow-x-auto">
-                        {JSON.stringify(alert.permission_change.current_state, null, 2)}
-                      </pre>
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
+            {alert.details && renderAlertDetails(alert.details)}
           </div>
         )}
       </div>

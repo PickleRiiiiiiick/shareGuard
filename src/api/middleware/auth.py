@@ -174,14 +174,22 @@ class AuthMiddleware:
         "/redoc",
     }
     
+    # WebSocket endpoints that handle their own authentication
+    WEBSOCKET_ROUTES = {
+        "/api/v1/alerts/notifications",
+        "/api/v1/alerts/test",
+    }
+    
     async def __call__(self, request: Request, call_next):
         try:
             path = request.url.path
             logger.debug(f"Processing request to: {path}")
             
-            # Check if path is public
-            if path in self.PUBLIC_ROUTES or path.startswith(("/docs/", "/redoc/", "/openapi.")):
-                logger.debug(f"Allowing access to public route: {path}")
+            # Check if path is public or WebSocket endpoint
+            if (path in self.PUBLIC_ROUTES or 
+                path in self.WEBSOCKET_ROUTES or 
+                path.startswith(("/docs/", "/redoc/", "/openapi."))):
+                logger.debug(f"Allowing access to public/WebSocket route: {path}")
                 return await call_next(request)
 
             auth_header = request.headers.get('Authorization')

@@ -4,6 +4,7 @@ from .scan import ScanTarget, ScanJob, ScanResult, AccessEntry
 from .alerts import AlertConfiguration, Alert
 from .changes import PermissionChange
 from .cache import UserGroupMapping
+from .folder_cache import FolderPermissionCache, FolderStructureCache
 from .health import Issue, HealthScan, HealthMetrics, HealthScoreHistory, IssueSeverity, IssueType, IssueStatus
 from .enums import ScanScheduleType, AlertType, AlertSeverity
 
@@ -17,6 +18,8 @@ __all__ = [
     'Alert',
     'PermissionChange',
     'UserGroupMapping',
+    'FolderPermissionCache',
+    'FolderStructureCache',
     'Issue',
     'HealthScan',
     'HealthMetrics',

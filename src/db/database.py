@@ -40,6 +40,14 @@ def get_db() -> Generator[Session, None, None]:
     finally:
         db.close()
 
+def get_db_sync() -> Generator[Session, None, None]:
+    """Synchronous database session for background tasks."""
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
 def init_db() -> None:
     """Initialize database tables."""
     from .models import Base

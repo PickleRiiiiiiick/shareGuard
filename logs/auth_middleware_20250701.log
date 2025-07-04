@@ -19482,3 +19482,39 @@
 2025-07-01 15:38:38,566 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1751493968, 'iat': 1751407568}
 2025-07-01 15:38:38,566 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
 2025-07-01 15:38:38,567 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2025-07-01 15:48:52,686 - auth_middleware - DEBUG - [auth.py:180] - Processing request to: /api/v1/health/score
+2025-07-01 15:48:52,687 - auth_middleware - DEBUG - [auth.py:188] - Auth header: Bearer eyJhbGciOiJIU
+2025-07-01 15:48:52,688 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2025-07-01 15:48:52,688 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2025-07-01 15:48:52,695 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 21
+2025-07-01 15:48:52,695 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2025-07-02 22:06:08.037801
+2025-07-01 15:48:52,696 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2025-07-01 15:48:52,696 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1751493968, 'iat': 1751407568}
+2025-07-01 15:48:52,696 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2025-07-01 15:48:52,699 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2025-07-01 15:48:52,699 - auth_middleware - DEBUG - [auth.py:180] - Processing request to: /api/v1/health/issues
+2025-07-01 15:48:52,700 - auth_middleware - DEBUG - [auth.py:188] - Auth header: Bearer eyJhbGciOiJIU
+2025-07-01 15:48:52,700 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2025-07-01 15:48:52,700 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2025-07-01 15:48:52,701 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 21
+2025-07-01 15:48:52,701 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2025-07-02 22:06:08.037801
+2025-07-01 15:48:52,701 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2025-07-01 15:48:52,702 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1751493968, 'iat': 1751407568}
+2025-07-01 15:48:52,702 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2025-07-01 15:48:52,703 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2025-07-01 15:48:52,707 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2025-07-01 15:48:52,707 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2025-07-01 15:48:52,710 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 21
+2025-07-01 15:48:52,710 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2025-07-02 22:06:08.037801
+2025-07-01 15:48:52,711 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2025-07-01 15:48:52,711 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1751493968, 'iat': 1751407568}
+2025-07-01 15:48:52,711 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2025-07-01 15:48:52,712 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService
+2025-07-01 15:48:52,746 - auth_middleware - DEBUG - [auth.py:21] - Validating token: eyJhbGciOiJIUzI1NiIs...
+2025-07-01 15:48:52,746 - auth_middleware - DEBUG - [auth.py:26] - Checking for active session...
+2025-07-01 15:48:52,747 - auth_middleware - DEBUG - [auth.py:36] - Found active session: 21
+2025-07-01 15:48:52,747 - auth_middleware - DEBUG - [auth.py:37] - Session expires at: 2025-07-02 22:06:08.037801
+2025-07-01 15:48:52,747 - auth_middleware - DEBUG - [auth.py:48] - Attempting JWT validation...
+2025-07-01 15:48:52,747 - auth_middleware - DEBUG - [auth.py:54] - JWT validation successful: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': 1751493968, 'iat': 1751407568}
+2025-07-01 15:48:52,748 - auth_middleware - DEBUG - [auth.py:64] - Looking up service account: 1
+2025-07-01 15:48:52,749 - auth_middleware - DEBUG - [auth.py:71] - Successfully validated token for account: ShareGuardService

@@ -6,6 +6,7 @@ from sqlalchemy import and_, desc, func
 from typing import List, Optional, Dict, Any
 from datetime import datetime, timedelta
 import json
+import os
 
 from src.db.database import get_db
 from src.db.models.alerts import Alert, AlertConfiguration
@@ -13,9 +14,9 @@ from src.db.models.changes import PermissionChange
 from src.db.models.scan import ScanJob, ScanTarget
 from src.db.models.enums import AlertType, AlertSeverity
 from src.services.notification_service import notification_service
-from src.services.change_monitor import ACLChangeMonitor
-from src.services.group_monitor import GroupMembershipTracker
-from src.api.middleware.auth import get_current_user
+from src.services.change_monitor import change_monitor
+# from src.services.group_monitor import GroupMembershipTracker
+from src.api.middleware.auth import get_current_user, get_current_service_account
 from src.utils.logger import setup_logger
 from pydantic import BaseModel
 from enum import Enum
@@ -24,9 +25,9 @@ logger = setup_logger('alert_routes')
 
 router = APIRouter(prefix="/alerts", tags=["alerts"])
 
-# Initialize services
-change_monitor = ACLChangeMonitor()
-group_tracker = GroupMembershipTracker()
+# Services are already initialized as global instances
+# change_monitor is imported from src.services.change_monitor
+# group_tracker = GroupMembershipTracker()
 
 # Pydantic models for API
 class AlertConfigurationCreate(BaseModel):
@@ -521,18 +522,26 @@ async def get_recent_changes(
 @router.post("/monitoring/start")
 async def start_monitoring(
     paths: Optional[List[str]] = None,
-    current_user: dict = Depends(get_current_user)
+    current_user: dict = Depends(get_current_user),
+    db: Session = Depends(get_db)
 ):
     """Start ACL change monitoring."""
     try:
-        await change_monitor.start_monitoring(paths)
-        await group_tracker.start_monitoring()
+        # If no paths provided, get all active scan target paths
+        if not paths:
+            scan_targets = db.query(ScanTarget).all()
+            paths = [target.path for target in scan_targets if target.path and os.path.exists(target.path)]
+            logger.info(f"Auto-detected scan target paths: {paths}")
         
-        logger.info("Started ACL and group membership monitoring")
+        await change_monitor.start_monitoring(paths)
+        # await group_tracker.start_monitoring()
+        
+        logger.info(f"Started ACL monitoring on {len(paths)} paths")
         
         return {
             "message": "Change monitoring started successfully",
-            "monitoring_paths": paths or "all active targets"
+            "monitoring_paths": paths,
+            "path_count": len(paths)
         }
         
     except Exception as e:
@@ -544,9 +553,9 @@ async def stop_monitoring(current_user: dict = Depends(get_current_user)):
     """Stop ACL change monitoring."""
     try:
         await change_monitor.stop_monitoring()
-        await group_tracker.stop_monitoring()
+        # await group_tracker.stop_monitoring()
         
-        logger.info("Stopped ACL and group membership monitoring")
+        logger.info("Stopped ACL monitoring")
         
         return {"message": "Change monitoring stopped successfully"}
         
@@ -558,13 +567,12 @@ async def stop_monitoring(current_user: dict = Depends(get_current_user)):
 async def get_monitoring_status(current_user: dict = Depends(get_current_user)):
     """Get current monitoring status."""
     try:
-        group_status = await group_tracker.get_monitoring_status()
+        # group_status = await group_tracker.get_monitoring_status()
         notification_stats = await notification_service.get_service_stats()
         
         return {
-            "change_monitoring_active": change_monitor._monitoring,
-            "group_monitoring_active": group_status.get('monitoring_active', False),
-            "group_monitoring_stats": group_status,
+            "change_monitoring_active": change_monitor.is_monitoring,
+            "monitored_paths": list(change_monitor.monitoring_paths),
             "notification_service_stats": notification_stats
         }
         
@@ -572,15 +580,95 @@ async def get_monitoring_status(current_user: dict = Depends(get_current_user)):
         logger.error(f"Error getting monitoring status: {str(e)}")
         raise HTTPException(status_code=500, detail="Failed to get monitoring status")
 
+@router.post("/test-notification")
+async def send_test_notification(
+    message: str = "Test notification",
+    current_user: dict = Depends(get_current_user)
+):
+    """Send a test notification to all connected WebSocket clients."""
+    try:
+        from src.services.notification_service import Notification, NotificationType
+        import uuid
+        from datetime import datetime
+        
+        test_notification = Notification(
+            id=str(uuid.uuid4()),
+            type=NotificationType.SYSTEM_STATUS,
+            title="Test Notification",
+            message=message,
+            severity="info",
+            timestamp=datetime.utcnow().isoformat(),
+            data={"test": True}
+        )
+        
+        await notification_service.send_notification(test_notification, broadcast=True)
+        
+        return {
+            "success": True,
+            "message": "Test notification sent",
+            "notification_id": test_notification.id
+        }
+        
+    except Exception as e:
+        logger.error(f"Error sending test notification: {str(e)}")
+        raise HTTPException(status_code=500, detail="Failed to send test notification")
+
+@router.get("/websocket-debug")
+async def websocket_debug(current_user: dict = Depends(get_current_user)):
+    """Debug WebSocket connection status."""
+    try:
+        stats = await notification_service.get_service_stats()
+        return {
+            "websocket_stats": stats,
+            "notification_service_running": hasattr(notification_service, '_notification_task') and notification_service._notification_task is not None
+        }
+    except Exception as e:
+        logger.error(f"Error getting WebSocket debug info: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# Test WebSocket endpoint
+@router.websocket("/test")
+async def test_websocket_endpoint(websocket: WebSocket):
+    """Simple test WebSocket endpoint."""
+    print("DEBUG: Test WebSocket endpoint called!")
+    logger.info("=== TEST WEBSOCKET ENDPOINT CALLED ===")
+    await websocket.accept()
+    await websocket.send_text("Hello WebSocket!")
+    await websocket.close()
+
 # WebSocket endpoint for real-time notifications
 @router.websocket("/notifications")
 async def websocket_endpoint(
     websocket: WebSocket,
     user_id: Optional[str] = Query(None),
-    filters: Optional[str] = Query(None)
+    filters: Optional[str] = Query(None),
+    token: Optional[str] = Query(None)
 ):
     """WebSocket endpoint for real-time alert notifications."""
+    logger.info(f"=== WEBSOCKET ENDPOINT CALLED === user: {user_id}, token: {token[:20] if token else 'None'}")
+    print(f"DEBUG: WebSocket endpoint called - user: {user_id}, token: {token[:20] if token else 'None'}")
+    logger.info(f"WebSocket connection attempt from user: {user_id}")
     try:
+        # Simplified WebSocket authentication
+        if not token:
+            logger.warning("No token provided for WebSocket connection")
+            await websocket.close(code=1008, reason="Authentication required")
+            return
+        
+        # Basic token validation without full auth middleware
+        try:
+            import jwt
+            from config.settings import JWT_SECRET_KEY, JWT_ALGORITHM
+            payload = jwt.decode(token, JWT_SECRET_KEY, algorithms=[JWT_ALGORITHM])
+            username = payload.get("sub")
+            if not username:
+                raise ValueError("Invalid token payload")
+            logger.info(f"WebSocket authentication successful for user: {username}")
+        except Exception as e:
+            logger.warning(f"WebSocket authentication failed: {str(e)}")
+            await websocket.close(code=1008, reason="Authentication failed")
+            return
+        
         # Parse filters if provided
         parsed_filters = None
         if filters:
@@ -589,9 +677,9 @@ async def websocket_endpoint(
             except json.JSONDecodeError:
                 logger.warning(f"Invalid filters JSON: {filters}")
         
-        # Handle the WebSocket connection
+        # Handle the WebSocket connection with authenticated user
         await notification_service.handle_websocket_connection(
-            websocket, user_id, parsed_filters
+            websocket, user_id or service_account.username, parsed_filters
         )
         
     except WebSocketDisconnect:

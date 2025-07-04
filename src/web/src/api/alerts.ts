@@ -106,6 +106,12 @@ export const alertsApi = {
     if (userId) searchParams.append('user_id', userId);
     if (filters) searchParams.append('filters', JSON.stringify(filters));
     
+    // Add authentication token
+    const token = localStorage.getItem('auth_token');
+    if (token) {
+      searchParams.append('token', token);
+    }
+    
     const url = `${protocol}//${host}/api/v1/alerts/notifications${searchParams.toString() ? `?${searchParams.toString()}` : ''}`;
     
     return new WebSocket(url);

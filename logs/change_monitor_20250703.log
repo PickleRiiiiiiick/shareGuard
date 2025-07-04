@@ -1,0 +1,305 @@
+2025-07-03 03:46:34,044 - change_monitor - INFO - [change_monitor.py:60] - ACL Change Monitor initialized
+2025-07-03 04:29:22,751 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:29:30,254 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:29:37,737 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:31:57,844 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 04:37:26,526 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:37:36,174 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:37:53,772 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:38:02,191 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:38:44,563 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 04:39:30,039 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:43:15,602 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:52:42,319 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:57:52,723 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 04:58:29,519 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 05:03:01,697 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 15:02:42,737 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 15:04:23,437 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 15:39:30,429 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 15:43:38,769 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 15:59:46,056 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 16:07:26,392 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:12:35,897 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:12:43,758 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:17:23,834 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:17:42,359 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:17:50,005 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:19:34,707 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:24:31,456 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:26:46,690 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:33:16,100 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:35:07,042 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 16:35:54,374 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:37:58,456 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 16:42:04,293 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:43:06,399 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 16:48:04,348 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 16:51:57,445 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 17:04:49,309 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:04:51,795 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 0 paths
+2025-07-03 17:20:15,573 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:20:25,277 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:25:54,548 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:27:17,127 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:29:31,278 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 4 paths
+2025-07-03 17:29:31,281 - change_monitor - INFO - [change_monitor.py:126] - Creating initial cache entry for: C:\ShareGuardTestData
+2025-07-03 17:29:31,304 - change_monitor - INFO - [change_monitor.py:126] - Creating initial cache entry for: C:\ShareGuardTest\IT
+2025-07-03 17:29:37,785 - change_monitor - INFO - [change_monitor.py:126] - Creating initial cache entry for: C:\ShareGuardTest\Finance
+2025-07-03 17:29:38,053 - change_monitor - INFO - [change_monitor.py:126] - Creating initial cache entry for: C:\ShareGuardTest
+2025-07-03 17:29:38,139 - change_monitor - INFO - [change_monitor.py:41] - Monitoring already active
+2025-07-03 17:29:38,145 - change_monitor - INFO - [change_monitor.py:41] - Monitoring already active
+2025-07-03 17:30:38,128 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:30:38,143 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:30:38,160 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:30:38,168 - change_monitor - ERROR - [change_monitor.py:194] - Error recording permission change: 'path' is an invalid keyword argument for PermissionChange
+2025-07-03 17:30:38,211 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:30:38,224 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:30:38,252 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:30:38,257 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:30:38,273 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:31:38,320 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:31:38,334 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:31:38,353 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:31:38,384 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:31:38,396 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:31:38,420 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:31:38,426 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:31:38,441 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:32:38,483 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:32:38,494 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:32:38,510 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:32:38,545 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:32:38,556 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:32:38,561 - change_monitor - ERROR - [change_monitor.py:194] - Error recording permission change: 'path' is an invalid keyword argument for PermissionChange
+2025-07-03 17:32:38,586 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:32:38,593 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:32:38,609 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:33:38,650 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:33:38,661 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:33:38,722 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:33:38,756 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:33:38,767 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:33:38,792 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:33:38,799 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:33:38,816 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:34:38,876 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:34:38,902 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:34:38,918 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:34:38,950 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:34:38,962 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:34:38,966 - change_monitor - ERROR - [change_monitor.py:194] - Error recording permission change: 'path' is an invalid keyword argument for PermissionChange
+2025-07-03 17:34:38,998 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:34:39,004 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:34:39,021 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:35:39,070 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:35:39,082 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:35:39,101 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:35:39,139 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:35:39,152 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:35:39,176 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:35:39,182 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:35:39,198 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:36:39,239 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:36:39,250 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:36:39,269 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:36:39,302 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:36:39,315 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:36:39,341 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:36:39,349 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:36:39,365 - change_monitor - ERROR - [change_monitor.py:304] - Error sending change notification: 'alert_type' is an invalid keyword argument for Alert
+2025-07-03 17:36:41,198 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:36:58,298 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:37:12,222 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:40:10,327 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:40:31,455 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:48:25,633 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 4 paths
+2025-07-03 17:48:26,355 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:48:26,397 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:48:26,661 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:48:26,762 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:49:26,860 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:49:26,893 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:49:26,928 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:49:26,973 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:50:27,061 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:50:27,095 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:50:27,126 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:50:27,172 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:51:27,246 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:51:27,280 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:51:27,311 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:51:27,358 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:52:27,448 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:52:27,481 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:52:27,510 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:52:27,555 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:53:27,642 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:53:27,678 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:53:27,714 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:53:27,761 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:54:27,837 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:54:27,877 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:54:27,913 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:54:27,960 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:55:28,044 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\Finance
+2025-07-03 17:55:28,079 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTestData
+2025-07-03 17:55:28,110 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest\IT
+2025-07-03 17:55:28,156 - change_monitor - INFO - [change_monitor.py:145] - Detected permission change for: C:\ShareGuardTest
+2025-07-03 17:56:26,415 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:56:38,250 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:57:05,869 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:57:14,542 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:57:35,644 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 17:59:45,239 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 18:01:17,669 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 4 paths
+2025-07-03 18:01:18,332 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:01:18,347 - change_monitor - INFO - [change_monitor.py:156] - Confirmed significant permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:01:18,621 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:01:18,621 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:01:18,673 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:01:18,674 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:01:18,677 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:01:18,677 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:02:18,736 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:02:18,750 - change_monitor - INFO - [change_monitor.py:156] - Confirmed significant permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:02:18,967 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:02:18,968 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:02:18,976 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:02:18,976 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:02:18,979 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:02:18,979 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:03:19,031 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:03:19,031 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:03:19,048 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:03:19,048 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:03:19,056 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:03:19,056 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:03:19,059 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:03:19,059 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:04:19,174 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:04:19,189 - change_monitor - INFO - [change_monitor.py:156] - Confirmed significant permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:04:19,243 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:04:19,243 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:04:19,252 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:04:19,252 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:04:19,255 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:04:19,255 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:05:19,310 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:05:19,310 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:05:19,326 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:05:19,326 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:05:19,334 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:05:19,335 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:05:19,337 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:05:19,338 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:06:19,401 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:06:19,402 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:06:19,418 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:06:19,418 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:06:19,427 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:06:19,427 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:06:19,430 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:06:19,431 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:07:19,495 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:07:19,495 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:07:19,511 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:07:19,512 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:07:19,520 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:07:19,520 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:07:19,523 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:07:19,523 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:07:43,599 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 18:11:21,471 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 18:12:17,150 - change_monitor - INFO - [change_monitor.py:46] - Started monitoring 4 paths
+2025-07-03 18:12:18,309 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:12:18,309 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:12:18,521 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:12:18,521 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:12:18,578 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:12:18,578 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:12:18,581 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:12:18,582 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:12:18,656 - change_monitor - INFO - [change_monitor.py:41] - Monitoring already active
+2025-07-03 18:13:18,641 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:13:18,641 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:13:18,655 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:13:18,678 - change_monitor - INFO - [change_monitor.py:156] - Confirmed significant permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:13:18,727 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:13:18,728 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:13:18,731 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:13:18,731 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:14:21,177 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:14:21,198 - change_monitor - INFO - [change_monitor.py:156] - Confirmed significant permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:14:21,259 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:14:21,259 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:14:21,268 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:14:21,268 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:14:21,273 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:14:21,273 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:15:21,330 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:15:21,331 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:15:21,347 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:15:21,347 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:15:21,356 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:15:21,356 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:15:21,361 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:15:21,362 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:16:21,421 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:16:21,421 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:16:21,436 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:16:21,437 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:16:21,445 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:16:21,446 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:16:21,450 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:16:21,451 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:17:21,509 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:17:21,509 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:17:21,524 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:17:21,525 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:17:21,534 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:17:21,534 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:17:21,539 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:17:21,539 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:18:21,624 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:18:21,624 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:18:21,640 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:18:21,640 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:18:21,650 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:18:21,651 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:18:24,024 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:18:24,032 - change_monitor - INFO - [change_monitor.py:156] - Confirmed significant permission change for: C:\ShareGuardTestData
+2025-07-03 18:19:24,131 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:19:24,132 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:19:24,147 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:19:24,147 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:19:24,156 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:19:24,156 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:19:24,162 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:19:24,162 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:20:24,231 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:20:24,231 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:20:24,245 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:20:24,246 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:20:24,254 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:20:24,254 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:20:24,260 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:20:24,261 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:21:24,336 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:21:24,337 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:21:24,351 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:21:24,352 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:21:24,361 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:21:24,361 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:21:24,367 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:21:24,368 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:22:24,437 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\IT
+2025-07-03 18:22:24,439 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\IT, skipping alert
+2025-07-03 18:22:24,453 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest\Finance
+2025-07-03 18:22:24,453 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest\Finance, skipping alert
+2025-07-03 18:22:24,464 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTest
+2025-07-03 18:22:24,464 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTest, skipping alert
+2025-07-03 18:22:24,471 - change_monitor - INFO - [change_monitor.py:145] - Detected potential permission change for: C:\ShareGuardTestData
+2025-07-03 18:22:24,471 - change_monitor - DEBUG - [change_monitor.py:167] - No significant changes detected for: C:\ShareGuardTestData, skipping alert
+2025-07-03 18:23:02,292 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring
+2025-07-03 18:29:15,833 - change_monitor - INFO - [change_monitor.py:65] - Stopped monitoring

@@ -1,0 +1,230 @@
+2025-07-03 03:46:57,812 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 03:46:57,813 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 03:46:57,828 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 10, 46, 57, 827993), 'iat': datetime.datetime(2025, 7, 3, 10, 46, 57, 828010)}
+2025-07-03 03:46:57,856 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 04:30:02,492 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 04:30:02,493 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 04:30:02,514 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 22
+2025-07-03 04:30:02,515 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 11, 30, 2, 514946), 'iat': datetime.datetime(2025, 7, 3, 11, 30, 2, 515265)}
+2025-07-03 04:30:02,528 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 04:38:39,446 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:38:39,448 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:38:39,462 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:38:39,463 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:38:42,334 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:38:42,336 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:38:42,350 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:38:42,351 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:40:58,145 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:40:58,147 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:40:58,165 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:40:58,166 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:48:32,441 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:48:32,443 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:48:32,458 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:48:32,460 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:48:34,716 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 04:48:34,716 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 04:48:34,728 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 23
+2025-07-03 04:48:34,728 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 11, 48, 34, 728391), 'iat': datetime.datetime(2025, 7, 3, 11, 48, 34, 728406)}
+2025-07-03 04:48:34,769 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 04:54:28,391 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for admin@local
+2025-07-03 04:54:28,391 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for local\admin
+2025-07-03 04:54:38,589 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for local\admin: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 04:54:38,591 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for admin
+2025-07-03 04:55:42,896 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@WIN-I2VDDDLDOUA
+2025-07-03 04:55:42,897 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for WIN-I2VDDDLDOUA\ShareGuardService
+2025-07-03 04:55:42,897 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for WIN-I2VDDDLDOUA\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 04:55:42,898 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2025-07-03 04:58:16,768 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:58:16,771 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:58:16,785 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 04:58:16,786 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 04:58:19,114 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 04:58:19,114 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 04:58:19,125 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 24
+2025-07-03 04:58:19,125 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 11, 58, 19, 125714), 'iat': datetime.datetime(2025, 7, 3, 11, 58, 19, 125727)}
+2025-07-03 04:58:19,186 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 05:02:54,066 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 05:02:54,069 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 05:02:54,091 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 05:02:54,093 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 10:31:45,677 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 10:31:45,679 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 10:31:45,695 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 10:31:45,697 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 10:31:47,482 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 10:31:47,483 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 10:31:47,494 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 25
+2025-07-03 10:31:47,494 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 17, 31, 47, 494957), 'iat': datetime.datetime(2025, 7, 3, 17, 31, 47, 494969)}
+2025-07-03 10:31:47,519 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 14:59:50,557 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 14:59:50,559 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 14:59:50,574 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 14:59:50,575 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:00:01,113 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 15:00:01,113 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 15:00:01,128 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 26
+2025-07-03 15:00:01,129 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 22, 0, 1, 129271), 'iat': datetime.datetime(2025, 7, 3, 22, 0, 1, 129282)}
+2025-07-03 15:00:01,155 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 15:02:50,527 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 15:02:50,529 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:02:50,545 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 15:02:50,547 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:39:16,191 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 15:39:16,195 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:39:16,214 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 15:39:16,217 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:39:18,444 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 15:39:18,444 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 15:39:18,457 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 27
+2025-07-03 15:39:18,457 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 22, 39, 18, 457629), 'iat': datetime.datetime(2025, 7, 3, 22, 39, 18, 457641)}
+2025-07-03 15:39:18,470 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 15:43:43,291 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 15:43:43,292 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 15:43:43,309 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 15:43:43,311 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2025-07-03 15:46:27,138 - auth_routes - INFO - [auth_routes.py:175] - Processing logout request
+2025-07-03 15:46:27,139 - auth_routes - DEBUG - [auth_routes.py:182] - Deactivating session 28
+2025-07-03 15:46:41,041 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 15:46:41,042 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 15:46:41,052 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 22, 46, 41, 52195), 'iat': datetime.datetime(2025, 7, 3, 22, 46, 41, 52208)}
+2025-07-03 15:46:41,061 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 15:59:17,888 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 15:59:17,890 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:59:17,909 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 15:59:17,911 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 15:59:22,336 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 15:59:22,336 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 15:59:22,347 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 29
+2025-07-03 15:59:22,347 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 22, 59, 22, 347939), 'iat': datetime.datetime(2025, 7, 3, 22, 59, 22, 347952)}
+2025-07-03 15:59:22,374 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 16:07:31,478 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:07:31,478 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:07:31,493 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 16:07:31,494 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2025-07-03 16:08:08,021 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:08:08,022 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:08:08,034 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 16:08:08,035 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2025-07-03 16:08:08,045 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:08:08,045 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:08:08,057 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 16:08:08,058 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2025-07-03 16:20:16,707 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:20:16,709 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:20:16,725 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:20:16,726 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:20:19,145 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:20:19,145 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:20:19,275 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 30
+2025-07-03 16:20:19,276 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 23, 20, 19, 276170), 'iat': datetime.datetime(2025, 7, 3, 23, 20, 19, 276183)}
+2025-07-03 16:20:19,510 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 16:33:38,736 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:33:38,737 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:33:38,750 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 31
+2025-07-03 16:33:38,750 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 23, 33, 38, 750926), 'iat': datetime.datetime(2025, 7, 3, 23, 33, 38, 750943)}
+2025-07-03 16:33:38,763 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 16:35:48,698 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:35:48,700 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:35:48,713 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:35:48,715 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:36:05,882 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:36:05,883 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:36:05,894 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:36:05,897 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:36:08,436 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:36:08,437 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:36:08,446 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 32
+2025-07-03 16:36:08,446 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 23, 36, 8, 446743), 'iat': datetime.datetime(2025, 7, 3, 23, 36, 8, 446755)}
+2025-07-03 16:36:08,458 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 16:36:44,878 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:36:44,881 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:36:44,897 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:36:44,898 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:36:57,840 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:36:57,844 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:36:57,861 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:36:57,863 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:38:05,251 - auth_routes - INFO - [auth_routes.py:175] - Processing logout request
+2025-07-03 16:38:05,253 - auth_routes - DEBUG - [auth_routes.py:182] - Deactivating session 33
+2025-07-03 16:38:08,378 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:38:08,379 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:38:08,387 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 23, 38, 8, 387528), 'iat': datetime.datetime(2025, 7, 3, 23, 38, 8, 387539)}
+2025-07-03 16:38:08,395 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 16:40:57,991 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:40:57,993 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:40:58,004 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:40:58,006 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:42:19,304 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:42:19,305 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:42:19,320 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:42:19,323 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:42:22,039 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:42:22,039 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:42:22,048 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 34
+2025-07-03 16:42:22,049 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 23, 42, 22, 49297), 'iat': datetime.datetime(2025, 7, 3, 23, 42, 22, 49311)}
+2025-07-03 16:42:22,060 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 16:49:09,576 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:49:09,577 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:49:09,590 - auth_routes - WARNING - [auth_routes.py:47] - Windows authentication failed for shareguard.com\ShareGuardService: (1326, 'LogonUser', 'The user name or password is incorrect.')
+2025-07-03 16:49:09,591 - auth_routes - WARNING - [auth_routes.py:85] - Invalid Windows credentials for ShareGuardService
+2025-07-03 16:50:17,047 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:50:17,050 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:50:17,062 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 16:50:17,064 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 16:50:21,160 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 16:50:21,160 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 16:50:21,169 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 35
+2025-07-03 16:50:21,170 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 4, 23, 50, 21, 169991), 'iat': datetime.datetime(2025, 7, 3, 23, 50, 21, 170004)}
+2025-07-03 16:50:21,180 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 17:02:12,712 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:02:12,713 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:02:12,727 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:02:12,732 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:06:44,998 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:06:45,000 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:06:45,015 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:06:45,017 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:09:21,025 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:09:21,030 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:09:21,042 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:09:21,043 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:13:45,157 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:13:45,159 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:13:45,174 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:13:45,178 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:29:28,348 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:29:28,352 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:29:28,365 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:29:28,366 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:32:10,395 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:32:10,396 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:32:10,411 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:32:10,413 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:34:35,615 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:34:35,617 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:34:35,634 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:34:35,636 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:47:26,344 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:47:26,346 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 17:47:26,363 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 17:47:26,364 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 18:00:32,110 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 18:00:32,110 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 18:00:32,123 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 36
+2025-07-03 18:00:32,123 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 5, 1, 0, 32, 123325), 'iat': datetime.datetime(2025, 7, 4, 1, 0, 32, 123342)}
+2025-07-03 18:00:32,134 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 18:03:02,053 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 18:03:02,055 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 18:03:02,066 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 18:03:02,068 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 18:11:45,709 - auth_routes - INFO - [auth_routes.py:81] - Login attempt for ShareGuardService@shareguard.com
+2025-07-03 18:11:45,710 - auth_routes - DEBUG - [auth_routes.py:37] - Attempting Windows authentication for shareguard.com\ShareGuardService
+2025-07-03 18:11:45,722 - auth_routes - DEBUG - [auth_routes.py:113] - Deactivating existing session 37
+2025-07-03 18:11:45,722 - auth_routes - DEBUG - [auth_routes.py:62] - Creating token with payload: {'sub': '1', 'name': 'shareguard.com\\ShareGuardService', 'exp': datetime.datetime(2025, 7, 5, 1, 11, 45, 722678), 'iat': datetime.datetime(2025, 7, 4, 1, 11, 45, 722695)}
+2025-07-03 18:11:45,735 - auth_routes - INFO - [auth_routes.py:136] - Login successful for ShareGuardService
+2025-07-03 18:16:11,474 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 18:16:11,476 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService
+2025-07-03 18:16:11,492 - auth_routes - DEBUG - [auth_routes.py:201] - Processing token verification request
+2025-07-03 18:16:11,495 - auth_routes - INFO - [auth_routes.py:225] - Token verified successfully for ShareGuardService

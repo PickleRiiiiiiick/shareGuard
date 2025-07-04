@@ -34,10 +34,11 @@ dist_dir = current_dir / "web" / "dist"
 # CORS middleware should be first
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:8000"],
+    allow_origins=["*"],  # Allow all origins for WebSocket connections
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
 
 # Debug requests middleware
@@ -133,6 +134,23 @@ async def startup_event():
     from src.services.notification_service import notification_service
     await notification_service.start_service()
     
+    # Start change monitor service
+    from src.services.change_monitor import change_monitor
+    # Get all scan targets and start monitoring them
+    from src.db.database import get_db_sync
+    from src.db.models import ScanTarget
+    try:
+        db = next(get_db_sync())
+        targets = db.query(ScanTarget).filter(ScanTarget.is_active == True).all()
+        paths = [target.path for target in targets]
+        if paths:
+            await change_monitor.start_monitoring(paths)
+            logger.info(f"Started monitoring {len(paths)} paths for changes")
+    except Exception as e:
+        logger.error(f"Error starting change monitor: {str(e)}")
+    finally:
+        db.close()
+    
     logger.info("ShareGuard API started successfully")
     logger.info("Configured CORS origins: ['http://localhost:5173', 'http://localhost:8000']")
 
@@ -141,5 +159,9 @@ async def shutdown_event():
     # Stop notification service
     from src.services.notification_service import notification_service
     await notification_service.stop_service()
+    
+    # Stop change monitor service
+    from src.services.change_monitor import change_monitor
+    await change_monitor.stop_monitoring()
     
     logger.info("ShareGuard API shutdown complete")

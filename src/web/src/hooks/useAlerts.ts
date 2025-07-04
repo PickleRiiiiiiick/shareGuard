@@ -262,12 +262,22 @@ export const useWebSocketNotifications = (userId?: string, filters?: Record<stri
 
     // Don't reconnect if we've tried too many times
     if (reconnectAttempts >= 3) {
-      console.log('Max reconnection attempts reached. Stopping reconnection.');
+      console.log('Max reconnection attempts reached. Falling back to polling mode.');
       setShouldReconnect(false);
+      setConnectionStatus('polling'); // New status for polling mode
       return;
     }
 
     try {
+      // Check if we have an auth token before attempting to connect
+      const token = localStorage.getItem('auth_token');
+      if (!token) {
+        console.warn('No authentication token available. Cannot establish WebSocket connection.');
+        setConnectionStatus('disconnected');
+        setShouldReconnect(false);
+        return;
+      }
+
       setConnectionStatus('connecting');
       const ws = alertsApi.createWebSocketConnection(userId, filters);
       
@@ -320,6 +330,14 @@ export const useWebSocketNotifications = (userId?: string, filters?: Record<stri
       ws.onclose = (event) => {
         setConnectionStatus('disconnected');
         console.log('WebSocket disconnected', event.code, event.reason);
+        
+        // Handle authentication errors
+        if (event.code === 1008) {
+          console.error('WebSocket authentication failed:', event.reason);
+          alertContext.error('WebSocket authentication failed. Please check your login status.');
+          setShouldReconnect(false); // Don't retry on auth failures
+          return;
+        }
         
         // Only reconnect if it was a normal closure and we should reconnect
         if (shouldReconnect && websocket === ws && event.code !== 1000) {
@@ -402,6 +420,63 @@ export const useWebSocketNotifications = (userId?: string, filters?: Record<stri
       return () => clearInterval(pingInterval);
     }
   }, [connectionStatus, ping]);
+
+  // Polling fallback when WebSocket fails
+  const { data: pollingAlerts } = useQuery({
+    queryKey: ['alerts', 'polling-fallback'],
+    queryFn: () => alertsApi.getAlerts({
+      acknowledged: false,
+      hours: 1,
+      limit: 20
+    }),
+    refetchInterval: connectionStatus !== 'connected' ? 10000 : false, // Poll every 10 seconds when WebSocket is not connected
+    enabled: connectionStatus !== 'connected'
+  });
+
+  // Handle polling alerts
+  const [lastPolledAlertId, setLastPolledAlertId] = useState<number | null>(null);
+  
+  useEffect(() => {
+    if (connectionStatus !== 'connected' && pollingAlerts?.length) {
+      const latestAlert = pollingAlerts[0];
+      
+      if (lastPolledAlertId === null) {
+        setLastPolledAlertId(latestAlert.id);
+        return;
+      }
+
+      if (latestAlert.id > lastPolledAlertId) {
+        const newAlerts = pollingAlerts.filter(alert => alert.id > lastPolledAlertId);
+        
+        // Convert to notifications and add them
+        const newNotifications = newAlerts.map(alert => ({
+          id: `alert-${alert.id}`,
+          type: 'alert_triggered',
+          title: `Alert: ${alert.severity.toUpperCase()}`,
+          message: alert.message,
+          severity: alert.severity,
+          timestamp: alert.created_at,
+          data: { alert_id: alert.id },
+          read: false
+        }));
+
+        setNotifications(prev => [...newNotifications, ...prev.slice(0, 99)]);
+
+        // Show toast notifications
+        newNotifications.forEach(notification => {
+          if (notification.severity === 'critical') {
+            alertContext.error(`🚨 ${notification.message}`);
+          } else if (notification.severity === 'high') {
+            alertContext.warning(`⚠️ ${notification.message}`);
+          } else {
+            alertContext.info(`ℹ️ ${notification.message}`);
+          }
+        });
+
+        setLastPolledAlertId(latestAlert.id);
+      }
+    }
+  }, [pollingAlerts, lastPolledAlertId, connectionStatus, alertContext]);
 
   return {
     notifications,

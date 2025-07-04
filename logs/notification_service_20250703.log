@@ -1,0 +1,287 @@
+2025-07-03 03:46:33,943 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 03:46:34,389 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 03:46:34,391 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:05:53,675 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:05:53,683 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:28:06,056 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:28:49,233 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:28:55,022 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:28:55,190 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:28:55,223 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:29:22,744 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:29:22,749 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:29:23,955 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:29:24,086 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:29:24,114 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:29:30,251 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:29:30,253 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:29:31,447 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:29:31,580 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:29:31,609 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:29:37,734 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:29:37,737 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:29:38,914 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:29:39,047 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:29:39,076 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:37:26,522 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:37:26,525 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:37:28,083 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:37:28,220 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:37:28,247 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:37:36,170 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:37:36,173 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:37:37,359 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:37:37,488 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:37:37,515 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:37:53,771 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:37:53,772 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:37:54,980 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:37:55,111 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:37:55,138 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:38:02,190 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:38:02,191 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:38:03,394 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:38:03,524 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:38:03,550 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:39:20,292 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:39:20,422 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:39:20,449 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:39:30,037 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:39:30,039 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:40:06,468 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:40:06,598 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:40:06,625 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:43:15,600 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:43:15,602 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:43:26,798 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:43:26,927 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:43:26,953 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:48:31,483 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:48:31,639 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:48:31,672 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:52:42,315 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:52:42,318 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:52:43,636 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:52:43,784 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:52:43,813 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 04:57:52,721 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 04:57:52,723 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 04:58:08,350 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 04:58:08,485 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 04:58:08,512 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 10:30:20,913 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 10:30:21,079 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 10:30:21,107 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 14:59:18,055 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 14:59:18,249 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 14:59:18,284 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 15:04:23,435 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 15:04:23,436 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 15:39:14,982 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 15:39:15,161 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 15:39:15,198 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 15:43:38,766 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 15:43:38,768 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 15:43:40,281 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 15:43:40,419 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 15:43:40,449 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 15:53:09,184 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 02b4eca6-fdc7-41f2-80b5-b79f25fa2894 - sent to 0 connections
+2025-07-03 15:59:11,563 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 15:59:11,728 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 15:59:11,756 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:07:26,389 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:07:26,390 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:07:28,006 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:07:28,142 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:07:28,171 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:12:35,895 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:12:35,897 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:12:37,320 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:12:37,470 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:12:37,502 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:12:43,755 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:12:43,758 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:12:45,077 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:12:45,215 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:12:45,244 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:17:23,832 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:17:23,834 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:17:25,170 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:17:25,311 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:17:25,344 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:17:42,353 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:17:42,357 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:17:43,645 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:17:43,781 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:17:43,810 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:17:50,002 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:17:50,005 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:17:51,207 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:17:51,344 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:17:51,372 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:19:34,705 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:19:34,707 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:20:06,370 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:20:06,537 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:20:06,571 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:24:31,454 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:24:31,455 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:25:13,757 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:25:13,894 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:25:13,921 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:26:46,690 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:26:46,690 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:26:58,221 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:26:58,362 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:26:58,389 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:33:16,098 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:33:16,099 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:33:30,141 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:33:30,315 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:33:30,342 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:35:54,372 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:35:54,374 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:36:02,742 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:36:02,874 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:36:02,901 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:42:04,291 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:42:04,293 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:42:14,645 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:42:14,780 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:42:14,806 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 16:48:04,346 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 16:48:04,348 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 16:48:05,653 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 16:48:05,794 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 16:48:05,823 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:00:36,550 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 21ff79c7-9d80-4560-b5dd-1f2702a23da0 - sent to 0 connections
+2025-07-03 17:20:15,569 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:20:15,572 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:20:16,923 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:20:17,052 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:20:17,080 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:20:25,275 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:20:25,276 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:20:26,505 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:20:26,636 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:20:26,663 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:25:54,544 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:25:54,546 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:25:55,831 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:25:55,962 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:25:55,989 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:27:17,124 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:27:17,126 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:27:18,358 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:27:18,490 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:27:18,517 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:36:41,195 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:36:41,197 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:36:42,469 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:36:42,604 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:36:42,632 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:36:58,297 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:36:58,298 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:36:59,480 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:36:59,622 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:36:59,649 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:37:12,221 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:37:12,222 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:37:13,414 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:37:13,552 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:37:13,583 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:40:10,326 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:40:10,327 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:40:11,580 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:40:11,717 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:40:11,746 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:40:31,454 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:40:31,455 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:40:32,649 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:40:32,778 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:40:32,806 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:48:26,836 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 80f66674-1097-47b7-bf76-211b5ced3533 - sent to 0 connections
+2025-07-03 17:48:26,836 - notification_service - DEBUG - [notification_service.py:515] - Processed notification ae63c7fa-62e1-410f-969b-18ca6a2cbbed - sent to 0 connections
+2025-07-03 17:48:26,836 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 53f1920b-4812-4a27-b787-17e0aa284058 - sent to 0 connections
+2025-07-03 17:48:26,837 - notification_service - DEBUG - [notification_service.py:515] - Processed notification b398daa0-e564-4112-a993-4f112c1b9ed0 - sent to 0 connections
+2025-07-03 17:49:27,047 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 6c16513b-94d7-4e6a-bfff-e43f80e6d270 - sent to 0 connections
+2025-07-03 17:49:27,047 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 5c3e1896-1d7b-4b16-9510-e556f33ebf42 - sent to 0 connections
+2025-07-03 17:49:27,047 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 6ab9c438-529c-4c64-be49-c3f593103a48 - sent to 0 connections
+2025-07-03 17:49:27,048 - notification_service - DEBUG - [notification_service.py:515] - Processed notification ba11c5fa-a229-4d69-a538-5889b19aa5e2 - sent to 0 connections
+2025-07-03 17:50:27,233 - notification_service - DEBUG - [notification_service.py:515] - Processed notification c7bc3eaf-1506-4e4a-96d5-76c3b02f0e4a - sent to 0 connections
+2025-07-03 17:50:27,234 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 83d3e6a0-667e-440e-b5f0-cede4440d8cc - sent to 0 connections
+2025-07-03 17:50:27,234 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 68c8b83c-1c37-4345-ac71-405363d77075 - sent to 0 connections
+2025-07-03 17:50:27,235 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 655cfdc8-e3ac-4c69-9f03-3237ef4687a3 - sent to 0 connections
+2025-07-03 17:51:27,419 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 363ec154-bea1-4f41-a02d-10011365d5d3 - sent to 0 connections
+2025-07-03 17:51:27,420 - notification_service - DEBUG - [notification_service.py:515] - Processed notification bda02dd6-f4cf-4f1b-88e0-ad8e9272550e - sent to 0 connections
+2025-07-03 17:51:27,420 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 0e8294f5-cfe1-4300-b384-93d4eddf27b5 - sent to 0 connections
+2025-07-03 17:51:27,421 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 1f1b96b2-8fa4-4f70-983a-51b6ed31234e - sent to 0 connections
+2025-07-03 17:52:27,620 - notification_service - DEBUG - [notification_service.py:515] - Processed notification b07625f9-6c45-4523-acb2-5fcf2fe59da6 - sent to 0 connections
+2025-07-03 17:52:27,621 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 9dec9eee-3c54-4a85-b404-519fb448710c - sent to 0 connections
+2025-07-03 17:52:27,621 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 6048975c-1258-48bd-b799-89c607386839 - sent to 0 connections
+2025-07-03 17:52:27,622 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 18246661-db6f-464d-8457-69977c4daeda - sent to 0 connections
+2025-07-03 17:53:27,822 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 8348c3a9-671b-4be8-a8ea-3daa0c096817 - sent to 0 connections
+2025-07-03 17:53:27,823 - notification_service - DEBUG - [notification_service.py:515] - Processed notification eeda85a6-ba01-42bc-9fbd-c6db6e455b8e - sent to 0 connections
+2025-07-03 17:53:27,823 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 00a2cf4d-36ad-4db3-84c2-bfbc74b4d1b2 - sent to 0 connections
+2025-07-03 17:53:27,823 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 97ccb419-730b-41b5-b1dc-7d3c72b671f4 - sent to 0 connections
+2025-07-03 17:54:28,024 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 72efc423-1e9c-45d1-899a-68763fdb838e - sent to 0 connections
+2025-07-03 17:54:28,025 - notification_service - DEBUG - [notification_service.py:515] - Processed notification f30352f8-f38e-4c8f-af1b-9050e2ab05c6 - sent to 0 connections
+2025-07-03 17:54:28,025 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 4b9c64c9-75f3-4036-a98a-d7ac7ec6f320 - sent to 0 connections
+2025-07-03 17:54:28,025 - notification_service - DEBUG - [notification_service.py:515] - Processed notification b831089e-c80e-4132-bae7-038a2b75762b - sent to 0 connections
+2025-07-03 17:55:28,218 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 4afb9c4f-f5e2-4709-bfae-c60a3a8cfba7 - sent to 0 connections
+2025-07-03 17:55:28,219 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 32f237e4-e604-4221-8126-5f71d0867ace - sent to 0 connections
+2025-07-03 17:55:28,219 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 9e99d864-cf22-49c9-90ee-b76ca9005b6a - sent to 0 connections
+2025-07-03 17:55:28,220 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 2b972af9-29f2-4038-ad4f-24f8e40620f0 - sent to 0 connections
+2025-07-03 17:56:26,411 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:56:26,414 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:56:27,694 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:56:27,829 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:56:27,858 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:56:38,248 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:56:38,250 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:56:39,499 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:56:39,645 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:56:39,673 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:57:05,865 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:57:05,868 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:57:07,059 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:57:07,195 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:57:07,222 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:57:14,540 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:57:14,542 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:57:15,747 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:57:15,881 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:57:15,908 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:57:35,643 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:57:35,644 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 17:57:36,860 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 17:57:37,000 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 17:57:37,026 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 17:59:45,234 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 17:59:45,238 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 18:00:24,200 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 18:00:24,333 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 18:00:24,359 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 18:01:18,714 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 20794ac8-ed8f-4c54-b531-19e1d869831a - sent to 0 connections
+2025-07-03 18:02:19,014 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 2d577c5c-9dec-473c-8763-374e29bb9f06 - sent to 0 connections
+2025-07-03 18:04:19,293 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 42d03f3d-b8b9-43a6-8f89-265bd3f7d996 - sent to 0 connections
+2025-07-03 18:07:43,597 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 18:07:43,598 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 18:07:44,918 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 18:07:45,048 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 18:07:45,075 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 18:11:21,469 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 18:11:21,470 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 18:11:40,584 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 18:11:40,715 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 18:11:40,742 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 18:13:18,769 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 7ba766c4-35d8-4431-a438-e2c4a9fad253 - sent to 0 connections
+2025-07-03 18:14:21,310 - notification_service - DEBUG - [notification_service.py:515] - Processed notification e6d4f012-8635-4139-a772-940eba8bdc02 - sent to 0 connections
+2025-07-03 18:18:24,097 - notification_service - DEBUG - [notification_service.py:515] - Processed notification 034da810-b39d-42be-bf5f-92c986132743 - sent to 0 connections
+2025-07-03 18:23:02,290 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 18:23:02,291 - notification_service - INFO - [notification_service.py:230] - Notification service stopped
+2025-07-03 18:23:03,899 - notification_service - INFO - [notification_service.py:200] - Notification service initialized
+2025-07-03 18:23:04,036 - notification_service - INFO - [notification_service.py:210] - Notification service started
+2025-07-03 18:23:04,064 - notification_service - INFO - [notification_service.py:481] - Notification queue processor started
+2025-07-03 18:29:15,832 - notification_service - INFO - [notification_service.py:521] - Notification queue processor cancelled
+2025-07-03 18:29:15,833 - notification_service - INFO - [notification_service.py:230] - Notification service stopped

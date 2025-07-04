@@ -1,0 +1,175 @@
+2025-07-03 04:30:08,843 - cache_service - INFO - [cache_service.py:115] - Cache miss or refresh for structure: C:\ShareGuardTestData
+2025-07-03 04:30:54,755 - cache_service - INFO - [cache_service.py:115] - Cache miss or refresh for structure: C:\ShareGuardTest\Finance
+2025-07-03 04:30:57,941 - cache_service - INFO - [cache_service.py:63] - Cache miss or refresh for permissions: C:\ShareGuardTest\Finance\Reports
+2025-07-03 04:31:08,257 - cache_service - INFO - [cache_service.py:115] - Cache miss or refresh for structure: C:\ShareGuardTest\IT
+2025-07-03 04:31:58,149 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 04:36:58,190 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 04:38:44,599 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 04:58:29,852 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 04:59:29,902 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 05:00:29,940 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 05:01:29,983 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 05:02:30,032 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 05:12:53,698 - cache_service - DEBUG - [cache_service.py:111] - Cache hit for structure: C:\ShareGuardTestData
+2025-07-03 10:31:51,107 - cache_service - DEBUG - [cache_service.py:111] - Cache hit for structure: C:\ShareGuardTest\IT
+2025-07-03 15:02:43,141 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:03:43,179 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:39:30,769 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:40:30,809 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:41:30,875 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:42:30,926 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:43:30,971 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 15:59:46,572 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:00:46,897 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:01:47,236 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:02:47,273 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:03:47,318 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:04:47,364 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:05:47,417 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:06:47,471 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:35:07,389 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:37:58,495 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:38:11,068 - cache_service - DEBUG - [cache_service.py:111] - Cache hit for structure: C:\ShareGuardTest\Finance
+2025-07-03 16:38:14,117 - cache_service - DEBUG - [cache_service.py:59] - Cache hit for permissions: C:\ShareGuardTest\Finance\Reports
+2025-07-03 16:38:17,877 - cache_service - DEBUG - [cache_service.py:111] - Cache hit for structure: C:\ShareGuardTestData
+2025-07-03 16:38:58,535 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:39:58,596 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:40:58,652 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:41:58,693 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:43:06,438 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:44:06,481 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:45:06,524 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:46:06,565 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:47:06,620 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:51:57,488 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:52:57,527 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:53:57,578 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:54:57,624 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:55:57,674 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:56:57,725 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:57:57,771 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:58:57,823 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 16:59:57,868 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:00:57,920 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:01:57,970 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:02:58,022 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:03:58,060 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:04:51,833 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:05:51,877 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:06:51,921 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:07:51,968 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:08:52,009 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:09:52,060 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:10:52,110 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:11:52,151 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:12:52,195 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:13:52,235 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:14:52,273 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:15:52,322 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:16:52,371 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:17:52,422 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:18:52,461 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:19:52,501 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:29:38,114 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:30:38,139 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:30:38,202 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:30:38,247 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:30:38,271 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:30:38,313 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:31:23,440 - cache_service - DEBUG - [cache_service.py:111] - Cache hit for structure: C:\ShareGuardTest\Finance
+2025-07-03 17:31:38,331 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:31:38,378 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:31:38,415 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:31:38,439 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:31:38,477 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:32:38,492 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:32:38,538 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:32:38,582 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:32:38,607 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:32:38,644 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:33:38,659 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:33:38,749 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:33:38,787 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:33:38,813 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:33:38,854 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:34:38,900 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:34:38,943 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:34:38,992 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:34:39,019 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:34:39,060 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:35:39,079 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:35:39,131 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:35:39,172 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:35:39,196 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:35:39,233 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:36:39,248 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:36:39,296 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:36:39,336 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:36:39,362 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:36:39,401 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:48:26,378 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:48:26,405 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:48:26,691 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:48:26,790 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:48:26,834 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:49:26,881 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:49:26,902 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:49:26,953 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:49:27,001 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:49:27,045 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:50:05,890 - cache_service - DEBUG - [cache_service.py:111] - Cache hit for structure: C:\ShareGuardTest\IT
+2025-07-03 17:50:27,082 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:50:27,104 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:50:27,153 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:50:27,189 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:50:27,232 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:51:27,266 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:51:27,289 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:51:27,338 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:51:27,375 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:51:27,418 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:52:27,469 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:52:27,489 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:52:27,536 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:52:27,573 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:52:27,619 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:53:27,665 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:53:27,687 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:53:27,742 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:53:27,777 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:53:27,820 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:54:27,863 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:54:27,886 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:54:27,940 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:54:27,977 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:54:28,022 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 17:55:28,065 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:55:28,087 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:55:28,136 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:55:28,173 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 17:55:28,217 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:01:18,371 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 18:01:18,714 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:02:18,940 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 18:02:19,013 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:03:19,094 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:04:19,216 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 18:04:19,292 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:05:19,373 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:06:19,468 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:07:19,558 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:12:18,621 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:13:18,706 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 18:13:18,768 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:14:21,231 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 18:14:21,308 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:15:21,398 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:16:21,486 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:16:50,142 - cache_service - INFO - [cache_service.py:115] - Cache miss or refresh for structure: C:\ShareGuardTest
+2025-07-03 18:17:21,583 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:18:24,045 - cache_service - ERROR - [cache_service.py:169] - Error marking path stale: 'str' object has no attribute 'like'
+2025-07-03 18:18:24,094 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:19:24,202 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:20:24,299 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:21:24,408 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries
+2025-07-03 18:22:24,510 - cache_service - INFO - [cache_service.py:202] - Cleaned up 0 stale cache entries

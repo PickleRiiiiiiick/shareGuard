@@ -46,7 +46,14 @@
       "Bash(./test_health_api.sh:*)",
       "Bash(.start-backend.ps1)",
       "Bash(PYTHONPATH=/mnt/c/ShareGuard/src USE_SQLITE=true SQLITE_PATH=../shareguard.db ../venv/Scripts/python.exe -c \"\nimport sys\nprint(''Python path:'', sys.path)\ntry:\n    from core.health_analyzer import HealthAnalyzer  \n    print(''HealthAnalyzer imported successfully'')\n    \n    # Try to instantiate\n    analyzer = HealthAnalyzer()\n    print(''HealthAnalyzer instantiated successfully'')\n    \n    # Try a simple method call\n    print(''Testing run_health_scan method...'')\n    # This will likely fail due to missing data, but we want to see the error\n    \nexcept Exception as e:\n    print(f''Error: {e}'')\n    import traceback\n    traceback.print_exc()\n\")",
-      "Bash(PYTHONPATH=/mnt/c/ShareGuard/src:/mnt/c/ShareGuard ./venv/Scripts/python.exe -c \"\nimport sys\nprint(''PYTHONPATH set to:'', sys.path)\ntry:\n    from src.core.health_analyzer import HealthAnalyzer\n    print(''SUCCESS: HealthAnalyzer imported successfully'')\nexcept Exception as e:\n    print(''ERROR importing HealthAnalyzer:'', e)\n    import traceback\n    traceback.print_exc()\n\")"
+      "Bash(PYTHONPATH=/mnt/c/ShareGuard/src:/mnt/c/ShareGuard ./venv/Scripts/python.exe -c \"\nimport sys\nprint(''PYTHONPATH set to:'', sys.path)\ntry:\n    from src.core.health_analyzer import HealthAnalyzer\n    print(''SUCCESS: HealthAnalyzer imported successfully'')\nexcept Exception as e:\n    print(''ERROR importing HealthAnalyzer:'', e)\n    import traceback\n    traceback.print_exc()\n\")",
+      "Bash(. venv/Scripts/activate)",
+      "Bash(touch:*)",
+      "Bash(pkill:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(npm uninstall:*)",
+      "Bash(ss:*)",
+      "Bash(../venv/Scripts/python.exe -m uvicorn app:app --reload --host 0.0.0.0 --port 8000)"
     ],
     "deny": []
   }

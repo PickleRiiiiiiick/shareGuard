@@ -1,12 +1,14 @@
 # src/api/routes/folder_routes.py
-from fastapi import APIRouter, HTTPException, Depends, Request
+from fastapi import APIRouter, HTTPException, Depends, Request, Query
 from sqlalchemy.orm import Session
 from src.db.database import get_db
 from src.core.scanner import scanner
 from src.api.middleware.auth import security, require_permissions
+from src.services.cache_service import cache_service
 from typing import Optional, List
 from pathlib import Path
 from pydantic import BaseModel
+from datetime import datetime
 
 router = APIRouter(
    prefix="/folders",
@@ -20,17 +22,23 @@ async def get_folder_structure(
    root_path: str,
    current_request: Request,
    max_depth: Optional[int] = None,
+   force_refresh: bool = Query(False, description="Force refresh cache"),
    db: Session = Depends(get_db)
 ):
    try:
        if not Path(root_path).exists():
            raise HTTPException(status_code=404, detail="Path does not exist")
 
-       result = scanner.get_folder_structure(
+       # Use cache service for better performance
+       result = cache_service.get_folder_structure_cached(
+           db=db,
            root_path=root_path,
-           max_depth=max_depth,
-           simplified_system=True
+           max_depth=max_depth or 6,  # Default max depth
+           force_refresh=force_refresh
        )
+
+       if not result:
+           raise HTTPException(status_code=500, detail="Failed to get folder structure")
 
        if not result.get("success"):
            raise HTTPException(status_code=400, detail=result.get("error", "Failed to get folder structure"))
@@ -67,7 +75,8 @@ async def get_folder_structure(
                "root_path": root_path,
                "max_depth": max_depth,
                "total_folders": result.get("statistics", {}).get("total_folders", 0),
-               "scanned_by": f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}"
+               "scanned_by": f"{current_request.state.service_account.domain}\\{current_request.state.service_account.username}",
+               "from_cache": not force_refresh
            }
        }
    except Exception as e:
@@ -81,17 +90,27 @@ async def get_folder_permissions(
    include_inherited: bool = True,
    simplified_system: bool = True,
    save_for_analysis: bool = False,
+   force_refresh: bool = Query(False, description="Force refresh cache"),
    db: Session = Depends(get_db)
 ):
    try:
        if not Path(path).exists():
            raise HTTPException(status_code=404, detail="Path does not exist")
 
-       permissions = scanner.permission_scanner.get_folder_permissions(
+       # Use cache service for better performance
+       permissions = cache_service.get_folder_permissions_cached(
+           db=db,
            folder_path=path,
-           include_inherited=include_inherited,
-           simplified_system=simplified_system
+           force_refresh=force_refresh
        )
+       
+       if not permissions:
+           # Fallback to direct scan if cache fails
+           permissions = scanner.permission_scanner.get_folder_permissions(
+               folder_path=path,
+               include_inherited=include_inherited,
+               simplified_system=simplified_system
+           )
 
        # Save scan results if requested for health analysis
        if save_for_analysis and permissions.get("aces"):
@@ -292,6 +311,79 @@ async def modify_folder_permissions(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/cache/clear", summary="Clear Folder Cache")
+@require_permissions(["folders:admin"])
+async def clear_folder_cache(
+    path: Optional[str] = None,
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Clear the folder permissions cache for a specific path or all paths."""
+    try:
+        if path:
+            # Clear cache for specific path
+            cache_service.mark_path_stale(db, path)
+            message = f"Cache cleared for path: {path}"
+        else:
+            # Clear all cache
+            from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+            db.query(FolderPermissionCache).update({"is_stale": True})
+            db.query(FolderStructureCache).update({"is_stale": True})
+            db.commit()
+            message = "All cache entries marked as stale"
+        
+        return {
+            "success": True,
+            "message": message,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/cache/stats", summary="Get Cache Statistics")
+@require_permissions(["folders:read"])
+async def get_cache_statistics(
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Get statistics about the folder cache."""
+    try:
+        from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+        from sqlalchemy import func
+        
+        perm_cache_count = db.query(func.count(FolderPermissionCache.id)).scalar()
+        perm_cache_stale = db.query(func.count(FolderPermissionCache.id)).filter(
+            FolderPermissionCache.is_stale == True
+        ).scalar()
+        
+        struct_cache_count = db.query(func.count(FolderStructureCache.id)).scalar()
+        struct_cache_stale = db.query(func.count(FolderStructureCache.id)).filter(
+            FolderStructureCache.is_stale == True
+        ).scalar()
+        
+        # Get average cache age
+        oldest_perm = db.query(func.min(FolderPermissionCache.last_scan_time)).scalar()
+        newest_perm = db.query(func.max(FolderPermissionCache.last_scan_time)).scalar()
+        
+        return {
+            "permission_cache": {
+                "total_entries": perm_cache_count,
+                "stale_entries": perm_cache_stale,
+                "fresh_entries": perm_cache_count - perm_cache_stale,
+                "oldest_entry": oldest_perm.isoformat() if oldest_perm else None,
+                "newest_entry": newest_perm.isoformat() if newest_perm else None
+            },
+            "structure_cache": {
+                "total_entries": struct_cache_count,
+                "stale_entries": struct_cache_stale,
+                "fresh_entries": struct_cache_count - struct_cache_stale
+            },
+            "cache_ttl_hours": cache_service.cache_ttl_hours,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.delete("/permissions", summary="Remove Folder Permissions")
 @require_permissions(["folders:modify"])
 async def remove_folder_permissions(
@@ -348,6 +440,79 @@ async def remove_folder_permissions(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/cache/clear", summary="Clear Folder Cache")
+@require_permissions(["folders:admin"])
+async def clear_folder_cache(
+    path: Optional[str] = None,
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Clear the folder permissions cache for a specific path or all paths."""
+    try:
+        if path:
+            # Clear cache for specific path
+            cache_service.mark_path_stale(db, path)
+            message = f"Cache cleared for path: {path}"
+        else:
+            # Clear all cache
+            from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+            db.query(FolderPermissionCache).update({"is_stale": True})
+            db.query(FolderStructureCache).update({"is_stale": True})
+            db.commit()
+            message = "All cache entries marked as stale"
+        
+        return {
+            "success": True,
+            "message": message,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/cache/stats", summary="Get Cache Statistics")
+@require_permissions(["folders:read"])
+async def get_cache_statistics(
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Get statistics about the folder cache."""
+    try:
+        from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+        from sqlalchemy import func
+        
+        perm_cache_count = db.query(func.count(FolderPermissionCache.id)).scalar()
+        perm_cache_stale = db.query(func.count(FolderPermissionCache.id)).filter(
+            FolderPermissionCache.is_stale == True
+        ).scalar()
+        
+        struct_cache_count = db.query(func.count(FolderStructureCache.id)).scalar()
+        struct_cache_stale = db.query(func.count(FolderStructureCache.id)).filter(
+            FolderStructureCache.is_stale == True
+        ).scalar()
+        
+        # Get average cache age
+        oldest_perm = db.query(func.min(FolderPermissionCache.last_scan_time)).scalar()
+        newest_perm = db.query(func.max(FolderPermissionCache.last_scan_time)).scalar()
+        
+        return {
+            "permission_cache": {
+                "total_entries": perm_cache_count,
+                "stale_entries": perm_cache_stale,
+                "fresh_entries": perm_cache_count - perm_cache_stale,
+                "oldest_entry": oldest_perm.isoformat() if oldest_perm else None,
+                "newest_entry": newest_perm.isoformat() if newest_perm else None
+            },
+            "structure_cache": {
+                "total_entries": struct_cache_count,
+                "stale_entries": struct_cache_stale,
+                "fresh_entries": struct_cache_count - struct_cache_stale
+            },
+            "cache_ttl_hours": cache_service.cache_ttl_hours,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.get("/group-members", summary="Get Group Members")
 @require_permissions(["folders:read"])
 async def get_group_members(
@@ -380,6 +545,79 @@ async def get_group_members(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/cache/clear", summary="Clear Folder Cache")
+@require_permissions(["folders:admin"])
+async def clear_folder_cache(
+    path: Optional[str] = None,
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Clear the folder permissions cache for a specific path or all paths."""
+    try:
+        if path:
+            # Clear cache for specific path
+            cache_service.mark_path_stale(db, path)
+            message = f"Cache cleared for path: {path}"
+        else:
+            # Clear all cache
+            from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+            db.query(FolderPermissionCache).update({"is_stale": True})
+            db.query(FolderStructureCache).update({"is_stale": True})
+            db.commit()
+            message = "All cache entries marked as stale"
+        
+        return {
+            "success": True,
+            "message": message,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/cache/stats", summary="Get Cache Statistics")
+@require_permissions(["folders:read"])
+async def get_cache_statistics(
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Get statistics about the folder cache."""
+    try:
+        from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+        from sqlalchemy import func
+        
+        perm_cache_count = db.query(func.count(FolderPermissionCache.id)).scalar()
+        perm_cache_stale = db.query(func.count(FolderPermissionCache.id)).filter(
+            FolderPermissionCache.is_stale == True
+        ).scalar()
+        
+        struct_cache_count = db.query(func.count(FolderStructureCache.id)).scalar()
+        struct_cache_stale = db.query(func.count(FolderStructureCache.id)).filter(
+            FolderStructureCache.is_stale == True
+        ).scalar()
+        
+        # Get average cache age
+        oldest_perm = db.query(func.min(FolderPermissionCache.last_scan_time)).scalar()
+        newest_perm = db.query(func.max(FolderPermissionCache.last_scan_time)).scalar()
+        
+        return {
+            "permission_cache": {
+                "total_entries": perm_cache_count,
+                "stale_entries": perm_cache_stale,
+                "fresh_entries": perm_cache_count - perm_cache_stale,
+                "oldest_entry": oldest_perm.isoformat() if oldest_perm else None,
+                "newest_entry": newest_perm.isoformat() if newest_perm else None
+            },
+            "structure_cache": {
+                "total_entries": struct_cache_count,
+                "stale_entries": struct_cache_stale,
+                "fresh_entries": struct_cache_count - struct_cache_stale
+            },
+            "cache_ttl_hours": cache_service.cache_ttl_hours,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.get("/diagnose-sids", summary="Diagnose SID Resolution Issues")
 @require_permissions(["folders:read"])
 async def diagnose_sid_issues(
@@ -403,5 +641,78 @@ async def diagnose_sid_issues(
             }
         }
 
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/cache/clear", summary="Clear Folder Cache")
+@require_permissions(["folders:admin"])
+async def clear_folder_cache(
+    path: Optional[str] = None,
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Clear the folder permissions cache for a specific path or all paths."""
+    try:
+        if path:
+            # Clear cache for specific path
+            cache_service.mark_path_stale(db, path)
+            message = f"Cache cleared for path: {path}"
+        else:
+            # Clear all cache
+            from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+            db.query(FolderPermissionCache).update({"is_stale": True})
+            db.query(FolderStructureCache).update({"is_stale": True})
+            db.commit()
+            message = "All cache entries marked as stale"
+        
+        return {
+            "success": True,
+            "message": message,
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/cache/stats", summary="Get Cache Statistics")
+@require_permissions(["folders:read"])
+async def get_cache_statistics(
+    current_request: Request = None,
+    db: Session = Depends(get_db)
+):
+    """Get statistics about the folder cache."""
+    try:
+        from src.db.models.folder_cache import FolderPermissionCache, FolderStructureCache
+        from sqlalchemy import func
+        
+        perm_cache_count = db.query(func.count(FolderPermissionCache.id)).scalar()
+        perm_cache_stale = db.query(func.count(FolderPermissionCache.id)).filter(
+            FolderPermissionCache.is_stale == True
+        ).scalar()
+        
+        struct_cache_count = db.query(func.count(FolderStructureCache.id)).scalar()
+        struct_cache_stale = db.query(func.count(FolderStructureCache.id)).filter(
+            FolderStructureCache.is_stale == True
+        ).scalar()
+        
+        # Get average cache age
+        oldest_perm = db.query(func.min(FolderPermissionCache.last_scan_time)).scalar()
+        newest_perm = db.query(func.max(FolderPermissionCache.last_scan_time)).scalar()
+        
+        return {
+            "permission_cache": {
+                "total_entries": perm_cache_count,
+                "stale_entries": perm_cache_stale,
+                "fresh_entries": perm_cache_count - perm_cache_stale,
+                "oldest_entry": oldest_perm.isoformat() if oldest_perm else None,
+                "newest_entry": newest_perm.isoformat() if newest_perm else None
+            },
+            "structure_cache": {
+                "total_entries": struct_cache_count,
+                "stale_entries": struct_cache_stale,
+                "fresh_entries": struct_cache_count - struct_cache_stale
+            },
+            "cache_ttl_hours": cache_service.cache_ttl_hours,
+            "timestamp": datetime.utcnow().isoformat()
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
